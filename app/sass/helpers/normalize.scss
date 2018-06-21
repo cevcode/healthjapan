@@ -37,6 +37,12 @@ body textarea:required:valid {
   color: #666
 }
 
+html {
+  @include rem-baseline;
+  @include screen-lt(desktop-large) {
+    @include rem-baseline(90%);
+  }
+}
 html, body {
   height: 100%
 }

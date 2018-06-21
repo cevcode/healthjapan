@@ -1,18 +1,21 @@
 @import "../helpers/index";
 
 .description {
-  margin: 5px 0;
+  margin: rem(5px 0);
   &--kit {
     color: $grey;
-    font-size: 14px;
+    font-size: rem(14px);
   }
   &--sm {
     color: $black;
-    font-size: 12px;
+    font-size: rem(12px);
   }
   &__align {
     &--center {
       text-align: center;
+    }
+    &--right {
+      text-align: right;
     }
   }
 }
