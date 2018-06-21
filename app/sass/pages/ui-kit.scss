@@ -89,3 +89,10 @@
     }
   }
 }
+.ui__badges {
+  display: flex;
+  >* {
+    margin: rem(10px);
+    @include first-last
+  }
+}

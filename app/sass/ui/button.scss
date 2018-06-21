@@ -39,6 +39,9 @@ transparent, rem(1px solid $brilliant), $brilliant;
   text-decoration: none;
   display: flex;
   justify-content: center;
+  @include main-font(600);
+  text-transform: uppercase;
+  letter-spacing: rem(.5px);
   align-items: center;
   &:hover {
     transition: $transitionHover;

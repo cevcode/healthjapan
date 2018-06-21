@@ -1,0 +1,21 @@
+@import "../helpers/index";
+
+.badge {
+  width: rem(100px);
+  height: rem(40px);
+  @include main-font(700);
+  font-size: rem(12px);
+  line-height: 1.67;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: rem(.5px);
+  align-items: center;
+  color: $white;
+  &--red {
+    background-color: $lightRed;
+  }
+  &--blue {
+    background-color: $blue;
+  }
+}
