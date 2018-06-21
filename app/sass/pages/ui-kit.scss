@@ -76,3 +76,16 @@
     }
   }
 }
+
+.ui__buttons {
+  margin: rem(20px 0);
+  h5 {
+    text-transform: uppercase;
+  }
+  .row {
+    >* {
+      margin: rem(10px);
+      @include first-last;
+    }
+  }
+}

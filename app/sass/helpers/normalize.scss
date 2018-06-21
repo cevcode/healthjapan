@@ -61,3 +61,13 @@ ul,ol {
   color: $white;
 }
 
+button {
+  cursor: pointer;
+  padding: 0;
+  @include main-font(400);
+  font-size: rem(16px);
+  &:focus {
+    outline: none;
+  }
+}
+

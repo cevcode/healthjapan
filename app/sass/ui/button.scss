@@ -1,0 +1,70 @@
+@import "../helpers/index";
+
+$transitionHover: ease-in 200ms;
+$transitionActive: ease-in 150ms;
+
+$btn-color-brilliant: $brilliant, $white, none, $orange, none, $white, $brilliant, none, $white;
+$btn-color-lightRed: $lightRed, $white, none, $red, none, $white, $lightRed, none, $white;
+$btn-color-outline: transparent, $brilliant, rem(1px solid $brilliant), transparent, rem(2px solid $orange), $orange,
+transparent, rem(1px solid $brilliant), $brilliant;
+
+@mixin btn-style(
+  $colorBgDefault,
+  $colorDefault,
+  $borderDefault,
+  $colorBgHover,
+  $borderHover,
+  $colorHover,
+  $colorBgActive,
+  $borderActive,
+  $colorActive
+) {
+  background: $colorBgDefault;
+  color: $colorDefault;
+  border: $borderDefault;
+  &:hover {
+    background: $colorBgHover;
+    border: $borderHover;
+    color: $colorHover;
+  }
+
+  &:active {
+    background: $colorBgActive;
+    border: $borderActive;
+    color: $colorActive;
+  }
+}
+
+.button {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    transition: $transitionHover;
+  }
+  &:active {
+    transition: $transitionActive;
+  }
+  &__size {
+    &--small {
+      width:  rem(165px);
+      height: rem(50px);
+    }
+    &--large {
+      width:  rem(280px);
+      height: rem(65px);
+    }
+  }
+  &__color {
+    &--brilliant {
+      @include btn-style($btn-color-brilliant...);
+    }
+    &--lightRed {
+      @include btn-style($btn-color-lightRed...);
+    }
+    &--outline {
+      @include btn-style($btn-color-outline...);
+    }
+  }
+}
