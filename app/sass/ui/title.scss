@@ -1,0 +1,18 @@
+@import "../helpers/index";
+
+h1 {
+  font-size: 72px;
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 36px;
+}
+h4 {
+  font-size: 28px;
+  @include main-font(700);
+  letter-spacing: 4px;
+}
+
+

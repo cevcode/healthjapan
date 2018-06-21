@@ -1,61 +1,15 @@
-@import "fonts";
-@import "libs";
-@import "vars";
-@import "mixins";
-
-* {
-	@include normalizeBorderBox();
-	&:before {
-		@include normalizeBorderBox();
-	}
-	&:after {
-		@include normalizeBorderBox();
-	}
-}
-
-*::-webkit-input-placeholder {
-	@include normalizeBrowsers();
-}
-
-*:-moz-placeholder {
-	@include normalizeBrowsers();
-}
-
-*::-moz-placeholder {
-	@include normalizeBrowsers();
-}
-
-*:-ms-input-placeholder {
-	@include normalizeBrowsers();
-}
-
-body input:focus:required:invalid,
-body textarea:focus:required:invalid {
-	color: #666;
-}
-
-body input:required:valid,
-body textarea:required:valid {
-	color: #666
-}
-
-html, body {
-	height: 100%
-}
+@import "helpers/index";
+@import "ui/index";
+@import "pages/index";
 
 body {
 	font-size: 16px;
 	min-width: 320px;
 	position: relative;
-	line-height: 1.65;
+	line-height: 1.3;
 	@include main-font(400);
 	overflow-x: hidden;
 }
 
-::selection {
-	background-color: $accent;
-	color: #fff;
-}
-
-@import "media";
+@import "helpers/media";
 // Always end

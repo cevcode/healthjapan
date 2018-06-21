@@ -1,0 +1,13 @@
+@import "../helpers/index";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  &--kit {
+    width: 90%;
+    margin: auto;
+  }
+}
+.row {
+  display: flex;
+}
