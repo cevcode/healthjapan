@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="9px" viewBox="0 0 12 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>reviews icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="reviews-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M10.0357869,7.51199409 L8.54778095,9 L7.05977504,7.51199409 L0.496546781,7.51199409 C0.222797452,7.51199409 0,7.28851226 0,7.01378791 L0,0.498206179 C0,0.223481824 0.222797452,0 0.496546781,0 L11.271866,0 C11.5456154,0 11.7684128,0.223481824 11.7684128,0.498206179 L11.7684128,7.01378791 C11.7684128,7.28851226 11.5456154,7.51199409 11.271866,7.51199409 L10.0357869,7.51199409 Z M1.5,2 L10.5,2 M1.5,4 L10.5,4" id="reviews" stroke="#AAAAAA" stroke-width="0.5"></path>
+    </g>
+</svg>
