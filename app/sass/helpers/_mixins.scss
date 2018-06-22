@@ -128,3 +128,55 @@ $rem-px-only: false !default;
     }
   }
 }
+
+@mixin before($img, $width, $height, $top, $right, $bottom, $left) {
+  &:before {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    background-image: url($img);
+    width: rem($width);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: rem($height);
+    top: rem($top);
+    left: rem($left);
+    bottom: rem($bottom);
+    right: rem($right);
+  }
+}
+
+@mixin after($img, $width, $height, $top, $right, $bottom, $left) {
+  &:after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    background-image: url($img);
+    width: rem($width);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: rem($height);
+    top: rem($top);
+    left: rem($left);
+    bottom: rem($bottom);
+    right: rem($right);
+  }
+}
+
+@mixin placeholder-color($color) {
+  &::-webkit-input-placeholder {
+    color: $color;
+  }
+
+  &::-moz-placeholder {
+    color: $color;
+  }
+
+  &:-moz-placeholder {
+    color: $color;
+  }
+
+  &:-ms-input-placeholder {
+    color: $color;
+  }
+}

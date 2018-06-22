@@ -1,0 +1,41 @@
+@import "../helpers/index";
+
+.search {
+  display: flex;
+  height: rem(50px);
+  width: rem(600px);
+  &__field {
+    display: flex;
+    border: rem(1px solid $brilliant);
+    border-right: 0;
+    align-items: center;
+  }
+  &__input {
+    border: none;
+    height: 70%;
+    color: $black;
+    @include placeholder-color($grey);
+    padding: rem(0 20px);
+    @include main-font(400);
+    border-right: rem(0.5px solid $light);
+    width: rem(370px);
+  }
+  &__button {
+    &-categories {
+      background-color: transparent;
+      border: none;
+      padding-right: rem(20px);
+      color: $grey;
+      width: rem(130px);
+      font-size: rem(14px);
+      position: relative;
+      @include after('../../../assets/icon/more-grey.svg', 9px, 6px, 7px, 12px, auto, auto);
+    }
+    &-submit {
+      width: rem(100px);
+      text-transform: none;
+      @include main-font(400);
+      font-size: rem(14px);
+    }
+  }
+}
