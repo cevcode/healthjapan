@@ -3,11 +3,22 @@
 .container {
   display: flex;
   flex-direction: column;
+  width: calc(100% - 6rem);
+  margin: auto;
   &--kit {
     width: 90%;
-    margin: auto;
   }
 }
 .row {
   display: flex;
+  &__jc {
+    &-sb {
+      justify-content: space-between;
+    }
+  }
+  &__ai {
+    &-center {
+      align-items: center;
+    }
+  }
 }

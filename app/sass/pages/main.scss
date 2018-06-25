@@ -1,0 +1,162 @@
+@import '../helpers/index';
+
+.header {
+  padding: rem(27px 0 20px 0);
+  &__column {
+    display: flex;
+  }
+  &__logo {
+    width: rem(280px);
+    height:  rem(40px);
+    display: flex;
+  }
+  &__img {
+    height:  100%;
+    width: 100%;
+  }
+  &__controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-item {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      margin: rem(0 25px);
+      position: relative;
+    }
+    &-link {
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      flex-direction: column;
+    }
+    &-indicate {
+      position: absolute;
+      right: rem(-5px);
+      top: rem(5px);
+      color: $orange;
+      font-size: rem(14px);
+      @include main-font(400);
+    }
+    &-description {
+      font-size: rem(14px);
+      padding: rem(15px 0 0 0);
+      @include main-font(400);
+      color: $cyan;
+    }
+  }
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: rem(80px);
+  box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
+  background-color: #ecf1f5;
+  &__column {
+    display: flex;
+  }
+  &__list {
+    display: flex;
+    height: 100%;
+  }
+  &__item {
+    list-style-type: none;
+    height: 100%;
+  }
+  &__link {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: rem(0 25px);
+    @include main-font(700);
+    font-size: rem(14px);
+    color: $cyan;
+  }
+}
+
+.currency {
+  display: flex;
+  margin-right: rem(70px);
+  &__item {
+    @include main-font(500);
+    text-transform: uppercase;
+    font-size: rem(14px);
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: $cyan;
+    text-decoration: none;
+    &--checked {
+      opacity: .5;
+    }
+    &--separator {
+      position: relative;
+      top: rem(-1px);
+      padding: rem(0 2px);
+    }
+  }
+}
+
+.advantages {
+  margin: rem(105px 0);
+  &__list {
+    display: flex;
+    justify-content: center;
+  }
+  &__item {
+    box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
+    width: rem(280px);
+    height: rem(230px);
+    flex-direction: column;
+    padding: rem(0 20px);
+    display: flex;
+    justify-content: center;
+    margin: rem(0 12.5px);
+    list-style-type: none;
+    @include first-last;
+  }
+  &__description {
+    text-align: center;
+    padding: rem(15px 0);
+    @include main-font(600);
+    font-size: rem(20px);
+    color: $cyan;
+    line-height: 1.2;
+  }
+  &__info {
+    text-align: center;
+    @include main-font(400);
+    font-size: rem(12px);
+    color: $grey;
+    line-height: 1.5;
+  }
+}
+
+.sales {
+  &__title {
+    position: relative;
+    letter-spacing: normal;
+    @include main-font(600);
+    width: max-content;
+  }
+  &__counter {
+    font-size: rem(20px);
+    color: $lightRed;
+    @include main-font(600);
+    position: absolute;
+    top: 0;
+    right: rem(-20px);
+  }
+  &__slider {
+    display: flex;
+    &-item {
+      display: flex;
+    }
+  }
+}

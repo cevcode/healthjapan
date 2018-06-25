@@ -1,0 +1,74 @@
+@import "../helpers/index";
+
+.product {
+  box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
+  margin: rem(0 12px);
+  @include first-last;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: rem(25px);
+  }
+  &__controls {
+    display: flex;
+    margin-right: rem(15px);
+    &-item {
+      display: flex;
+      margin: rem(0 7.5px);
+    }
+  }
+  &__img {
+    width: rem(180px);
+    height: 100%;
+    &-container {
+      margin: rem(15px 0);
+      display: flex;
+      justify-content: center;
+    }
+  }
+  &__settings {
+    display: flex;
+    justify-content: space-between;
+    padding: rem(10px 25px);
+    span {
+      font-size: rem(12px);
+      color: $grey;
+      position: relative;
+      @include main-font(300);
+    }
+  }
+  &__indicator {
+    @include before(none, 9px, 9px, 3.5px, auto, auto, -15px);
+    margin-left: rem(15px);
+    &--green {
+      &:before {
+        background-color: #79db9d;
+        border-radius: 100%;
+      }
+    }
+  }
+  &__comments {
+    @include before('../../assets/icon/reviews-icon.svg', 12px, 9px, 4px, auto, auto, -15px);
+  }
+  h5 {
+    padding: rem(20px 25px 15px 25px);
+  }
+  .description {
+    padding: rem(0 25px);
+  }
+  &__price {
+    padding: rem(25px 0);
+    &-item {
+      text-align: center;
+      font-size: rem(24px);
+      color: $black;
+      @include main-font(600);
+      &--old {
+        color: $lightRed;
+        font-size: rem(20px);
+        @include main-font(400);
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@import "../helpers/index";
+
+.catalog {
+  display: flex;
+  height: 100%;
+  width: rem(250px);
+  &__button {
+    background-color: $brilliant;
+    height: 100%;
+    width: 100%;
+    @include main-font(700);
+    font-size: rem(14px);
+    color: $white;
+  }
+}

@@ -9,6 +9,7 @@
     border: rem(1px solid $brilliant);
     border-right: 0;
     align-items: center;
+    position: relative;
   }
   &__input {
     border: none;
@@ -37,5 +38,9 @@
       @include main-font(400);
       font-size: rem(14px);
     }
+  }
+  &__result {
+    position: absolute;
+    top: 0;
   }
 }

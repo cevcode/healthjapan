@@ -2,6 +2,8 @@
 
 .description {
   margin: rem(5px 0);
+  color: $black;
+  font-size: rem(14px);
   &--kit {
     color: $grey;
     font-size: rem(14px);
@@ -16,6 +18,11 @@
     }
     &--right {
       text-align: right;
+    }
+  }
+  &__color {
+    &--brown {
+      color: $brown;
     }
   }
 }

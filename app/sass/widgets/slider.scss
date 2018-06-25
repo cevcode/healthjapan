@@ -1,0 +1,29 @@
+@import "../helpers/index";
+
+.slider {
+  height: rem(560px);
+  &__item {
+    background-color: #bae8da;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    &-description {
+      max-width: rem(440px);
+      margin-left: rem(100px);
+      h3 {
+        color: $black;
+        @include main-font(600);
+      }
+      p {
+        @include main-font(400);
+        font-size: rem(14px);
+        padding: rem(15px 0 25px 0);
+      }
+    }
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
