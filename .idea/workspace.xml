@@ -2,28 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d32ebb9-35af-4e1e-ab47-fa026085a173" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/guide.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/pages/main.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/widgets/catalog.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/widgets/product.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/widgets/slider.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/icon/card-lock.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/icon/cart.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/icon/choose.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/icon/credit-cards.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/icon/money.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/icon/write.svg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/assets/Image/333.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/icon/Card Lock.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/icon/Combined Shape.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/icon/Credit Cards.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/icon/Fill Form.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/icon/Money #3 Copy.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/icon/reviews icon.svg" afterPath="$PROJECT_DIR$/app/assets/icon/reviews-icon.svg" />
-      <change beforePath="$PROJECT_DIR$/app/assets/icon/shop.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change beforePath="$PROJECT_DIR$/app/sass/main.scss" afterPath="$PROJECT_DIR$/app/sass/main.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/index.scss" afterPath="$PROJECT_DIR$/app/sass/pages/index.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/ui/container.scss" afterPath="$PROJECT_DIR$/app/sass/ui/container.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/ui/description.scss" afterPath="$PROJECT_DIR$/app/sass/ui/description.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/ui/title.scss" afterPath="$PROJECT_DIR$/app/sass/ui/title.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/index.scss" afterPath="$PROJECT_DIR$/app/sass/widgets/index.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/search.scss" afterPath="$PROJECT_DIR$/app/sass/widgets/search.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -525,17 +510,24 @@
       <option name="project" value="LOCAL" />
       <updated>1529620090886</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add base home page, 60% of done">
+      <created>1529933975047</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1529933975047</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21655000" />
+    <option name="totallyTimeSpent" value="21784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="62" width="1440" height="773" extended-state="0" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -543,7 +535,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29646018" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29646018" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -579,7 +571,8 @@
     <MESSAGE value="added base buttons to ui" />
     <MESSAGE value="added base ui badges &amp;&amp; fix buttons" />
     <MESSAGE value="fix broken div" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix broken div" />
+    <MESSAGE value="add base home page, 60% of done" />
+    <option name="LAST_COMMIT_MESSAGE" value="add base home page, 60% of done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
