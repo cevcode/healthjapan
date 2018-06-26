@@ -139,13 +139,6 @@
 }
 
 .sales {
-  &__title {
-    position: relative;
-    letter-spacing: normal;
-    @include main-font(600);
-    width: max-content;
-    margin-bottom: rem(20px);
-  }
   &__counter {
     font-size: rem(20px);
     color: $lightRed;
@@ -154,7 +147,7 @@
     top: 0;
     right: rem(-20px);
   }
-  &__slider {
+  &__slider, .new-offers__slider {
     display: flex;
     width: rem(1470px);
     margin: auto;
@@ -180,5 +173,19 @@
   }
 }
 .content {
-  margin-top: rem(100px);
+  margin: rem(100px 0);
+}
+
+.news {
+  .post {
+    width: calc(100%/5);
+  }
+  .button {
+    margin: rem(40px) auto;
+  }
+}
+
+.row--news {
+  width: rem(1470px);
+  margin: auto;
 }

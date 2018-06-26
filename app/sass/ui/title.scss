@@ -20,4 +20,12 @@ h5 {
   line-height: 1.35;
 }
 
+.category__title {
+  position: relative;
+  letter-spacing: normal;
+  @include main-font(600);
+  width: max-content;
+  margin-bottom: rem(20px);
+}
+
 

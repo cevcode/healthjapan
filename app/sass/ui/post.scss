@@ -1,0 +1,68 @@
+@import "../helpers/index";
+
+.post {
+  box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
+  border-radius: rem(5px);
+  height: rem(340px);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  margin: rem(0 12px);
+  @include first-last;
+  position: relative;
+  @include after(none, 100%, 100%, 0, auto, auto, 0);
+  &:hover {
+    .post__container {
+      bottom: 0;
+      transition: .2s ease-in;
+    }
+    .post__link {
+      opacity: 1;
+      transition: .2s ease-in;
+    }
+  }
+  &:after {
+    background-color: rgba(0,0,0,0.3);
+  }
+  &__container {
+    z-index: 3;
+    position: absolute;
+    bottom: rem(-40px);
+    padding: rem(20px 25px);
+    transition: .2s ease-in;
+    left: 0;
+  }
+  &__description {
+    font-size: rem(14px);
+    @include main-font(400);
+    color: $white;
+    line-height: 1.43;
+    margin-bottom: rem(10px);
+  }
+  &__separator {
+    width: rem(33px);
+    height: rem(2px);
+    background-color: $white;
+    display: block;
+    margin: rem(40px 0 20px 0);
+  }
+  &__link {
+    color: $white;
+    line-height: 1.93;
+    font-size: rem(14px);
+    opacity: 0;
+    transition: .2s ease-in;
+  }
+  &-img-1 {
+    background-image: url('../../assets/Image/post-bg-1.jpg');
+  }
+  &-img-2 {
+    background-image: url('../../assets/Image/post-bg-2.jpg');
+  }
+  h5 {
+    color: $white;
+    z-index: 10;
+  }
+}
