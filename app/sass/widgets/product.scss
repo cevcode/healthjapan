@@ -2,7 +2,8 @@
 
 .product {
   box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
-  margin: rem(0 12px);
+  margin: rem(12px);
+  width: rem(285px);
   @include first-last;
   &__header {
     display: flex;

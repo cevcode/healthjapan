@@ -4,8 +4,8 @@
   height: rem(560px);
   &__item {
     background-color: #bae8da;
-    height: 100%;
-    display: flex;
+    height: rem(560px);
+    display: inline-flex !important;
     justify-content: center;
     &-description {
       max-width: rem(440px);
@@ -25,5 +25,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .slick-prev {
+    left: rem(50px);
+  }
+  .slick-next {
+    right: rem(50px);
+  }
+  .slick-next, .slick-prev {
+    z-index: 2;
+  }
+  .slick-dots {
+    bottom: rem(35px);
+  }
+  .slick-dots li button:before {
+    color: $white;
+    font-size: rem(12px);
+  }
+  .slick-dots li.slick-active button:before {
+    color: $white;
   }
 }

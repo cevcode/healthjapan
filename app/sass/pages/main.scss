@@ -144,6 +144,7 @@
     letter-spacing: normal;
     @include main-font(600);
     width: max-content;
+    margin-bottom: rem(20px);
   }
   &__counter {
     font-size: rem(20px);
@@ -155,6 +156,24 @@
   }
   &__slider {
     display: flex;
+    width: rem(1470px);
+    margin: auto;
+    .slick-slide {
+      margin: rem(0 12px);
+    }
+    .slick-next:before, .slick-prev:before {
+      color: $black;
+    }
+    .slick-dots {
+      bottom: rem(-105px);
+    }
+    .slick-dots li button:before {
+      color: $orange;
+      font-size: rem(12px);
+    }
+    .slick-dots li.slick-active button:before {
+      color: $orange;
+    }
     &-item {
       display: flex;
     }
