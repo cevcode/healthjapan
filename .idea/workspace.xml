@@ -529,11 +529,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530048648289</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added footer">
+      <created>1530099986378</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1530099986378</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36260000" />
+    <option name="totallyTimeSpent" value="36273000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="62" width="1440" height="773" extended-state="0" />
@@ -589,7 +596,8 @@
     <MESSAGE value="added 2 sliders" />
     <MESSAGE value="added expandable widget" />
     <MESSAGE value="added posts" />
-    <option name="LAST_COMMIT_MESSAGE" value="added posts" />
+    <MESSAGE value="added footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="added footer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
