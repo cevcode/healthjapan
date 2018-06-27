@@ -78,6 +78,9 @@
     @include main-font(700);
     font-size: rem(14px);
     color: $cyan;
+    &:hover {
+      color: $brilliant;
+    }
   }
 }
 
@@ -273,4 +276,3 @@
     font-size: rem(14px);
   }
 }
-

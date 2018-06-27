@@ -10,13 +10,14 @@
     border-right: 0;
     align-items: center;
     position: relative;
+    @include before('../../../assets/search.svg', 18px, 18px, 17px, auto, auto, 20px);
   }
   &__input {
     border: none;
     height: 70%;
     color: $black;
     @include placeholder-color($grey);
-    padding: rem(0 20px);
+    padding: rem(0 20px 0 40px);
     @include main-font(400);
     border-right: rem(0.5px solid $light);
     width: rem(370px);
@@ -41,6 +42,22 @@
   }
   &__result {
     position: absolute;
-    top: 0;
+    display: none;
+    top: rem(50px);
+    left: rem(-1px);
+    z-index: 2;
+    background-color: $white;
+    border: rem(1px solid $brilliant);
+    border-top: none;
+    width: calc(100% + .125rem);
+    &-button {
+      font-size: rem(12px);
+      @include main-font(400);
+      color: $brilliant;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      padding: rem(25px 0);
+    }
   }
 }

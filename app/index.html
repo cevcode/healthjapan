@@ -34,22 +34,34 @@
 			<div class="row row__jc-sb row__ai-center">
 				<div class="header__column">
 					<div class="header__logo">
-						<img src="assets/logo.png" alt="" class="header__img">
+                        <a href="#"><img src="assets/logo.png" alt="" class="header__img"></a>
 					</div>
 					<div class="header__search">
 						<div class="search">
 							<div class="search__field">
-								<input type="search" class="search__input" placeholder="Поиск по магазину..."/>
+								<input type="search" class="search__input" id="search" placeholder="Поиск по магазину..."/>
 								<button class="search__button-categories">Все разделы</button>
-								<!--<div class="search__result">-->
-								<!--<div class="search__result-item">-->
-								<!--<img src="assets/photos/img.png" alt="" class="search__result-img">-->
-								<!--<div class="search__result-content">-->
-								<!--<p class="search__result-title">Лактис/Lactis</p>-->
-								<!--<p>Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>-->
-								<!--</div>-->
-								<!--</div>-->
-								<!--</div>-->
+								<div class="search__result">
+                                    <div class="dropdown__item">
+                                        <div class="dropdown__img-container">
+                                            <img src="assets/photos/img.png" alt="" class="dropdown__img">
+                                        </div>
+                                        <div>
+                                            <p class="dropdown__title">Лактис / Lactis</p>
+                                            <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown__item">
+                                        <div class="dropdown__img-container">
+                                            <img src="assets/photos/img.png" alt="" class="dropdown__img">
+                                        </div>
+                                        <div>
+                                            <p class="dropdown__title">Лактис / Lactis</p>
+                                            <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="search__result-button">Посмотреть все</a>
+								</div>
 							</div>
 							<button type="submit" class="button button__color--outline search__button-submit">Найти</button>
 						</div>
@@ -58,30 +70,128 @@
 				<div class="header__column">
 					<ui class="header__controls">
 						<li class="header__controls-item">
-							<a href="" class="header__controls-link">
+							<a href="#" class="header__controls-link">
 								<img src="assets/icon/write.svg" alt="" class="header__controls-img">
 								<p class="header__controls-description">Написать нам</p>
 							</a>
 						</li>
 						<li class="header__controls-item">
-							<a href="" class="header__controls-link">
+							<a href="#" class="header__controls-link" id="compare-btn">
 								<img src="assets/icon/choose.svg" alt="" class="header__controls-img">
 								<p class="header__controls-description">Сравнение</p>
-							</a>
+                                <div class="dropdown" id="compare-result">
+                                    <div class="dropdown__item">
+                                        <div class="dropdown__img-container">
+                                            <img src="assets/photos/img.png" alt="" class="dropdown__img">
+                                        </div>
+                                        <div>
+                                            <p class="dropdown__title">Лактис / Lactis</p>
+                                            <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown__item">
+                                        <div class="dropdown__img-container">
+                                            <img src="assets/photos/img.png" alt="" class="dropdown__img">
+                                        </div>
+                                        <div>
+                                            <p class="dropdown__title">Лактис / Lactis</p>
+                                            <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown__item">
+                                        <div class="dropdown__img-container">
+                                            <img src="assets/photos/img.png" alt="" class="dropdown__img">
+                                        </div>
+                                        <div>
+                                            <p class="dropdown__title">Лактис / Lactis</p>
+                                            <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                        </div>
+                                    </div>
+
+                                    <a href="#" class="dropdown__button">Открыть корзину</a>
+                                </div>
+                            </a>
 						</li>
 						<li class="header__controls-item">
-							<a href="" class="header__controls-link">
+							<a href="#" class="header__controls-link" id="favorite-btn">
 								<img src="assets/icon/favorite.svg" alt="" class="header__controls-img">
 								<p class="header__controls-description">Избранное</p>
 							</a>
 							<p class="header__controls-indicate">+1</p>
-						</li>
+                            <div class="dropdown" id="favorite-result">
+                                <div class="dropdown__item">
+                                    <div class="dropdown__img-container">
+                                        <img src="assets/photos/img.png" alt="" class="dropdown__img">
+                                    </div>
+                                    <div>
+                                        <p class="dropdown__title">Лактис / Lactis</p>
+                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                    </div>
+                                    <button class="dropdown__close"></button>
+                                </div>
+                                <div class="dropdown__item">
+                                    <div class="dropdown__img-container">
+                                        <img src="assets/photos/img.png" alt="" class="dropdown__img">
+                                    </div>
+                                    <div>
+                                        <p class="dropdown__title">Лактис / Lactis</p>
+                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                    </div>
+                                    <button class="dropdown__close"></button>
+
+                                </div>
+                                <div class="dropdown__item">
+                                    <div class="dropdown__img-container">
+                                        <img src="assets/photos/img.png" alt="" class="dropdown__img">
+                                    </div>
+                                    <div>
+                                        <p class="dropdown__title">Лактис / Lactis</p>
+                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                    </div>
+                                    <button class="dropdown__close"></button>
+                                </div>
+
+                                <a href="#" class="dropdown__button">Открыть корзину</a>
+                            </div>
+
+                        </li>
 						<li class="header__controls-item">
-							<a href="" class="header__controls-link">
+							<a href="#" class="header__controls-link" id="cart-btn">
 								<img src="assets/icon/cart.svg" alt="" class="header__controls-img">
 								<p class="header__controls-description">Корзина</p>
 							</a>
 							<p class="header__controls-indicate">+1</p>
+                            <div class="dropdown" id="cart-result">
+                                <div class="dropdown__item">
+                                    <div class="dropdown__img-container">
+                                        <img src="assets/photos/img.png" alt="" class="dropdown__img">
+                                    </div>
+                                    <div>
+                                        <p class="dropdown__title">Лактис / Lactis</p>
+                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                    </div>
+                                </div>
+                                <div class="dropdown__item">
+                                    <div class="dropdown__img-container">
+                                        <img src="assets/photos/img.png" alt="" class="dropdown__img">
+                                    </div>
+                                    <div>
+                                        <p class="dropdown__title">Лактис / Lactis</p>
+                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                    </div>
+                                </div>
+                                <div class="dropdown__item">
+                                    <div class="dropdown__img-container">
+                                        <img src="assets/photos/img.png" alt="" class="dropdown__img">
+                                    </div>
+                                    <div>
+                                        <p class="dropdown__title">Лактис / Lactis</p>
+                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                    </div>
+                                </div>
+
+                                <a href="#" class="dropdown__button">Открыть корзину</a>
+                            </div>
 						</li>
 					</ui>
 				</div>
