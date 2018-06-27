@@ -4,10 +4,12 @@
   padding: rem(27px 0 20px 0);
   &__column {
     display: flex;
+    align-items: center;
   }
   &__logo {
     width: rem(280px);
     height:  rem(40px);
+    margin-right: rem(24px);
     display: flex;
   }
   &__img {
@@ -179,13 +181,96 @@
 .news {
   .post {
     width: calc(100%/5);
+    overflow: hidden;
   }
   .button {
     margin: rem(40px) auto;
   }
 }
 
-.row--news {
-  width: rem(1470px);
-  margin: auto;
+.footer {
+  box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
+  padding: rem(40px 0);
+  .row {
+    justify-content: space-between;
+  }
+  &__column {
+    display: flex;
+    flex-direction: column;
+    h6 {
+      margin-bottom: rem(25px);
+      margin-top: rem(15px);
+    }
+    &--basis {
+      width: rem(475px);
+    }
+  }
+  &__img {
+    width: rem(280px);
+    height: rem(40px);
+  }
+  &__description {
+    color: $black;
+    font-size: rem(14px);
+    line-height: 1.43;
+    @include main-font(400);
+    &--margin {
+      margin: rem(25px 0 40px 0);
+    }
+  }
+  &__email {
+    color: $black;
+    font-size: rem(16px);
+    @include main-font(700);
+    text-decoration: none;
+  }
+  &__phone {
+    color: $black;
+    @include main-font(600);
+    font-size: rem(16px);
+    margin-top: rem(15px);
+    &-description {
+      color: $grey;
+      font-size: rem(12px);
+      line-height: 1.5;
+    }
+  }
+  &__menu {
+    &-item {
+      font-size: rem(14px);
+      line-height: 1.43;
+      color: $black;
+      margin-bottom: rem(10px);
+      @include main-font(400);
+      list-style-type: none;
+    }
+    &-link {
+      color: $black;
+      text-decoration: none;
+    }
+  }
+  &__pay {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    &-item {
+      margin: rem(0 20px);
+      @include first-last;
+      &:last-child {
+        margin-left: 0;
+        margin-top: rem(20px);
+      }
+    }
+  }
+
+  &__policy {
+    text-align: center;
+    color: $grey;
+    line-height: 1.79;
+    @include main-font(300);
+    margin-top: rem(30px);
+    font-size: rem(14px);
+  }
 }
+
