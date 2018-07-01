@@ -19,6 +19,14 @@
     margin-right: 0;
   }
 }
+@mixin first-last-padding() {
+  &:first-child {
+    padding-left: 0;
+  }
+  &:last-child {
+    padding-right: 0;
+  }
+}
 // Responsive settings
 $screenSizes: (
         desktop-large: 1520px,

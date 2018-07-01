@@ -1,0 +1,37 @@
+@import "../helpers/index";
+
+.breadcrumbs {
+  display: flex;
+  padding: rem(15px 0);
+  &__item {
+    list-style-type: none;
+    padding: rem(0 20px);
+    @include first-last-padding;
+    position: relative;
+    &:after {
+      //TODO replace with arrow img
+      content: '';
+      position: absolute;
+      background-color: $cyan;
+      width: rem(6px);
+      height: rem(3px);
+      top: rem(7px);
+      right: 0;
+    }
+    &:last-child {
+      &:after {
+        position: static;
+        background-color: none;
+      }
+      .breadcrumbs__link {
+        color: $grey;
+      }
+    }
+  }
+  &__link {
+    color: $cyan;
+    text-decoration: none;
+    font-size: rem(14px);
+    @include main-font(600);
+  }
+}

@@ -3,6 +3,7 @@
 .catalog {
   display: flex;
   height: 100%;
+  position: relative;
   width: rem(250px);
   &__button {
     background-color: $brilliant;
@@ -12,5 +13,72 @@
     @include main-font(700);
     font-size: rem(14px);
     color: $white;
+    padding-left: rem(25px);
+    position: relative;
+    @include before('../../../assets/icon/menu.svg', 18px, 13px, 33px, auto, auto, 55px);
+    @include after('../../../assets/icon/more-white.svg', 9px, 5px, 37px, 25px, auto, auto);
+  }
+  &__menu {
+    position: absolute;
+    width: rem(270px);
+    background-color: $white;
+    box-shadow: rem(0 0 15px 5px rgba(227, 227, 227, 0.5));
+    top: rem(80px);
+    z-index: 2;
+    display: none;
+    &.show {
+      display: block;
+    }
+  }
+  &__link {
+    height: rem(65px);
+    display: flex;
+    color: $black;
+    text-decoration: none;
+    align-items: center;
+    @include main-font(400);
+    font-size: rem(14px);
+    position: relative;
+    padding: rem(0 25px);
+    &:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: rem(20px);
+      margin-top: rem(-2px);
+      transform: rotate(-90deg);
+      height: 0;
+      width: 0;
+      border: rem(3.1px solid transparent);
+      border-top-color: $black;
+    }
+    &--inner {
+      width: rem(270px);
+      &:after {
+        position: static;
+        border: none;
+      }
+    }
+    &:hover {
+      color: $brilliant;
+      &:after {
+        border-top-color: $brilliant;
+      }
+    }
+  }
+  &__item {
+    border-bottom: rem(0.5px solid #e6e6e6);
+  }
+  &__inner {
+    &-list {
+      height: rem(790px);
+      background-color: $white;
+      flex-direction: column;
+      box-shadow: 0 0 15px 5px rgba(227, 227, 227, 0.5);
+      flex-wrap: wrap;
+    }
+    &-item {
+      background-color: $white;
+    }
   }
 }

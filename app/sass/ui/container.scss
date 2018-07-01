@@ -8,12 +8,26 @@
   &--kit {
     width: 90%;
   }
+  &--content {
+    width: rem(1230px);
+    padding: rem(0 15px);
+  }
 }
 .row {
   display: flex;
   &__jc {
     &-sb {
       justify-content: space-between;
+    }
+    &-md-2 {
+      >* {
+        width: 50% !important;
+        display: flex;
+        margin-right: rem(30px) !important;
+        &:last-child {
+          margin-right: 0 !important;
+        }
+      }
     }
   }
   &__ai {

@@ -4,6 +4,7 @@
   margin: rem(5px 0);
   color: $black;
   font-size: rem(14px);
+  line-height: 1.64;
   &--kit {
     color: $grey;
     font-size: rem(14px);
@@ -23,6 +24,11 @@
   &__color {
     &--brown {
       color: $brown;
+    }
+  }
+  &__style {
+    &--bold {
+      @include main-font(700);
     }
   }
 }

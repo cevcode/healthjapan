@@ -38,6 +38,7 @@ gulp.task('js', ['common-js'], function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
 		'app/libs/slick-carousel/slick/slick.js',
+		'app/libs/superfish/dist/js/superfish.js',
 		'app/js/common.min.js', // Always end
 		])
 	.pipe(concat('scripts.min.js'))

@@ -2,6 +2,7 @@
 
 .slider {
   height: rem(560px);
+  width: 100%;
   &__item {
     background-color: #bae8da;
     height: rem(560px);
@@ -44,5 +45,33 @@
   }
   .slick-dots li.slick-active button:before {
     color: $white;
+  }
+  .slick-slide {
+    width: 100%;
+  }
+}
+
+.base-slider {
+  display: flex;
+  width: rem(1470px);
+  margin: auto;
+  .slick-slide {
+    margin: rem(0 12px);
+  }
+  .slick-next:before, .slick-prev:before {
+    color: $black;
+  }
+  .slick-dots {
+    bottom: rem(-105px);
+  }
+  .slick-dots li button:before {
+    color: $orange;
+    font-size: rem(12px);
+  }
+  .slick-dots li.slick-active button:before {
+    color: $orange;
+  }
+  &-item {
+    display: flex;
   }
 }

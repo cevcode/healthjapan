@@ -1,4 +1,4 @@
-function toggleDropDown(button, id) {
+function toggleDropDown(button, id, wrapper) {
     $(button).click(function() {
         event.preventDefault();
         var elem = $(id);
@@ -11,50 +11,44 @@ function toggleDropDown(button, id) {
         }
     });
     var inside = false;
-    $(button).click(function()
-    {
-        $('.dropdown').hover(function(){
-            inside=true;
-        }, function(){
-            inside=false;
-        });
+    $(wrapper).hover(function(){
+        inside=true;
+    }, function(){
+        inside=false;
+    });
 
-        $("body").mouseup(function(){
-            if(!inside) $('.dropdown').removeClass('show');
-        });
+    $("body").mouseup(function(){
+        if(!inside) $(wrapper).removeClass('show');
     });
 };
 
-$('#search').focus(function () {
-    $('.search__result').show();
-})
-$('#search').blur(function () {
-    $('.search__result').hide();
-})
+function createSlider(selector, slidesToShow, slidesToScroll) {
+    $(selector).slick({
+        infinite: true,
+        slidesToShow: slidesToShow,
+        slidesToScroll: slidesToScroll,
+        dots: true
+    });
+};
 
+$(document).ready(function() {
+    $('#search').focus(function () {
+        $('.search__result').show();
+    });
+    $('#search').blur(function () {
+        $('.search__result').hide();
+    });
+    $('ul.sf-menu').superfish();
 
-
-toggleDropDown('#cart-btn', '#cart-result');
-toggleDropDown('#favorite-btn', '#favorite-result');
-toggleDropDown('#compare-btn', '#compare-result');
-
-$('.slider').slick({
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    dots: true
+    toggleDropDown('#cart-btn', '#cart-result', '.dropdown');
+    toggleDropDown('#favorite-btn', '#favorite-result', '.dropdown');
+    toggleDropDown('#compare-btn', '#compare-result', '.dropdown');
+    toggleDropDown('.catalog__button', '.catalog__menu', '.catalog__menu');
+    createSlider('.slider', 1, 1);
+    createSlider('.sales__slider', 5, 5);
+    createSlider('.new-offers__slider', 5, 5);
+    createSlider('.additional-products__slider', 5, 5);
+    createSlider('.new-offers__slider', 5, 5);
+    createSlider('.recent-products__slider', 5, 5);
 });
 
-$('.sales__slider').slick({
-    infinite: true,
-    slidesToShow: 5,
-    slidesToScroll: 5,
-    dots: true
-});
-
-$('.new-offers__slider').slick({
-    infinite: true,
-    slidesToShow: 5,
-    slidesToScroll: 5,
-    dots: true
-});

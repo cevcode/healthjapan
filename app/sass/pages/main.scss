@@ -152,30 +152,6 @@
     top: 0;
     right: rem(-20px);
   }
-  &__slider, .new-offers__slider {
-    display: flex;
-    width: rem(1470px);
-    margin: auto;
-    .slick-slide {
-      margin: rem(0 12px);
-    }
-    .slick-next:before, .slick-prev:before {
-      color: $black;
-    }
-    .slick-dots {
-      bottom: rem(-105px);
-    }
-    .slick-dots li button:before {
-      color: $orange;
-      font-size: rem(12px);
-    }
-    .slick-dots li.slick-active button:before {
-      color: $orange;
-    }
-    &-item {
-      display: flex;
-    }
-  }
 }
 .content {
   margin: rem(100px 0);
