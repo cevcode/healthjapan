@@ -1,17 +1,26 @@
 @import '../helpers/index';
 
+$mr: rem(20px);
+
 .card {
   margin: rem(25px 0);
-  &__slider {
-    display: flex;
-    width: 50%;
-  }
-  &__description {
+  &__slider, &__description {
     display: flex;
     flex-direction: column;
     width: 50%;
+  }
+  &__description {
     .row {
       margin-bottom: rem(20px);
+    }
+  }
+  &__slider {
+    margin-right: rem(30px);
+    .slick-slide {
+      margin: 0 !important;
+    }
+    .slick-dots {
+      bottom: rem(-35px) !important;
     }
   }
   &__id {
@@ -95,6 +104,92 @@
     }
     p {
       line-height: 2.07 !important;
+    }
+  }
+  &__media {
+    width: 100% !important;
+    margin: rem(0 0 40px 0) !important;
+    height: rem(460px) !important;
+    &-item {
+      width: 50%;
+      height: rem(460px);
+      display: inline-flex !important;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    &-img {
+      max-width: rem(40%);
+      max-height: rem(420px);
+    }
+  }
+  &__nav {
+    width: 100% !important;
+    margin: inherit !important;
+    display: flex;
+    justify-content: space-between;
+    &-item {
+      height: rem(130px);
+      cursor: pointer;
+      margin: rem(5px 0) !important;
+      display: inline-flex !important;
+      position: relative;
+      justify-content: center;
+      box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
+      align-items: center;
+      &:hover {
+        box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 1));
+        transition: $transitionHover;
+      }
+      &--video {
+        background-color: $black;
+        opacity: .4;
+        &:before {
+          background-color: $black !important;
+        }
+        &:after {
+          content: 's';
+          top: calc(130/2 - 32px);
+          position: absolute;
+          left: calc(130/2 - 32px);
+          width: rem(75px);
+          height: rem(75px);
+          background-color: $white;
+          border-radius: 50%;
+        }
+        .card__nav-img {
+          opacity: .5;
+          filter: grayscale(50%);
+        }
+      }
+    }
+    &-img {
+      max-width: 80%;
+      max-height: rem(100px);
+    }
+    .slick-list {
+      padding: 0 !important;
+    }
+    .slick-slide {
+      margin: rem(10px) !important;
+    }
+    .slick-current {
+      .card__nav-item {
+        border: rem(2px solid rgba(250, 130, 49, 0.38));
+        &:before {
+          content: '';
+          position: absolute;
+          top: rem(-10px);
+          border: rem(2px solid transparent);
+          border-top-color: rgba(250, 130, 49, 0.38);
+          border-left-color: rgba(250, 130, 49, 0.38);
+          right: calc(100%/2 - 1rem);
+          width: rem(20px);
+          height: rem(20px);
+          background-color: $white;
+          transform: rotate(45deg);
+        }
+      }
     }
   }
 }

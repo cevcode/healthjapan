@@ -52,3 +52,22 @@ $(document).ready(function() {
     createSlider('.recent-products__slider', 5, 5);
 });
 
+$('.card__media').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.card__nav'
+});
+$('.card__nav').slick({
+    slidesToShow: 4,
+    arrows: false,
+    slidesToScroll: 1,
+    asNavFor: '.card__media',
+    centerMode: true,
+    dots: true,
+    focusOnSelect: true
+});
+
+
+

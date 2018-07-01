@@ -80,6 +80,12 @@
     &.dragging img {
         pointer-events: none;
     }
+    &:active {
+        outline: none;
+    }
+    &:focus {
+        outline: none;
+    }
 
     .slick-initialized & {
         display: block;
