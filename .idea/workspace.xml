@@ -2,30 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d32ebb9-35af-4e1e-ab47-fa026085a173" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/icon/menu.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/icon/more-black.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/icon/more-white.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/card.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/libs/superfish.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/pages/card.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/widgets/breadcrumbs.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/widgets/tabs.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/photos/img.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/superfish/.bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/superfish/MIT-LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/superfish/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/superfish/dist/css/megafish.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/superfish/dist/css/superfish-navbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/superfish/dist/css/superfish-vertical.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/superfish/dist/css/superfish.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/superfish/dist/js/hoverIntent.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/superfish/dist/js/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/superfish/dist/js/superfish.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/superfish/dist/js/superfish.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/superfish/dist/js/supersubs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/superfish/examples/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/superfish/examples/followed.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/superfish/examples/megamenu.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.js" afterPath="$PROJECT_DIR$/app/js/common.js" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.min.js" afterPath="$PROJECT_DIR$/app/js/common.min.js" />
-      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" />
-      <change beforePath="$PROJECT_DIR$/app/sass/helpers/_mixins.scss" afterPath="$PROJECT_DIR$/app/sass/helpers/_mixins.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/libs/index.scss" afterPath="$PROJECT_DIR$/app/sass/libs/index.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/index.scss" afterPath="$PROJECT_DIR$/app/sass/pages/index.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/main.scss" afterPath="$PROJECT_DIR$/app/sass/pages/main.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/ui/container.scss" afterPath="$PROJECT_DIR$/app/sass/ui/container.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/ui/description.scss" afterPath="$PROJECT_DIR$/app/sass/ui/description.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/catalog.scss" afterPath="$PROJECT_DIR$/app/sass/widgets/catalog.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/dropdown.scss" afterPath="$PROJECT_DIR$/app/sass/widgets/dropdown.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/index.scss" afterPath="$PROJECT_DIR$/app/sass/widgets/index.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/slider.scss" afterPath="$PROJECT_DIR$/app/sass/widgets/slider.scss" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -124,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/app/sass/widgets/slider.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+              <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -133,8 +126,8 @@
       <file leaf-file-name="dropdown.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/sass/widgets/dropdown.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="360">
+              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -322,24 +315,6 @@
               <item name="healthjapan" type="b2602c69:ProjectViewProjectNode" />
               <item name="healthjapan" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="healthjapan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="healthjapan" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="healthjapan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="healthjapan" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="healthjapan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="healthjapan" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="healthjapan" type="b2602c69:ProjectViewProjectNode" />
@@ -645,11 +620,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530106056821</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added menu &amp;&amp; added card page 90% done">
+      <created>1530451363741</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1530451363741</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60240000" />
+    <option name="totallyTimeSpent" value="60407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="62" width="1440" height="773" extended-state="0" />
@@ -707,7 +689,8 @@
     <MESSAGE value="added posts" />
     <MESSAGE value="added footer" />
     <MESSAGE value="added some logic on header" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some logic on header" />
+    <MESSAGE value="added menu &amp;&amp; added card page 90% done" />
+    <option name="LAST_COMMIT_MESSAGE" value="added menu &amp;&amp; added card page 90% done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1129,15 +1112,15 @@
     <entry file="file://$PROJECT_DIR$/app/sass/widgets/slider.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+          <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/widgets/dropdown.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="360">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
           <folding />
         </state>
       </provider>
