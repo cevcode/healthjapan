@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row row__jc-sb row__ai-center">
+				<div class="header__column">
+					<div class="header__logo">
+                        <a href="#"><img src="assets/logo.png" alt="" class="header__img"></a>
+					</div>
+					<div class="header__search">
+						<div class="search">
+							<div class="search__field">
+								<input type="search" class="search__input" id="search" placeholder="Поиск по магазину..."/>
+								<button class="search__button-categories">Все разделы</button>
+								<div class="search__result">
+                                    <div class="dropdown__item">
+                                        <div class="dropdown__img-container">
+                                            <img src="assets/photos/img.png" alt="" class="dropdown__img">
+                                        </div>
+                                        <div>
+                                            <p class="dropdown__title">Лактис / Lactis</p>
+                                            <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown__item">
+                                        <div class="dropdown__img-container">
+                                            <img src="assets/photos/img.png" alt="" class="dropdown__img">
+                                        </div>
+                                        <div>
+                                            <p class="dropdown__title">Лактис / Lactis</p>
+                                            <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="search__result-button">Посмотреть все</a>
+								</div>
+							</div>
+							<button type="submit" class="button button__color--outline search__button-submit">Найти</button>
+						</div>
+					</div>
+				</div>
+				<div class="header__column">
+					<ui class="header__controls">
+						<li class="header__controls-item">
+							<a href="#" class="header__controls-link">
+								<img src="assets/icon/write.svg" alt="" class="header__controls-img">
+								<p class="header__controls-description">Написать нам</p>
+							</a>
+						</li>
+						<li class="header__controls-item">
+							<a href="#" class="header__controls-link" id="compare-btn">
+								<img src="assets/icon/choose.svg" alt="" class="header__controls-img">
+								<p class="header__controls-description">Сравнение</p>
+                                <div class="dropdown" id="compare-result">
+                                    <div class="dropdown__item">
+                                        <div class="dropdown__img-container">
+                                            <img src="assets/photos/img.png" alt="" class="dropdown__img">
+                                        </div>
+                                        <div>
+                                            <p class="dropdown__title">Лактис / Lactis</p>
+                                            <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown__item">
+                                        <div class="dropdown__img-container">
+                                            <img src="assets/photos/img.png" alt="" class="dropdown__img">
+                                        </div>
+                                        <div>
+                                            <p class="dropdown__title">Лактис / Lactis</p>
+                                            <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown__item">
+                                        <div class="dropdown__img-container">
+                                            <img src="assets/photos/img.png" alt="" class="dropdown__img">
+                                        </div>
+                                        <div>
+                                            <p class="dropdown__title">Лактис / Lactis</p>
+                                            <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                        </div>
+                                    </div>
+
+                                    <a href="#" class="dropdown__button">Открыть корзину</a>
+                                </div>
+                            </a>
+						</li>
+						<li class="header__controls-item">
+							<a href="#" class="header__controls-link" id="favorite-btn">
+								<img src="assets/icon/favorite.svg" alt="" class="header__controls-img">
+								<p class="header__controls-description">Избранное</p>
+							</a>
+							<p class="header__controls-indicate">+1</p>
+                            <div class="dropdown" id="favorite-result">
+                                <div class="dropdown__item">
+                                    <div class="dropdown__img-container">
+                                        <img src="assets/photos/img.png" alt="" class="dropdown__img">
+                                    </div>
+                                    <div>
+                                        <p class="dropdown__title">Лактис / Lactis</p>
+                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                    </div>
+                                    <button class="dropdown__close"></button>
+                                </div>
+                                <div class="dropdown__item">
+                                    <div class="dropdown__img-container">
+                                        <img src="assets/photos/img.png" alt="" class="dropdown__img">
+                                    </div>
+                                    <div>
+                                        <p class="dropdown__title">Лактис / Lactis</p>
+                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                    </div>
+                                    <button class="dropdown__close"></button>
+
+                                </div>
+                                <div class="dropdown__item">
+                                    <div class="dropdown__img-container">
+                                        <img src="assets/photos/img.png" alt="" class="dropdown__img">
+                                    </div>
+                                    <div>
+                                        <p class="dropdown__title">Лактис / Lactis</p>
+                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                    </div>
+                                    <button class="dropdown__close"></button>
+                                </div>
+
+                                <a href="#" class="dropdown__button">Открыть корзину</a>
+                            </div>
+
+                        </li>
+						<li class="header__controls-item">
+							<a href="#" class="header__controls-link" id="cart-btn">
+								<img src="assets/icon/cart.svg" alt="" class="header__controls-img">
+								<p class="header__controls-description">Корзина</p>
+							</a>
+							<p class="header__controls-indicate">+1</p>
+                            <div class="dropdown" id="cart-result">
+                                <div class="dropdown__item">
+                                    <div class="dropdown__img-container">
+                                        <img src="assets/photos/img.png" alt="" class="dropdown__img">
+                                    </div>
+                                    <div>
+                                        <p class="dropdown__title">Лактис / Lactis</p>
+                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                    </div>
+                                </div>
+                                <div class="dropdown__item">
+                                    <div class="dropdown__img-container">
+                                        <img src="assets/photos/img.png" alt="" class="dropdown__img">
+                                    </div>
+                                    <div>
+                                        <p class="dropdown__title">Лактис / Lactis</p>
+                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                    </div>
+                                </div>
+                                <div class="dropdown__item">
+                                    <div class="dropdown__img-container">
+                                        <img src="assets/photos/img.png" alt="" class="dropdown__img">
+                                    </div>
+                                    <div>
+                                        <p class="dropdown__title">Лактис / Lactis</p>
+                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                    </div>
+                                </div>
+
+                                <a href="#" class="dropdown__button">Открыть корзину</a>
+                            </div>
+						</li>
+					</ui>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="menu">
+		<div class="menu__column">
+			<div class="catalog">
+				<button class="catalog__button">Каталог товаров</button>
+                <ul class="sf-menu catalog__menu">
+                    <li class="catalog__item">
+                        <a href="#" class="catalog__link">БАДы</a>
+                        <ul class="catalog__inner-list">
+                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Для глаз</a></li>
+                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Красота, омоложение, целлюлит</a></li>
+                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Здоровая кожа</a></li>
+                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Укрепление иммунитета</a></li>
+                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Стресс, неврозыx§</a></li>
+                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Похудение. Снижение веса. Диета</a></li>
+                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Желудочно-кишечный тракт</a></li>
+                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Пищеварение</a></li>
+                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Для детей</a></li>
+                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Для пожилых, долголетие</a></li>
+                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Суставы, опорно-двигательная система</a></li>
+                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Умственное развитие, улучшение памяти, ноотропы</a></li>
+                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Мужское здоровье</a></li>
+                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Женское здоровье, для будущих мам</a></li>
+                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Печень, гепатит</a></li>
+                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Антиоксиданты</a></li>
+                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Cердечно-сосудистая система, сосуды, холестерин</a></li>
+                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Диабет, повышенный сахар</a></li>
+                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Снотворное, хороший сон</a></li>
+                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Онкология, рак</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="catalog__item"><a href="#" class="catalog__link">Витамины</a></li>
+                    <li class="catalog__item"><a href="#" class="catalog__link">Лекарственные средства</a></li>
+                    <li class="catalog__item"><a href="#" class="catalog__link">Косметика</a></li>
+                    <li class="catalog__item"><a href="#" class="catalog__link">Зубные пасты</a></li>
+                    <li class="catalog__item"><a href="#" class="catalog__link">Плацентарная косметика</a></li>
+                    <li class="catalog__item"><a href="#" class="catalog__link">Эксклюзивные японские препараты.</a></li>
+                    <li class="catalog__item"><a href="#" class="catalog__link">Косметологические аппараты</a></li>
+                    <li class="catalog__item"><a href="#" class="catalog__link">Спортивное питание</a></li>
+                    <li class="catalog__item"><a href="#" class="catalog__link">Японский чай</a></li>
+                    <li class="catalog__item"><a href="#" class="catalog__link">Магнитные изделия</a></li>
+                </ul>
+			</div>
+			<ui class="menu__list">
+				<li class="menu__item">
+					<a href="#" class="menu__link">О нас</a>
+				</li>
+				<li class="menu__item">
+					<a href="#" class="menu__link">Гарантии</a>
+				</li>
+				<li class="menu__item">
+					<a href="#" class="menu__link">Оплата</a>
+				</li>
+				<li class="menu__item">
+					<a href="#" class="menu__link">Доставка</a>
+				</li>
+				<li class="menu__item">
+					<a href="#" class="menu__link">Контакты</a>
+				</li>
+				<li class="menu__item">
+					<a href="#" class="menu__link">Новости</a>
+				</li>
+				<li class="menu__item">
+					<a href="#" class="menu__link">Акции и скидки</a>
+				</li>
+				<li class="menu__item">
+					<a href="#" class="menu__link">Почему мы и японские товары?</a>
+				</li>
+			</ui>
+		</div>
+		<div class="menu__column">
+			<div class="currency">
+				<a href="#" class="currency__item currency__item--checked">USD</a>
+				<span class="currency__item currency__item--separator">|</span>
+				<a href="#" class="currency__item">РУБ</a>
+			</div>
+		</div>
+	</div>
+	<div class="slider">
+		<div class="slider__item">
+			<div class="slider__content">
+				<img src="assets/photos/img.png" alt="" class="slider__img">
+				<div class="slider__item-description">
+					<h3>KOUJI HIME Face Pack</h3>
+					<p>Питательный лосьон для лица для сухой и чувствительной кожи.</p>
+					<button class="button button__size--large button__color--brilliant">купить</button>
+				</div>
+			</div>
+		</div>
+		<div class="slider__item">
+			<div class="slider__content">
+				<img src="assets/photos/img.png" alt="" class="slider__img">
+				<div class="slider__item-description">
+					<h3>KOUJI HIME Face Pack</h3>
+					<p>Питательный лосьон для лица для сухой и чувствительной кожи.</p>
+					<button class="button button__size--large button__color--brilliant">купить</button>
+				</div>
+			</div>
+		</div>
+		<div class="slider__item">
+			<div class="slider__content">
+				<img src="assets/photos/img.png" alt="" class="slider__img">
+				<div class="slider__item-description">
+					<h3>KOUJI HIME Face Pack</h3>
+					<p>Питательный лосьон для лица для сухой и чувствительной кожи.</p>
+					<button class="button button__size--large button__color--brilliant">купить</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advantages">
+		<ui class="advantages__list">
+			<li class="advantages__item">
+				<img src="assets/icon/order.svg" alt="" class="advantages__img">
+				<p class="advantages__description">Бесплатная доставка по всему миру</p>
+				<p class="advantages__info">При заказе свыше 10000 руб.</p>
+			</li>
+			<li class="advantages__item">
+				<img src="assets/icon/card-lock.svg" alt="" class="advantages__img">
+				<p class="advantages__description">3 надежных способа оплаты</p>
+				<p class="advantages__info">Оплата онлайн в любой точке мира</p>
+			</li>
+			<li class="advantages__item">
+				<img src="assets/icon/credit-cards.svg" alt="" class="advantages__img">
+				<p class="advantages__description">Подарочные сертификаты</p>
+				<p class="advantages__info">При покупке на сумму от 10000 руб.</p>
+			</li>
+			<li class="advantages__item">
+				<img src="assets/icon/money.svg" alt="" class="advantages__img">
+				<p class="advantages__description">Всегда выгодные цены и скидки</p>
+				<p class="advantages__info">При покупке на сумму от 10000 руб.</p>
+			</li>
+		</ui>
+	</div>
+	<div class="sales">
+		<div class="container">
+			<h4 class="category__title">Акции на HealthJapan <span class="sales__counter">8</span></h4>
+			<div class="sales__slider base-slider">
+                <div class="product">
+                    <div class="product__header">
+                        <div class="badge badge--blue">Новинка</div>
+                        <div class="product__controls">
+                            <a href="#" class="product__controls-item"><img src="assets/icon/choose.svg" alt=""></a>
+                            <a href="#" class="product__controls-item"><img src="assets/icon/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product__img-container">
+                        <img src="assets/Image/img.png" alt="" class="product__img">
+                    </div>
+                    <div class="product__settings">
+                        <span class="product__indicator product__indicator--green">Есть в наличии</span>
+                        <span class="product__comments">34 отзыва</span>
+                    </div>
+                    <h5>KANEBO Evita Botaniс Vital DEEP MOISTURE GEL </h5>
+                    <p class="description">Цель косметической линии EXAGE - заставить кожу нормально вырабатывать
+                        влагу .</p>
+                    <div class="product__price">
+                        <p class="product__price-item product__price-item--old"><del>9000 руб.</del></p>
+                        <p class="product__price-item">9000 руб.</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__header">
+                        <div class="badge badge--blue">Новинка</div>
+                        <div class="product__controls">
+                            <a href="#" class="product__controls-item"><img src="assets/icon/choose.svg" alt=""></a>
+                            <a href="#" class="product__controls-item"><img src="assets/icon/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product__img-container">
+                        <img src="assets/Image/img.png" alt="" class="product__img">
+                    </div>
+                    <div class="product__settings">
+                        <span class="product__indicator product__indicator--green">Есть в наличии</span>
+                        <span class="product__comments">34 отзыва</span>
+                    </div>
+                    <h5>KANEBO Evita Botaniс Vital DEEP MOISTURE GEL </h5>
+                    <p class="description">Цель косметической линии EXAGE - заставить кожу нормально вырабатывать
+                        влагу .</p>
+                    <div class="product__price">
+                        <p class="product__price-item product__price-item--old"><del>9000 руб.</del></p>
+                        <p class="product__price-item">9000 руб.</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__header">
+                        <div class="badge badge--blue">Новинка</div>
+                        <div class="product__controls">
+                            <a href="#" class="product__controls-item"><img src="assets/icon/choose.svg" alt=""></a>
+                            <a href="#" class="product__controls-item"><img src="assets/icon/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product__img-container">
+                        <img src="assets/Image/img.png" alt="" class="product__img">
+                    </div>
+                    <div class="product__settings">
+                        <span class="product__indicator product__indicator--green">Есть в наличии</span>
+                        <span class="product__comments">34 отзыва</span>
+                    </div>
+                    <h5>KANEBO Evita Botaniс Vital DEEP MOISTURE GEL </h5>
+                    <p class="description">Цель косметической линии EXAGE - заставить кожу нормально вырабатывать
+                        влагу .</p>
+                    <div class="product__price">
+                        <p class="product__price-item product__price-item--old"><del>9000 руб.</del></p>
+                        <p class="product__price-item">9000 руб.</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__header">
+                        <div class="badge badge--blue">Новинка</div>
+                        <div class="product__controls">
+                            <a href="#" class="product__controls-item"><img src="assets/icon/choose.svg" alt=""></a>
+                            <a href="#" class="product__controls-item"><img src="assets/icon/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product__img-container">
+                        <img src="assets/Image/img.png" alt="" class="product__img">
+                    </div>
+                    <div class="product__settings">
+                        <span class="product__indicator product__indicator--green">Есть в наличии</span>
+                        <span class="product__comments">34 отзыва</span>
+                    </div>
+                    <h5>KANEBO Evita Botaniс Vital DEEP MOISTURE GEL </h5>
+                    <p class="description">Цель косметической линии EXAGE - заставить кожу нормально вырабатывать
+                        влагу .</p>
+                    <div class="product__price">
+                        <p class="product__price-item product__price-item--old"><del>9000 руб.</del></p>
+                        <p class="product__price-item">9000 руб.</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__header">
+                        <div class="badge badge--blue">Новинка</div>
+                        <div class="product__controls">
+                            <a href="#" class="product__controls-item"><img src="assets/icon/choose.svg" alt=""></a>
+                            <a href="#" class="product__controls-item"><img src="assets/icon/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product__img-container">
+                        <img src="assets/Image/img.png" alt="" class="product__img">
+                    </div>
+                    <div class="product__settings">
+                        <span class="product__indicator product__indicator--green">Есть в наличии</span>
+                        <span class="product__comments">34 отзыва</span>
+                    </div>
+                    <h5>KANEBO Evita Botaniс Vital DEEP MOISTURE GEL </h5>
+                    <p class="description">Цель косметической линии EXAGE - заставить кожу нормально вырабатывать
+                        влагу .</p>
+                    <div class="product__price">
+                        <p class="product__price-item product__price-item--old"><del>9000 руб.</del></p>
+                        <p class="product__price-item">9000 руб.</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__header">
+                        <div class="badge badge--blue">Новинка</div>
+                        <div class="product__controls">
+                            <a href="#" class="product__controls-item"><img src="assets/icon/choose.svg" alt=""></a>
+                            <a href="#" class="product__controls-item"><img src="assets/icon/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product__img-container">
+                        <img src="assets/Image/img.png" alt="" class="product__img">
+                    </div>
+                    <div class="product__settings">
+                        <span class="product__indicator product__indicator--green">Есть в наличии</span>
+                        <span class="product__comments">34 отзыва</span>
+                    </div>
+                    <h5>KANEBO Evita Botaniс Vital DEEP MOISTURE GEL </h5>
+                    <p class="description">Цель косметической линии EXAGE - заставить кожу нормально вырабатывать
+                        влагу .</p>
+                    <div class="product__price">
+                        <p class="product__price-item product__price-item--old"><del>9000 руб.</del></p>
+                        <p class="product__price-item">9000 руб.</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__header">
+                        <div class="badge badge--blue">Новинка</div>
+                        <div class="product__controls">
+                            <a href="#" class="product__controls-item"><img src="assets/icon/choose.svg" alt=""></a>
+                            <a href="#" class="product__controls-item"><img src="assets/icon/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product__img-container">
+                        <img src="assets/Image/img.png" alt="" class="product__img">
+                    </div>
+                    <div class="product__settings">
+                        <span class="product__indicator product__indicator--green">Есть в наличии</span>
+                        <span class="product__comments">34 отзыва</span>
+                    </div>
+                    <h5>KANEBO Evita Botaniс Vital DEEP MOISTURE GEL </h5>
+                    <p class="description">Цель косметической линии EXAGE - заставить кожу нормально вырабатывать
+                        влагу .</p>
+                    <div class="product__price">
+                        <p class="product__price-item product__price-item--old"><del>9000 руб.</del></p>
+                        <p class="product__price-item">9000 руб.</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__header">
+                        <div class="badge badge--blue">Новинка</div>
+                        <div class="product__controls">
+                            <a href="#" class="product__controls-item"><img src="assets/icon/choose.svg" alt=""></a>
+                            <a href="#" class="product__controls-item"><img src="assets/icon/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product__img-container">
+                        <img src="assets/Image/img.png" alt="" class="product__img">
+                    </div>
+                    <div class="product__settings">
+                        <span class="product__indicator product__indicator--green">Есть в наличии</span>
+                        <span class="product__comments">34 отзыва</span>
+                    </div>
+                    <h5>KANEBO Evita Botaniс Vital DEEP MOISTURE GEL </h5>
+                    <p class="description">Цель косметической линии EXAGE - заставить кожу нормально вырабатывать
+                        влагу .</p>
+                    <div class="product__price">
+                        <p class="product__price-item product__price-item--old"><del>9000 руб.</del></p>
+                        <p class="product__price-item">9000 руб.</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__header">
+                        <div class="badge badge--blue">Новинка</div>
+                        <div class="product__controls">
+                            <a href="#" class="product__controls-item"><img src="assets/icon/choose.svg" alt=""></a>
+                            <a href="#" class="product__controls-item"><img src="assets/icon/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product__img-container">
+                        <img src="assets/Image/img.png" alt="" class="product__img">
+                    </div>
+                    <div class="product__settings">
+                        <span class="product__indicator product__indicator--green">Есть в наличии</span>
+                        <span class="product__comments">34 отзыва</span>
+                    </div>
+                    <h5>KANEBO Evita Botaniс Vital DEEP MOISTURE GEL </h5>
+                    <p class="description">Цель косметической линии EXAGE - заставить кожу нормально вырабатывать
+                        влагу .</p>
+                    <div class="product__price">
+                        <p class="product__price-item product__price-item--old"><del>9000 руб.</del></p>
+                        <p class="product__price-item">9000 руб.</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__header">
+                        <div class="badge badge--blue">Новинка</div>
+                        <div class="product__controls">
+                            <a href="#" class="product__controls-item"><img src="assets/icon/choose.svg" alt=""></a>
+                            <a href="#" class="product__controls-item"><img src="assets/icon/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product__img-container">
+                        <img src="assets/Image/img.png" alt="" class="product__img">
+                    </div>
+                    <div class="product__settings">
+                        <span class="product__indicator product__indicator--green">Есть в наличии</span>
+                        <span class="product__comments">34 отзыва</span>
+                    </div>
+                    <h5>KANEBO Evita Botaniс Vital DEEP MOISTURE GEL </h5>
+                    <p class="description">Цель косметической линии EXAGE - заставить кожу нормально вырабатывать
+                        влагу .</p>
+                    <div class="product__price">
+                        <p class="product__price-item product__price-item--old"><del>9000 руб.</del></p>
+                        <p class="product__price-item">9000 руб.</p>
+                    </div>
+                </div>
+			</div>
+		</div>
+	</div>
+    <div class="content">
+        <div class="expandable">
+            <a href="#expandable-show" class="expandable__button expandable__button--show" id="expandable-show">Прочитать полностью</a>
+            <a href="#expandable-hide" class="expandable__button expandable__button--hide" id="expandable-hide">Скрыть</a>
+            <div class="expandable__content">
+                Let us not wallow in the valley of despair, I say to you today, my friends.
+                And so even though we face the difficulties of today and tomorrow, I still have a dream. It is a dream deeply rooted in the American dream.
+                I have a dream that one day this nation will rise up and live out the true meaning of its creed: "We hold these truths to be self-evident, that all men are created equal."
+                I have a dream that one day on the red hills of Georgia, the sons of former slaves and the sons of former slave owners will be able to sit down together at the table of brotherhood.
+                I have a dream that one day even the state of Mississippi, a state sweltering with the heat of injustice, sweltering with the heat of oppression, will be transformed into an oasis of freedom and justice.
+                I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.
+                I have a dream today!
+
+                I have a dream that one day, down in Alabama, with its vicious racists, with its governor having his lips dripping with the words of "interposition" and "nullification" -- one day right there in Alabama little black boys and black girls will be able to join hands with little white boys and white girls as sisters and brothers.
+
+                I have a dream today!
+
+                I have a dream that one day every valley shall be exalted, and every hill and mountain shall be made low, the rough places will be made plain, and the crooked places will be made straight; "and the glory of the Lord shall be revealed and all flesh shall see it together."2
+
+                This is our hope, and this is the faith that I go back to the South with.
+
+                With this faith, we will be able to hew out of the mountain of despair a stone of hope. With this faith, we will be able to transform the jangling discords of our nation into a beautiful symphony of brotherhood. With this faith, we will be able to work together, to pray together, to struggle together, to go to jail together, to stand up for freedom together, knowing that we will be free one day.
+
+                And this will be the day -- this will be the day when all of God's children will be able to sing with new meaning:
+
+                My country 'tis of thee, sweet land of liberty, of thee I sing.
+
+                Land where my fathers died, land of the Pilgrim's pride,
+
+                From every mountainside, let freedom ring!
+
+                And if America is to be a great nation, this must become true.
+
+                And so let freedom ring from the prodigious hilltops of New Hampshire.
+
+                Let freedom ring from the mighty mountains of New York.
+
+                Let freedom ring from the heightening Alleghenies of Pennsylvania.
+
+                Let freedom ring from the snow-capped Rockies of Colorado.
+
+                Let freedom ring from the curvaceous slopes of California.
+
+                But not only that:
+
+                Let freedom ring from Stone Mountain of Georgia.
+
+                Let freedom ring from Lookout Mountain of Tennessee.
+
+                Let freedom ring from every hill and molehill of Mississippi.
+
+                From every mountainside, let freedom ring.
+
+                And when this happens, and when we allow freedom ring, when we let it ring from every village and every hamlet, from every state and every city, we will be able to speed up that day when all of God's children, black men and white men, Jews and Gentiles, Protestants and Catholics, will be able to join hands and sing in the words of the old Negro spiritual:
+
+                Free at last! Free at last!
+
+                Thank God Almighty, we are free at last!
+
+            </div>
+            <div class="expandable__fade"></div>
+        </div>
+    </div>
+    <div class="sales">
+        <div class="container">
+            <h4 class="category__title">Новинки на HealthJapan <span class="sales__counter">8</span></h4>
+            <div class="new-offers__slider base-slider">
+                <div class="product">
+                    <div class="product__header">
+                        <div class="badge badge--blue">Новинка</div>
+                        <div class="product__controls">
+                            <a href="#" class="product__controls-item"><img src="assets/icon/choose.svg" alt=""></a>
+                            <a href="#" class="product__controls-item"><img src="assets/icon/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product__img-container">
+                        <img src="assets/Image/img.png" alt="" class="product__img">
+                    </div>
+                    <div class="product__settings">
+                        <span class="product__indicator product__indicator--green">Есть в наличии</span>
+                        <span class="product__comments">34 отзыва</span>
+                    </div>
+                    <h5>KANEBO Evita Botaniс Vital DEEP MOISTURE GEL </h5>
+                    <p class="description">Цель косметической линии EXAGE - заставить кожу нормально вырабатывать
+                        влагу .</p>
+                    <div class="product__price">
+                        <p class="product__price-item product__price-item--old"><del>9000 руб.</del></p>
+                        <p class="product__price-item">9000 руб.</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__header">
+                        <div class="badge badge--blue">Новинка</div>
+                        <div class="product__controls">
+                            <a href="#" class="product__controls-item"><img src="assets/icon/choose.svg" alt=""></a>
+                            <a href="#" class="product__controls-item"><img src="assets/icon/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product__img-container">
+                        <img src="assets/Image/img.png" alt="" class="product__img">
+                    </div>
+                    <div class="product__settings">
+                        <span class="product__indicator product__indicator--green">Есть в наличии</span>
+                        <span class="product__comments">34 отзыва</span>
+                    </div>
+                    <h5>KANEBO Evita Botaniс Vital DEEP MOISTURE GEL </h5>
+                    <p class="description">Цель косметической линии EXAGE - заставить кожу нормально вырабатывать
+                        влагу .</p>
+                    <div class="product__price">
+                        <p class="product__price-item product__price-item--old"><del>9000 руб.</del></p>
+                        <p class="product__price-item">9000 руб.</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__header">
+                        <div class="badge badge--blue">Новинка</div>
+                        <div class="product__controls">
+                            <a href="#" class="product__controls-item"><img src="assets/icon/choose.svg" alt=""></a>
+                            <a href="#" class="product__controls-item"><img src="assets/icon/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product__img-container">
+                        <img src="assets/Image/img.png" alt="" class="product__img">
+                    </div>
+                    <div class="product__settings">
+                        <span class="product__indicator product__indicator--green">Есть в наличии</span>
+                        <span class="product__comments">34 отзыва</span>
+                    </div>
+                    <h5>KANEBO Evita Botaniс Vital DEEP MOISTURE GEL </h5>
+                    <p class="description">Цель косметической линии EXAGE - заставить кожу нормально вырабатывать
+                        влагу .</p>
+                    <div class="product__price">
+                        <p class="product__price-item product__price-item--old"><del>9000 руб.</del></p>
+                        <p class="product__price-item">9000 руб.</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__header">
+                        <div class="badge badge--blue">Новинка</div>
+                        <div class="product__controls">
+                            <a href="#" class="product__controls-item"><img src="assets/icon/choose.svg" alt=""></a>
+                            <a href="#" class="product__controls-item"><img src="assets/icon/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product__img-container">
+                        <img src="assets/Image/img.png" alt="" class="product__img">
+                    </div>
+                    <div class="product__settings">
+                        <span class="product__indicator product__indicator--green">Есть в наличии</span>
+                        <span class="product__comments">34 отзыва</span>
+                    </div>
+                    <h5>KANEBO Evita Botaniс Vital DEEP MOISTURE GEL </h5>
+                    <p class="description">Цель косметической линии EXAGE - заставить кожу нормально вырабатывать
+                        влагу .</p>
+                    <div class="product__price">
+                        <p class="product__price-item product__price-item--old"><del>9000 руб.</del></p>
+                        <p class="product__price-item">9000 руб.</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__header">
+                        <div class="badge badge--blue">Новинка</div>
+                        <div class="product__controls">
+                            <a href="#" class="product__controls-item"><img src="assets/icon/choose.svg" alt=""></a>
+                            <a href="#" class="product__controls-item"><img src="assets/icon/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product__img-container">
+                        <img src="assets/Image/img.png" alt="" class="product__img">
+                    </div>
+                    <div class="product__settings">
+                        <span class="product__indicator product__indicator--green">Есть в наличии</span>
+                        <span class="product__comments">34 отзыва</span>
+                    </div>
+                    <h5>KANEBO Evita Botaniс Vital DEEP MOISTURE GEL </h5>
+                    <p class="description">Цель косметической линии EXAGE - заставить кожу нормально вырабатывать
+                        влагу .</p>
+                    <div class="product__price">
+                        <p class="product__price-item product__price-item--old"><del>9000 руб.</del></p>
+                        <p class="product__price-item">9000 руб.</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__header">
+                        <div class="badge badge--blue">Новинка</div>
+                        <div class="product__controls">
+                            <a href="#" class="product__controls-item"><img src="assets/icon/choose.svg" alt=""></a>
+                            <a href="#" class="product__controls-item"><img src="assets/icon/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product__img-container">
+                        <img src="assets/Image/img.png" alt="" class="product__img">
+                    </div>
+                    <div class="product__settings">
+                        <span class="product__indicator product__indicator--green">Есть в наличии</span>
+                        <span class="product__comments">34 отзыва</span>
+                    </div>
+                    <h5>KANEBO Evita Botaniс Vital DEEP MOISTURE GEL </h5>
+                    <p class="description">Цель косметической линии EXAGE - заставить кожу нормально вырабатывать
+                        влагу .</p>
+                    <div class="product__price">
+                        <p class="product__price-item product__price-item--old"><del>9000 руб.</del></p>
+                        <p class="product__price-item">9000 руб.</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__header">
+                        <div class="badge badge--blue">Новинка</div>
+                        <div class="product__controls">
+                            <a href="#" class="product__controls-item"><img src="assets/icon/choose.svg" alt=""></a>
+                            <a href="#" class="product__controls-item"><img src="assets/icon/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product__img-container">
+                        <img src="assets/Image/img.png" alt="" class="product__img">
+                    </div>
+                    <div class="product__settings">
+                        <span class="product__indicator product__indicator--green">Есть в наличии</span>
+                        <span class="product__comments">34 отзыва</span>
+                    </div>
+                    <h5>KANEBO Evita Botaniс Vital DEEP MOISTURE GEL </h5>
+                    <p class="description">Цель косметической линии EXAGE - заставить кожу нормально вырабатывать
+                        влагу .</p>
+                    <div class="product__price">
+                        <p class="product__price-item product__price-item--old"><del>9000 руб.</del></p>
+                        <p class="product__price-item">9000 руб.</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__header">
+                        <div class="badge badge--blue">Новинка</div>
+                        <div class="product__controls">
+                            <a href="#" class="product__controls-item"><img src="assets/icon/choose.svg" alt=""></a>
+                            <a href="#" class="product__controls-item"><img src="assets/icon/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product__img-container">
+                        <img src="assets/Image/img.png" alt="" class="product__img">
+                    </div>
+                    <div class="product__settings">
+                        <span class="product__indicator product__indicator--green">Есть в наличии</span>
+                        <span class="product__comments">34 отзыва</span>
+                    </div>
+                    <h5>KANEBO Evita Botaniс Vital DEEP MOISTURE GEL </h5>
+                    <p class="description">Цель косметической линии EXAGE - заставить кожу нормально вырабатывать
+                        влагу .</p>
+                    <div class="product__price">
+                        <p class="product__price-item product__price-item--old"><del>9000 руб.</del></p>
+                        <p class="product__price-item">9000 руб.</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__header">
+                        <div class="badge badge--blue">Новинка</div>
+                        <div class="product__controls">
+                            <a href="#" class="product__controls-item"><img src="assets/icon/choose.svg" alt=""></a>
+                            <a href="#" class="product__controls-item"><img src="assets/icon/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product__img-container">
+                        <img src="assets/Image/img.png" alt="" class="product__img">
+                    </div>
+                    <div class="product__settings">
+                        <span class="product__indicator product__indicator--green">Есть в наличии</span>
+                        <span class="product__comments">34 отзыва</span>
+                    </div>
+                    <h5>KANEBO Evita Botaniс Vital DEEP MOISTURE GEL </h5>
+                    <p class="description">Цель косметической линии EXAGE - заставить кожу нормально вырабатывать
+                        влагу .</p>
+                    <div class="product__price">
+                        <p class="product__price-item product__price-item--old"><del>9000 руб.</del></p>
+                        <p class="product__price-item">9000 руб.</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__header">
+                        <div class="badge badge--blue">Новинка</div>
+                        <div class="product__controls">
+                            <a href="#" class="product__controls-item"><img src="assets/icon/choose.svg" alt=""></a>
+                            <a href="#" class="product__controls-item"><img src="assets/icon/favorite.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="product__img-container">
+                        <img src="assets/Image/img.png" alt="" class="product__img">
+                    </div>
+                    <div class="product__settings">
+                        <span class="product__indicator product__indicator--green">Есть в наличии</span>
+                        <span class="product__comments">34 отзыва</span>
+                    </div>
+                    <h5>KANEBO Evita Botaniс Vital DEEP MOISTURE GEL </h5>
+                    <p class="description">Цель косметической линии EXAGE - заставить кожу нормально вырабатывать
+                        влагу .</p>
+                    <div class="product__price">
+                        <p class="product__price-item product__price-item--old"><del>9000 руб.</del></p>
+                        <p class="product__price-item">9000 руб.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="expandable">
+            <a href="#expandable-show-2" class="expandable__button expandable__button--show" id="expandable-show-2">Прочитать полностью</a>
+            <a href="#expandable-hide-2" class="expandable__button expandable__button--hide" id="expandable-hide-2">Скрыть</a>
+            <div class="expandable__content">
+                Let us not wallow in the valley of despair, I say to you today, my friends.
+                And so even though we face the difficulties of today and tomorrow, I still have a dream. It is a dream deeply rooted in the American dream.
+                I have a dream that one day this nation will rise up and live out the true meaning of its creed: "We hold these truths to be self-evident, that all men are created equal."
+                I have a dream that one day on the red hills of Georgia, the sons of former slaves and the sons of former slave owners will be able to sit down together at the table of brotherhood.
+                I have a dream that one day even the state of Mississippi, a state sweltering with the heat of injustice, sweltering with the heat of oppression, will be transformed into an oasis of freedom and justice.
+                I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.
+                I have a dream today!
+
+                I have a dream that one day, down in Alabama, with its vicious racists, with its governor having his lips dripping with the words of "interposition" and "nullification" -- one day right there in Alabama little black boys and black girls will be able to join hands with little white boys and white girls as sisters and brothers.
+
+                I have a dream today!
+
+                I have a dream that one day every valley shall be exalted, and every hill and mountain shall be made low, the rough places will be made plain, and the crooked places will be made straight; "and the glory of the Lord shall be revealed and all flesh shall see it together."2
+
+                This is our hope, and this is the faith that I go back to the South with.
+
+                With this faith, we will be able to hew out of the mountain of despair a stone of hope. With this faith, we will be able to transform the jangling discords of our nation into a beautiful symphony of brotherhood. With this faith, we will be able to work together, to pray together, to struggle together, to go to jail together, to stand up for freedom together, knowing that we will be free one day.
+
+                And this will be the day -- this will be the day when all of God's children will be able to sing with new meaning:
+
+                My country 'tis of thee, sweet land of liberty, of thee I sing.
+
+                Land where my fathers died, land of the Pilgrim's pride,
+
+                From every mountainside, let freedom ring!
+
+                And if America is to be a great nation, this must become true.
+
+                And so let freedom ring from the prodigious hilltops of New Hampshire.
+
+                Let freedom ring from the mighty mountains of New York.
+
+                Let freedom ring from the heightening Alleghenies of Pennsylvania.
+
+                Let freedom ring from the snow-capped Rockies of Colorado.
+
+                Let freedom ring from the curvaceous slopes of California.
+
+                But not only that:
+
+                Let freedom ring from Stone Mountain of Georgia.
+
+                Let freedom ring from Lookout Mountain of Tennessee.
+
+                Let freedom ring from every hill and molehill of Mississippi.
+
+                From every mountainside, let freedom ring.
+
+                And when this happens, and when we allow freedom ring, when we let it ring from every village and every hamlet, from every state and every city, we will be able to speed up that day when all of God's children, black men and white men, Jews and Gentiles, Protestants and Catholics, will be able to join hands and sing in the words of the old Negro spiritual:
+
+                Free at last! Free at last!
+
+                Thank God Almighty, we are free at last!
+
+            </div>
+            <div class="expandable__fade"></div>
+        </div>
+    </div>
+    <div class="news">
+        <div class="container">
+            <h4 class="category__title">Новости на HealthJapan</h4>
+            <div class="row row--fixed">
+                <div class="post post-img-1">
+                    <div class="post__container">
+                        <h5>Секреты идеальной кожи из Кореи</h5>
+                        <span class="post__separator"></span>
+                        <p class="post__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Praesent urna leo, rutrum…</p>
+                        <a href="#" class="post__link">Читать полностью</a>
+                    </div>
+                </div>
+                <div class="post post-img-2">
+                    <div class="post__container">
+                        <h5>Макияжа Giorgio Armani</h5>
+                        <span class="post__separator"></span>
+                        <p class="post__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Praesent urna leo, rutrum…</p>
+                        <a href="#" class="post__link">Читать полностью</a>
+                    </div>
+                </div>
+                <div class="post post-img-1">
+                    <div class="post__container">
+                        <h5>Уход за собой топ 5 способов</h5>
+                        <span class="post__separator"></span>
+                        <p class="post__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Praesent urna leo, rutrum…</p>
+                        <a href="#" class="post__link">Читать полностью</a>
+                    </div>
+                </div>
+                <div class="post post-img-2">
+                    <div class="post__container">
+                        <h5>Уход за собой топ 5 способов</h5>
+                        <span class="post__separator"></span>
+                        <p class="post__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Praesent urna leo, rutrum…</p>
+                        <a href="#" class="post__link">Читать полностью</a>
+                    </div>
+                </div>
+                <div class="post post-img-1">
+                    <div class="post__container">
+                        <h5>Уход за собой топ 5 способов</h5>
+                        <span class="post__separator"></span>
+                        <p class="post__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Praesent urna leo, rutrum…</p>
+                        <a href="#" class="post__link">Читать полностью</a>
+                    </div>
+                </div>
+            </div>
+            <button class="button button__color--brilliant button__size--large">Посмотреть еще</button>
+        </div>
+    </div>
+    <div class="content">
+        <div class="expandable">
+            <a href="#expandable-show-3" class="expandable__button expandable__button--show" id="expandable-show-3">Прочитать полностью</a>
+            <a href="#expandable-hide-3" class="expandable__button expandable__button--hide" id="expandable-hide-3">Скрыть</a>
+            <div class="expandable__content">
+                Let us not wallow in the valley of despair, I say to you today, my friends.
+                And so even though we face the difficulties of today and tomorrow, I still have a dream. It is a dream deeply rooted in the American dream.
+                I have a dream that one day this nation will rise up and live out the true meaning of its creed: "We hold these truths to be self-evident, that all men are created equal."
+                I have a dream that one day on the red hills of Georgia, the sons of former slaves and the sons of former slave owners will be able to sit down together at the table of brotherhood.
+                I have a dream that one day even the state of Mississippi, a state sweltering with the heat of injustice, sweltering with the heat of oppression, will be transformed into an oasis of freedom and justice.
+                I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.
+                I have a dream today!
+
+                I have a dream that one day, down in Alabama, with its vicious racists, with its governor having his lips dripping with the words of "interposition" and "nullification" -- one day right there in Alabama little black boys and black girls will be able to join hands with little white boys and white girls as sisters and brothers.
+
+                I have a dream today!
+
+                I have a dream that one day every valley shall be exalted, and every hill and mountain shall be made low, the rough places will be made plain, and the crooked places will be made straight; "and the glory of the Lord shall be revealed and all flesh shall see it together."2
+
+                This is our hope, and this is the faith that I go back to the South with.
+
+                With this faith, we will be able to hew out of the mountain of despair a stone of hope. With this faith, we will be able to transform the jangling discords of our nation into a beautiful symphony of brotherhood. With this faith, we will be able to work together, to pray together, to struggle together, to go to jail together, to stand up for freedom together, knowing that we will be free one day.
+
+                And this will be the day -- this will be the day when all of God's children will be able to sing with new meaning:
+
+                My country 'tis of thee, sweet land of liberty, of thee I sing.
+
+                Land where my fathers died, land of the Pilgrim's pride,
+
+                From every mountainside, let freedom ring!
+
+                And if America is to be a great nation, this must become true.
+
+                And so let freedom ring from the prodigious hilltops of New Hampshire.
+
+                Let freedom ring from the mighty mountains of New York.
+
+                Let freedom ring from the heightening Alleghenies of Pennsylvania.
+
+                Let freedom ring from the snow-capped Rockies of Colorado.
+
+                Let freedom ring from the curvaceous slopes of California.
+
+                But not only that:
+
+                Let freedom ring from Stone Mountain of Georgia.
+
+                Let freedom ring from Lookout Mountain of Tennessee.
+
+                Let freedom ring from every hill and molehill of Mississippi.
+
+                From every mountainside, let freedom ring.
+
+                And when this happens, and when we allow freedom ring, when we let it ring from every village and every hamlet, from every state and every city, we will be able to speed up that day when all of God's children, black men and white men, Jews and Gentiles, Protestants and Catholics, will be able to join hands and sing in the words of the old Negro spiritual:
+
+                Free at last! Free at last!
+
+                Thank God Almighty, we are free at last!
+
+            </div>
+            <div class="expandable__fade"></div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="row row--fixed">
+            <div class="footer__column">
+                <img src="assets/logo.png" alt="" class="footer__img">
+                <p class="footer__description footer__description--margin">Онлайн магазин -<br> японских витаминов.</p>
+                <a href="mailto:info@healthjapan.ru" class="footer__email">info@healthjapan.ru</a>
+                <p class="footer__phone">0120-348-920</p>
+                <p class="footer__phone-description">Офис в японии</p>
+                <p class="footer__phone">+7 (950) 282-04-21</p>
+                <p class="footer__phone-description">Партнеры во владивостоке</p>
+            </div>
+            <div class="footer__column">
+                <h6>Каталог товаров</h6>
+                <ul class="footer__menu">
+                    <li class="footer__menu-item"><a href="#" class="footer__menu-link">БАДы</a></li>
+                    <li class="footer__menu-item"><a href="#" class="footer__menu-link">Витамины</a></li>
+                    <li class="footer__menu-item"><a href="#" class="footer__menu-link">Лекарственные средства</a></li>
+                    <li class="footer__menu-item"><a href="#" class="footer__menu-link">Косметика</a></li>
+                    <li class="footer__menu-item"><a href="#" class="footer__menu-link">Японский чай</a></li>
+                    <li class="footer__menu-item"><a href="#" class="footer__menu-link">Плацентарная косметика</a></li>
+                    <li class="footer__menu-item"><a href="#" class="footer__menu-link">Магнитные изделия</a></li>
+                    <li class="footer__menu-item"><a href="#" class="footer__menu-link">Хиты продаж</a></li>
+                    <li class="footer__menu-item"><a href="#" class="footer__menu-link">Косметологические аппараты</a></li>
+                    <li class="footer__menu-item"><a href="#" class="footer__menu-link">Спортивное питание</a></li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <h6>Инф. для покупателей</h6>
+                <ul class="footer__menu">
+                    <li class="footer__menu-item"><a href="#" class="footer__menu-link">Политика конфеденциальности</a></li>
+                    <li class="footer__menu-item"><a href="#" class="footer__menu-link">Условия соглашения</a></li>
+                </ul>
+            </div>
+            <div class="footer__column footer__column--basis">
+                <h6>Инф. для покупателей</h6>
+                <p class="footer__description">Подпишитесь и получайте новости об акциях и специальных<br> предложениях</p>
+                <div class="subscribe">
+                    <input type="email" placeholder="Ваш E-mail" class="subscribe__input">
+                    <button class="button button__size--small button__color--brilliant" type="submit">Подписка</button>
+                </div>
+                <h6>Способы оплаты:</h6>
+                <ul class="footer__pay">
+                    <li class="footer__pay-item"><img src="assets/logos/sber.svg" alt="" class="footer__pay-img"></li>
+                    <li class="footer__pay-item"><img src="assets/logos/visa.svg" alt="" class="footer__pay-img"></li>
+                    <li class="footer__pay-item"><img src="assets/logos/mc.svg" alt="" class="footer__pay-img"></li>
+                    <li class="footer__pay-item"><img src="assets/logos/swift.svg" alt="" class="footer__pay-img"></li>
+                    <li class="footer__pay-item"><img src="assets/logos/pp.svg" alt="" class="footer__pay-img"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__policy">© 2018 JapanKenko.ru - все права защищены.  Разработано в Polyarix</div>
+    </footer>
+
+    <script src="js/scripts.min.js"></script>
+
+</body>
+</html>
