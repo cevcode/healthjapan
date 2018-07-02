@@ -69,5 +69,13 @@ $('.card__nav').slick({
     focusOnSelect: true
 });
 
+var counter = 1;
+$('#counter_add').click(function () {
+    $('#counter').val(++counter);
+});
+$('#counter_dec').click(function () {
+    $('#counter').val(--counter);
+});
+
 
 
