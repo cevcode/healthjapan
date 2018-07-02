@@ -42,7 +42,7 @@ gulp.task('js', ['common-js'], function() {
 		'app/js/common.min.js', // Always end
 		])
 	.pipe(concat('scripts.min.js'))
-	// .pipe(uglify()) // For minimize all js files
+	.pipe(uglify()) // For minimize all js files
 	.pipe(gulp.dest('app/js'))
 	.pipe(browserSync.reload({ stream: true }));
 });
