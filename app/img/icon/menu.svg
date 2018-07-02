@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="13px" viewBox="0 0 18 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu" transform="translate(-51.000000, -123.000000)" fill="#FFFFFF">
+            <g id="Second-menu" transform="translate(0.000000, 88.000000)">
+                <g id="Burger-button">
+                    <path d="M52.5,35 L67.5,35 C68.3284271,35 69,35.6715729 69,36.5 C69,37.3284271 68.3284271,38 67.5,38 L52.5,38 C51.6715729,38 51,37.3284271 51,36.5 C51,35.6715729 51.6715729,35 52.5,35 Z M52.5,40 L67.5,40 C68.3284271,40 69,40.6715729 69,41.5 C69,42.3284271 68.3284271,43 67.5,43 L52.5,43 C51.6715729,43 51,42.3284271 51,41.5 C51,40.6715729 51.6715729,40 52.5,40 Z M52.5,45 L67.5,45 C68.3284271,45 69,45.6715729 69,46.5 C69,47.3284271 68.3284271,48 67.5,48 L52.5,48 C51.6715729,48 51,47.3284271 51,46.5 C51,45.6715729 51.6715729,45 52.5,45 Z" id="menu"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
