@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d32ebb9-35af-4e1e-ab47-fa026085a173" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/filter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/close-red.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/pages/filter.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/ui/checkbox.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/widgets/filter.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/widgets/pagination.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/widgets/sorter.scss" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/card.html" afterPath="$PROJECT_DIR$/app/card.html" />
-      <change beforePath="$PROJECT_DIR$/app/guide.html" afterPath="$PROJECT_DIR$/app/guide.html" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change beforePath="$PROJECT_DIR$/app/sass/libs/slick-theme.scss" afterPath="$PROJECT_DIR$/app/sass/libs/slick-theme.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/card.scss" afterPath="$PROJECT_DIR$/app/sass/pages/card.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/index.scss" afterPath="$PROJECT_DIR$/app/sass/pages/index.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/ui/container.scss" afterPath="$PROJECT_DIR$/app/sass/ui/container.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/ui/index.scss" afterPath="$PROJECT_DIR$/app/sass/ui/index.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/ui/input.scss" afterPath="$PROJECT_DIR$/app/sass/ui/input.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/ui/post.scss" afterPath="$PROJECT_DIR$/app/sass/ui/post.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/catalog.scss" afterPath="$PROJECT_DIR$/app/sass/widgets/catalog.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/dropdown.scss" afterPath="$PROJECT_DIR$/app/sass/widgets/dropdown.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/expandable.scss" afterPath="$PROJECT_DIR$/app/sass/widgets/expandable.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/index.scss" afterPath="$PROJECT_DIR$/app/sass/widgets/index.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/product.scss" afterPath="$PROJECT_DIR$/app/sass/widgets/product.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/search.scss" afterPath="$PROJECT_DIR$/app/sass/widgets/search.scss" />
+      <change beforePath="$PROJECT_DIR$/dist/card.html" afterPath="$PROJECT_DIR$/dist/card.html" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" afterPath="$PROJECT_DIR$/dist/css/main.min.css" />
+      <change beforePath="$PROJECT_DIR$/dist/guide.html" afterPath="$PROJECT_DIR$/dist/guide.html" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -738,11 +719,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530568637025</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="added filters page">
+      <created>1530745576350</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1530745576350</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80687000" />
+    <option name="totallyTimeSpent" value="80743000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="22" width="1440" height="813" extended-state="6" />
@@ -753,7 +741,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29646018" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29526463" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -805,7 +793,8 @@
     <MESSAGE value="added widget counter" />
     <MESSAGE value="added dist" />
     <MESSAGE value="uglify js" />
-    <option name="LAST_COMMIT_MESSAGE" value="uglify js" />
+    <MESSAGE value="added filters page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added filters page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
