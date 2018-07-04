@@ -15,8 +15,8 @@
     color: $white;
     padding-left: rem(25px);
     position: relative;
-    @include before('../../../assets/icon/menu.svg', 18px, 13px, 33px, auto, auto, 55px);
-    @include after('../../../assets/icon/more-white.svg', 9px, 5px, 37px, 25px, auto, auto);
+    @include before('../../../img/icon/menu.svg', 18px, 13px, 33px, auto, auto, 55px);
+    @include after('../../../img/icon/more-white.svg', 9px, 5px, 37px, 25px, auto, auto);
   }
   &__menu {
     position: absolute;

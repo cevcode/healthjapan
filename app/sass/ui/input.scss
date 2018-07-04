@@ -16,14 +16,14 @@
       .input {
         border: rem(1px solid $blue);
       }
-      @include before('../../../assets/icon/close.svg', 10px, 10px, 45px, 20px, auto, auto);
+      @include before('../../../img/icon/close.svg', 10px, 10px, 45px, 20px, auto, auto);
 
     }
     &--error {
       .input {
         border: rem(1px solid $red);
       }
-      @include before('../../../assets/icon/close.svg', 10px, 10px, 45px, 20px, auto, auto);
+      @include before('../../../img/icon/close.svg', 10px, 10px, 45px, 20px, auto, auto);
     }
   }
   &__size {

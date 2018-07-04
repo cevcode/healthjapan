@@ -10,7 +10,7 @@
     border-right: 0;
     align-items: center;
     position: relative;
-    @include before('../../../assets/search.svg', 18px, 18px, 17px, auto, auto, 20px);
+    @include before('../../../img/search.svg', 18px, 18px, 17px, auto, auto, 20px);
   }
   &__input {
     border: none;
@@ -31,7 +31,7 @@
       width: rem(130px);
       font-size: rem(14px);
       position: relative;
-      @include after('../../../assets/icon/more-grey.svg', 9px, 6px, 7px, 12px, auto, auto);
+      @include after('../../../img/icon/more-grey.svg', 9px, 6px, 7px, 12px, auto, auto);
     }
     &-submit {
       width: rem(100px);

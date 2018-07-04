@@ -12,6 +12,11 @@
     width: rem(1230px);
     padding: rem(0 15px);
   }
+  &--filter {
+    width: rem(1525px);
+    margin: auto;
+    padding-top: rem(40px);
+  }
 }
 .row {
   display: flex;

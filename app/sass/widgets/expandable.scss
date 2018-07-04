@@ -30,7 +30,7 @@ $bg-color: rgb(255,255,255);
     text-decoration: none;
     @include main-font(400);
     text-align: center;
-    @include before('../../../assets/icon/more.svg', 8px, 6px, 7px, -15px, auto, auto);
+    @include before('../../../img/icon/more.svg', 8px, 6px, 7px, -15px, auto, auto);
     &--show, &--hide {
       position: absolute;
       bottom: rem(-10px);
@@ -54,6 +54,21 @@ $bg-color: rgb(255,255,255);
     }
     &--show:target ~ .expandable__fade {
       margin-top: 0;
+    }
+  }
+  &--filters {
+    .expandable__content {
+      width: 100%;
+      max-height: rem(330px);
+    }
+    .expandable__fade {
+      background: $white;
+      height: rem(20px);
+      margin-top: rem(-20px);
+    }
+    .expandable__button--hide, .expandable__button--show {
+      text-align: left;
+      left: 0;
     }
   }
 }

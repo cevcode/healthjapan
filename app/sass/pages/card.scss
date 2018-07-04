@@ -53,7 +53,7 @@ $mr: rem(20px);
       margin-right: rem(20px);
       padding: rem(0 5px);
       position: relative;
-      @include after('../../../assets/icon/more-black.svg', 9px, 6px, 10px, -20px, auto, auto);
+      @include after('../../../img/icon/more-black.svg', 9px, 6px, 10px, -20px, auto, auto);
     }
   }
   &__price {

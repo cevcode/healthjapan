@@ -50,7 +50,7 @@
     }
   }
   &__comments {
-    @include before('../../assets/icon/reviews-icon.svg', 12px, 9px, 4px, auto, auto, -15px);
+    @include before('../../img/icon/reviews-icon.svg', 12px, 9px, 4px, auto, auto, -15px);
   }
   h5 {
     padding: rem(20px 25px 15px 25px);

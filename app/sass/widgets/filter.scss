@@ -1,0 +1,119 @@
+@import "../helpers/index";
+
+$bgChoose: #efefef;
+$bgItemChoose: #d8d8d8;
+
+@mixin blockStyle() {
+  padding-bottom: rem(25px);
+  border-bottom: rem(1px solid #cad2dc);
+  margin-bottom: rem(25px);
+}
+
+.filter {
+  min-width: rem(285px);
+  margin-right: rem(12.5px);
+  &__inner {
+    padding: rem(25px);
+    box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
+    h5 {
+      margin-bottom: rem(15px);
+    }
+  }
+  &__choose {
+    background-color: $bgChoose;
+    padding: rem(25px);
+    box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
+  }
+  &__price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include blockStyle;
+
+  }
+  &__brand {
+    border-bottom: rem(1px solid #cad2dc);
+    margin-bottom: rem(25px);
+  }
+  &__comments {
+    @include blockStyle;
+  }
+  &__for {
+    @include blockStyle;
+  }
+}
+
+.choose {
+  &__item {
+    background-color: $bgItemChoose;
+    border-radius: rem(9.5px);
+    height: rem(20px);
+    display: inline-flex;
+    align-items: center;
+    margin: rem(7.5px 0);
+    padding: rem(5px 10px);
+    &:nth-child(even) {
+      margin-left: rem(7.5px);
+    }
+    p {
+      font-size: rem(14px);
+      color: $brown;
+    }
+  }
+  &__clear {
+    background-color: transparent;
+    background-image: url('../../img/icon/close-red.svg');
+    background-repeat: no-repeat;
+    width: rem(8px);
+    height: rem(8px);
+    background-size: contain;
+    border: none;
+    margin-left: rem(2px);
+    &-all {
+      font-size: rem(14px);
+      @include main-font(300);
+      color: $lightRed;
+      line-height: 1.43;
+      background-color: transparent;
+      border: none;
+      position: relative;
+      width: 100%;
+      &:before {
+        content: '';
+        position: absolute;
+        top: rem(6px);
+        left: rem(60px);
+        background-image: url('../../img/icon/close-red.svg');
+        width: rem(8px);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: rem(8px);
+      }
+    }
+  }
+  &__container {
+    padding: rem(5px 0 15px 0);
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.price {
+  &__field {
+    display: flex;
+    align-items: center;
+    label {
+      font-size: rem(14px);
+      color: $brown;
+      line-height: 2.21;
+      margin-right: rem(10px);
+    }
+    input {
+      width: rem(75px);
+      height: rem(40px);
+      border: rem(1px solid rgba(75, 101, 132, 0.3));
+      text-align: center;
+      color: $brown;
+    }
+  }
+}
