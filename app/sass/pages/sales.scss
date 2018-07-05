@@ -1,0 +1,18 @@
+@import '../helpers/index';
+
+.sales {
+  h4 {
+    font-size: 30px;
+    text-transform: none;
+    letter-spacing: 0;
+    @include main-font(600);
+    padding: rem(0 15px);
+    margin: rem(10px 0 40px 0);
+  }
+  .post:first-child {
+    margin-left: rem(12.5px);
+  }
+  .post:last-child {
+    margin-right: rem(12.5px);
+  }
+}
