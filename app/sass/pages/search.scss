@@ -1,0 +1,22 @@
+@import '../helpers/index';
+
+.search {
+  &__top {
+    display: flex;
+    align-items: center;
+    &-result {
+      font-size: rem(20px);
+      position: relative;
+      line-height: 1.35;
+      margin-bottom: rem(22px);
+      margin-left: rem(15px);
+      span:first-child {
+        font-size: 24px;
+        @include main-font(600);
+      }
+    }
+    .sorter {
+      margin-left: rem(50px);
+    }
+  }
+}

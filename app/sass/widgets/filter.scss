@@ -14,6 +14,7 @@ $bgItemChoose: #d8d8d8;
   margin-right: rem(12.5px);
   &__inner {
     padding: rem(25px);
+    position: relative;
     box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
     h5 {
       margin-bottom: rem(15px);
@@ -40,6 +41,32 @@ $bgItemChoose: #d8d8d8;
   }
   &__for {
     @include blockStyle;
+  }
+  &__result {
+    bottom: rem(350px);
+    right: rem(-170px);
+    background-color: $brilliant;
+    line-height: 1;
+    position: absolute;
+    height: rem(60px);
+    padding: rem(15px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    font-size: rem(14px);
+    box-shadow: 0 0 15px 0 rgba(227, 227, 227, 0.5);
+    text-decoration: underline;
+    &:before {
+      content: '';
+      position: absolute;
+      top: rem(20px);
+      left: rem(-10px);
+      width: rem(20px);
+      height: rem(20px);
+      background-color: $brilliant;
+      transform: rotate(45deg);
+    }
   }
 }
 
