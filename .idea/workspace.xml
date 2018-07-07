@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d32ebb9-35af-4e1e-ab47-fa026085a173" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/one-sale-page.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/widgets/timer.scss" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.js" afterPath="$PROJECT_DIR$/app/js/common.js" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.min.js" afterPath="$PROJECT_DIR$/app/js/common.min.js" />
-      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/index.scss" afterPath="$PROJECT_DIR$/app/sass/widgets/index.scss" />
-      <change beforePath="$PROJECT_DIR$/dist/js/scripts.min.js" afterPath="$PROJECT_DIR$/dist/js/scripts.min.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -367,7 +360,7 @@
       <updated>1529606659994</updated>
       <workItem from="1529606662682" duration="334000" />
       <workItem from="1529607003829" duration="3753000" />
-      <workItem from="1530966345886" duration="5828000" />
+      <workItem from="1530966345886" duration="5872000" />
     </task>
     <task id="LOCAL-00001" summary="added base components &amp;&amp; added colors to ui-kit page">
       <created>1529615458545</created>
@@ -565,15 +558,21 @@
       <option name="project" value="LOCAL" />
       <updated>1530970650818</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="added one-sale-page">
+      <created>1530972452802</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1530972452802</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93236000" />
+    <option name="totallyTimeSpent" value="93280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="814" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -584,7 +583,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32823366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32823366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -627,7 +626,8 @@
     <MESSAGE value="rebuild" />
     <MESSAGE value="added news page &amp;&amp; table widget &amp;&amp; accordion widget" />
     <MESSAGE value="update dist" />
-    <option name="LAST_COMMIT_MESSAGE" value="update dist" />
+    <MESSAGE value="added one-sale-page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added one-sale-page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
