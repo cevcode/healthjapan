@@ -1,0 +1,30 @@
+@import "../helpers/index";
+
+$bgHeading: #ecf1f5;
+$bgItem: #f9f9f9;
+
+.table {
+  width: 100%;
+  border-spacing: 0;
+  &__row {
+    height: 75px;
+  }
+  td,th {
+    border-right: rem(1px solid #e6e6e6);
+    padding: rem(0 25px);
+    text-align: left;
+    &:last-child {
+      border-right: 0;
+    }
+  }
+  &__heading {
+    background-color: $bgHeading;
+  }
+  tbody {
+    tr {
+      &:nth-child(even) {
+        background-color: $bgItem;
+      }
+    }
+  }
+}

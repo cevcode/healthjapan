@@ -1,0 +1,45 @@
+@import "../helpers/index";
+
+.accordion {
+  &__title {
+    color: $black;
+    cursor: pointer;
+    padding: rem(15px 0);
+    border: 0;
+    border-top: rem(1px solid #e6e6e6);
+    border-bottom: rem(1px solid #e6e6e6);
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.3s;
+    margin-bottom: rem(20px);
+    position: relative;
+    &:after {
+      content: '';
+      position: absolute;
+      background-image: url('../../img/icon/more-grey.svg');
+      background-repeat: no-repeat;
+      width: rem(10px);
+      top: rem(20px);
+      right: rem(10px);
+      height: rem(8px);
+    }
+  }
+  &__content {
+    max-height: 0;
+    overflow: hidden;
+    color: $brown;
+    transition: max-height 0.2s ease-out;
+    margin-bottom: rem(20px);
+  }
+
+}
+
+.active {
+  border-bottom: 0;
+  &:after {
+    transform: rotate(180deg);
+    transition: .3s;
+  }
+}
+

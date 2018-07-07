@@ -1,0 +1,13 @@
+@import '../helpers/index';
+
+.news {
+  &__title {
+    letter-spacing: 0;
+    text-align: center;
+    @include main-font(600);
+    padding-bottom: rem(40px);
+  }
+  .card__image {
+    margin-top: rem(20px);
+  }
+}

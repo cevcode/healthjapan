@@ -77,5 +77,23 @@ $('#counter_dec').click(function () {
     $('#counter').val(--counter);
 });
 
+var acc = document.getElementsByClassName("accordion__title");
+var i;
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+            panel.style.maxHeight = null;
+            panel.style.padding = null;
+            panel.style.borderBottom = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + 20 + "px";
+            panel.style.padding = "0 0 20px 0";
+            panel.style.borderBottom = "1px solid #e6e6e6";
+        }
+    });
+}
+
 
 
