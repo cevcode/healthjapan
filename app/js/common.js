@@ -93,7 +93,36 @@ for (i = 0; i < acc.length; i++) {
             panel.style.borderBottom = "1px solid #e6e6e6";
         }
     });
+};
+
+var remain_bv   = 1000000;
+function parseTime_bv(timestamp){
+    if (timestamp < 0) timestamp = 0;
+
+    var day = Math.floor( (timestamp/60/60) / 24);
+    var hour = Math.floor(timestamp/60/60);
+    var mins = Math.floor((timestamp - hour*60*60)/60);
+    var left_hour = Math.floor( (timestamp - day*24*60*60) / 60 / 60 );
+
+    $('span.timer__days').text(day + ':');
+    $('span.timer__hours').text(left_hour + ':');
+
+    if(String(mins).length > 1)
+        $('span.timer__minutes').text(mins);
+    else
+        $('span.timer__minutes').text("0" + mins);
 }
+
+$(document).ready(function(){
+    setInterval(function(){
+        remain_bv = remain_bv - 1;
+        parseTime_bv(remain_bv);
+        if(remain_bv <= 0){
+            alert('need update remain_bv');
+        }
+    }, 1000);
+});
+
 
 
 
