@@ -1,0 +1,75 @@
+@import '../helpers/index';
+
+.review {
+  &__header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: rem(40px);
+    .button {
+      margin: auto;
+    }
+    h6 {
+      margin-bottom: rem(40px);
+    }
+  }
+  &__item {
+    height: rem(220px);
+    width: 100%;
+    margin-bottom: rem(15px);
+    display: flex;
+    padding: rem(35px 0);
+    box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
+    background-color: $white;
+    &--answer {
+      margin-left: rem(155px);
+      width: calc(100% - 9.6875rem);
+      .review__content {
+        p {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  &__author {
+    min-width: rem(155px);
+    display: flex;
+    justify-content: center;
+    p {
+      color: $brown;
+      font-size: rem(14px);
+      @include main-font(600);
+    }
+  }
+  &__content {
+    p {
+      color: $brown;
+      font-size: rem(14px);
+      @include main-font(400);
+      line-height: 1.86;
+      margin-right: rem(155px);
+      margin-bottom: rem(40px);
+      max-height: rem(80px);
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  &__button {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    color: $cyan;
+    font-size: rem(14px);
+    padding-left: rem(40px);
+    &:before {
+      content: '';
+      position: absolute;
+      top: rem(-3px);
+      left: 0;
+      width: rem(26px);
+      height: rem(26px);
+      border: rem(1px solid $cyan);
+      border-radius: 100%;
+    }
+  }
+}
+
