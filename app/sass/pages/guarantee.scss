@@ -1,6 +1,6 @@
 @import '../helpers/index';
 
-.delivery {
+.guarantee {
   margin-bottom: rem(105px);
   .description {
     color: $brown;
@@ -13,9 +13,9 @@
       position: absolute;
       top: rem(30px);
       left: 0;
-      width: rem(56px);
-      height: rem(55px);
-      background-image: url('../../img/icon/order.svg');
+      width: rem(65px);
+      height: rem(52px);
+      background-image: url('../../img/icon/card-lock.svg');
       background-repeat: no-repeat;
       -webkit-background-size: contain;
       background-size: contain;
@@ -38,13 +38,20 @@
   }
   &__content {
     h6 {
-      margin-bottom: rem(25px);
+      margin-top: rem(40px);
     }
-  }
-  &__footer {
-    h6 {
-      color: $lightRed;
-      margin: rem(25px 0 15px 0);
+    .description {
+      margin-top: rem(25px);
+    }
+    ol {
+      margin-top: rem(15px);
+      padding-left: rem(15px);
+    }
+    li {
+      font-size: rem(14px);
+      color: $brown;
+      @include main-font(400);
+      line-height: 1.86;
     }
   }
 }
