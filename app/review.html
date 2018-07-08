@@ -425,7 +425,7 @@
             <div class="card card__content review">
                 <div class="review__header">
                     <h6>Отзывы о Gammalon Гаммалон – ноотропное средство</h6>
-                    <button class="button button__size--large button__color--outline">Оставить отзыв</button>
+                    <button class="button button__size--large button__color--outline" data-remodal-target="modal">Оставить отзыв</button>
                 </div>
                 <div class="review__container">
                     <div class="review__item">
@@ -1041,6 +1041,28 @@
         </div>
         <div class="footer__policy">© 2018 JapanKenko.ru - все права защищены.  Разработано в Polyarix</div>
     </footer>
+    <div class="remodal review__form" data-remodal-id="modal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <h4>Оставить отзыв</h4>
+        <h6>Заполните все поля</h6>
+        <form action="#">
+            <div class="field field__size--full">
+                <label for="comment-fio">Имя Фамилия</label>
+                <input name="comment-fio" type="text" id="comment-fio" placeholder="Игнат" class="input"/>
+            </div>
+            <div class="field field__size--full">
+                <label for="comment-phone">Телефон и почта</label>
+                <input name="comment-phone" type="number" id="comment-phone" placeholder="+7 (979) 123 45 84" class="input"/>
+            </div>
+            <div class="field field__size--full">
+                <label for="comment-content">Комментарий</label>
+                <textarea name="comment-content" id="comment-content" placeholder="Начните набирать текст" class="input"></textarea>
+            </div>
+            <div class="review__form-footer">
+                <button class="button button__size--large button__color--brilliant">Подтвердить заказ</button>
+            </div>
+        </form>
+    </div>
 
     <script src="js/scripts.min.js"></script>
 

@@ -40,6 +40,7 @@ gulp.task('js', ['common-js'], function() {
 		'app/libs/slick-carousel/slick/slick.js',
 		'app/libs/superfish/dist/js/superfish.js',
 		'app/libs/select2/dist/js/select2.min.js',
+		'app/libs/remodal/dist/remodal.min.js',
 		'app/js/common.min.js', // Always end
 		])
 	.pipe(concat('scripts.min.js'))
