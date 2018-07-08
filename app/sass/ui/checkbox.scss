@@ -23,6 +23,15 @@
       background-color: $brilliant;
       border: none;
     }
+    &:disabled ~ .checkmark {
+      background-color: transparent;
+      border: rem(1px solid #d9d9da);
+      &:after {
+        background-image: url('../../img/icon/more-grey.svg');
+        left: rem(3px);
+        top: rem(4px);
+      }
+    }
     &:checked ~ .checkmark:after {
       display: block;
     }
@@ -48,6 +57,28 @@
     content: "";
     position: absolute;
     display: none;
+  }
+}
+
+.checkbox-radio {
+  input {
+    &:checked ~ .checkmark {
+      background-color: $brilliant;
+      border-radius: 100%;
+      &:before {
+        content: '';
+        position: absolute;
+        top: 1px;
+        left: 1px;
+        width: 12px;
+        height: 12px;
+        border: rem(1px solid $white);
+        border-radius: 47%;
+      }
+    }
+  }
+  .checkmark {
+    border-radius: 100%;
   }
 }
 

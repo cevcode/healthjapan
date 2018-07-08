@@ -40,6 +40,9 @@ $(document).ready(function() {
     });
     $('ul.sf-menu').superfish();
 
+    $('.select').select2();
+
+
     toggleDropDown('#cart-btn', '#cart-result', '.dropdown');
     toggleDropDown('#favorite-btn', '#favorite-result', '.dropdown');
     toggleDropDown('#compare-btn', '#compare-result', '.dropdown');

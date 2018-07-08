@@ -33,6 +33,13 @@
         height: rem(45px);
       }
     }
+    &--full {
+      width: 100%;
+      .input {
+        height: rem(45px);
+        width: 100%;
+      }
+    }
   }
 }
 
@@ -43,6 +50,7 @@
   color: $black;
   position: relative;
   font-size: rem(14px);
+  @include main-font(400);
   line-height: 1.36;
   display: flex;
   padding: rem(0 35px 0 20px);
