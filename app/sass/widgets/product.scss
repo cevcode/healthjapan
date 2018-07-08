@@ -31,6 +31,7 @@
   &__settings {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: rem(10px 25px);
     span {
       font-size: rem(12px);
@@ -70,6 +71,22 @@
         font-size: rem(20px);
         @include main-font(400);
       }
+    }
+  }
+  &__delete {
+    width: rem(9px);
+    height: rem(9px);
+    background-color: transparent;
+    border: none;
+    background-image: url('../../img/icon/close-red.svg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  &--compare {
+    padding-top: rem(25px);
+    .product__price {
+      padding-top: 0;
     }
   }
 }

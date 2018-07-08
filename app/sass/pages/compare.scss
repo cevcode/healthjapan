@@ -1,0 +1,116 @@
+@import '../helpers/index';
+
+.compare {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: rem(105px);
+  &__filters {
+    padding: rem(0 25px);
+  }
+  &__filter {
+    width: rem(285px);
+    &-inner {
+      background-color: $white;
+      box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
+      padding: rem(25px 0);
+    }
+    &-list {
+      padding: rem(25px 0);
+    }
+    h6 {
+      margin-bottom: rem(15px);
+      margin-top: rem(25px);
+    }
+    .checkbox__label {
+      text-transform: none;
+      color: $brilliant;
+    }
+    &-item {
+      font-size: rem(14px);
+      line-height: 1.29;
+      color: $black;
+      list-style-type: none;
+      margin-bottom: rem(10px);
+      @include main-font(400);
+      span {
+        @include main-font(700);
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &--active {
+        color: $brilliant;
+        @include main-font(700);
+      }
+    }
+    &-clear {
+      font-size: rem(14px);
+      color: $lightRed;
+      @include main-font(400);
+      position: relative;
+      border: none;
+      padding-left: rem(15px);
+      background-color: transparent;
+      &:before {
+        content: '';
+        position: absolute;
+        width: rem(9px);
+        -webkit-background-size: cover;
+        background-size: cover;
+        height: rem(10px);
+        top: rem(4px);
+        left: 0;
+        background-image: url('../../img/icon/close-red.svg');
+        background-repeat: no-repeat;
+      }
+    }
+  }
+  &__content {
+    margin-left: rem(25px);
+    display: flex;
+    flex-direction: row;
+  }
+  &__data {
+    margin-top: rem(210px);
+    &-item {
+      height: rem(77px);
+      display: flex;
+      align-items: center;
+      padding: rem(0 25px);
+      font-size: rem(14px);
+      line-height: 1.93;
+      @include main-font(600);
+      &:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+      &:nth-child(10) {
+        min-height: rem(160px);
+        height: auto;
+        align-items: flex-start;
+        padding-top: rem(25px);
+      }
+      &:nth-child(11) {
+        min-height: rem(285px);
+        align-items: flex-start;
+        padding-top: rem(25px);
+        height: auto;
+      }
+    }
+  }
+  .product {
+    margin-top: 0;
+    .compare__data {
+      margin-top: 0;
+    }
+    .button {
+      width: 100% !important;
+    }
+    .compare__data-item {
+      line-height: 1.43;
+      @include main-font(400);
+    }
+    h5 {
+      padding-top: 0;
+    }
+  }
+}
