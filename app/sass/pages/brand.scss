@@ -1,0 +1,126 @@
+@import '../helpers/index';
+
+.brand {
+  &--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  &-info {
+    &__inner {
+      min-width: rem(285px);
+      box-shadow: 0 0 15px 0 rgba(227, 227, 227, 0.5);
+    }
+    &__header {
+      background-color: $white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: rem(105px);
+      img {
+        max-width: 130px;
+      }
+    }
+    &__content {
+      background-color: #efefef;
+      padding: rem(25px);
+      h5 {
+        letter-spacing: 0;
+        text-align: center;
+        @include main-font(600);
+      }
+    }
+    &__cert {
+      width: 100%;
+      margin: rem(25px 0);
+    }
+    &__graduation {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+  &-content {
+    font-size: rem(14px);
+    margin-left: rem(25px);
+    color: $brown;
+    line-height: 1.64;
+    &__link {
+      text-decoration: underline;
+      color: $brilliant;
+    }
+  }
+  &-catalog {
+    margin-left: rem(25px);
+    min-width: rem(600px);
+    &__inner {
+      background-color: $white;
+      box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
+      padding: rem(25px);
+    }
+    h4 {
+      letter-spacing: 0;
+      @include main-font(600);
+      font-size: rem(30px);
+    }
+    &__list {
+      margin-top: rem(25px);
+      margin-bottom: rem(5px);
+      font-size: rem(14px);
+      @include main-font(700);
+      line-height: 2.21;
+    }
+    &__item {
+      margin-top: rem(10px);
+      font-size: rem(12px);
+      list-style-type: none;
+      line-height: 1.5;
+      @include main-font(400);
+      color: $cyan;
+      span {
+        @include main-font(700);
+      }
+    }
+  }
+  .listing__container {
+    justify-content: center
+  }
+}
+
+.brand__listing-title {
+  letter-spacing: 0;
+  @include main-font(600);
+}
+
+.brand-graduation__item {
+  width: rem(75px);
+  height: rem(30px);
+  border-radius: rem(5px);
+  overflow: hidden;
+  margin-right: rem(5px);
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  margin-top: rem(5px);
+  color: $white;
+  font-size: rem(7px);
+  &--1 {
+    background-image: linear-gradient(to bottom, #a1cf4f, #429321);
+  }
+  &--2 {
+    background-image: linear-gradient(to bottom, #a8c0ff, #3f2b96);
+  }
+  &--3 {
+    background-image: linear-gradient(to bottom, #4388f2, #2050e0);
+  }
+  &--4 {
+    background-image: linear-gradient(to bottom, #f2c94c, #f2994a);
+  }
+  &:nth-child(3n+3) {
+    margin-right: 0;
+  }
+  p {
+    width: rem(42px);
+    margin-left: rem(33px);
+  }
+}
