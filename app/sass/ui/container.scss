@@ -11,6 +11,9 @@
   &--content {
     width: rem(1230px);
     padding: rem(0 15px);
+    &-small {
+      width: rem(900px);
+    }
   }
   &--filter {
     width: rem(1525px);
