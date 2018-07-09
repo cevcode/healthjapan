@@ -105,6 +105,12 @@
   position: static;
   width: rem(550px);
   margin: auto;
+  &.shown {
+    display: block;
+  }
+  .catalog__item {
+    border: none;
+  }
   .catalog__link {
     background-color: $brilliant;
     width: rem(550px);
@@ -112,16 +118,17 @@
     height: rem(50px);
     padding: rem(0 35px);
     display: flex;
+    border-top: rem(1px solid #f9f9f9);
     font-size: rem(14px);
-    align-items: center;
+    align-items: flex-start;
     color: $white;
     @include main-font(600);
-    border: none;
     position: relative;
     &:after {
       right: rem(25px);
       background-repeat: no-repeat;
       top: rem(22px);
+      border: none;
       content: '';
       position: absolute;
       background-image: url('../../img/icon/more-white.svg');
@@ -129,5 +136,12 @@
       height: rem(7px);
       background-size: contain;
     }
+  }
+  .catalog__inner-list {
+    position: static;
+    width: 100%;
+    margin-left: 0;
+    flex-wrap: nowrap;
+    opacity: .8;
   }
 }

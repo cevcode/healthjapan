@@ -68,7 +68,6 @@ $(document).ready(function() {
     toggleDropDown('#favorite-btn', '#favorite-result', '.dropdown');
     toggleDropDown('#compare-btn', '#compare-result', '.dropdown');
     toggleDropDown('.catalog__button', '.catalog__menu', '.catalog__menu');
-    toggleDropDown('.catalog__button--mobile', '.menu__mobile', '.menu__mobile');
     createSlider('.slider', 1, 1, 1, 1, 1);
     createSlider('.sales__slider', 5, 5, 4, 4, 3);
     createSlider('.new-offers__slider', 5, 5, 4, 4, 3);
@@ -150,12 +149,20 @@ $(document).ready(function(){
 
 var menuMobile = $('.catalog__menu--mobile');
 $('.menu__button--mobile').click(function () {
-    if(menuMobile.hasClass('show')) {
-        menuMobile.removeClass('show');
+    if(menuMobile.hasClass('shown')) {
+        menuMobile.removeClass('shown');
     } else {
-        menuMobile.addClass('show');
+        menuMobile.addClass('shown');
     }
+});
 
+var menuMobileInner = $('.menu__mobile');
+$('.catalog__button--mobile').click(function () {
+    if(menuMobileInner.hasClass('show')) {
+        menuMobileInner.removeClass('show');
+    } else {
+        menuMobileInner.addClass('show');
+    }
 });
 
 
