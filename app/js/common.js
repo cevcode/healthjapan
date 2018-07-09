@@ -22,12 +22,32 @@ function toggleDropDown(button, id, wrapper) {
     });
 };
 
-function createSlider(selector, slidesToShow, slidesToScroll) {
+function createSlider(selector, slidesToShow, slidesToScroll, slidesToShowDesktopBig, slidesToShowDesktopSmall, slidesToShowDesktopTablet) {
     $(selector).slick({
         infinite: true,
         slidesToShow: slidesToShow,
         slidesToScroll: slidesToScroll,
-        dots: true
+        dots: true,
+        responsive: [
+            {
+                breakpoint: 1520,
+                settings: {
+                    slidesToShow: slidesToShowDesktopBig
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: slidesToShowDesktopSmall
+                }
+            },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: slidesToShowDesktopTablet
+                }
+            },
+        ]
     });
 };
 
@@ -40,6 +60,7 @@ $(document).ready(function() {
     });
     $('ul.sf-menu').superfish();
 
+
     $('.select').select2();
 
 
@@ -47,12 +68,13 @@ $(document).ready(function() {
     toggleDropDown('#favorite-btn', '#favorite-result', '.dropdown');
     toggleDropDown('#compare-btn', '#compare-result', '.dropdown');
     toggleDropDown('.catalog__button', '.catalog__menu', '.catalog__menu');
-    createSlider('.slider', 1, 1);
-    createSlider('.sales__slider', 5, 5);
-    createSlider('.new-offers__slider', 5, 5);
-    createSlider('.additional-products__slider', 5, 5);
-    createSlider('.new-offers__slider', 5, 5);
-    createSlider('.recent-products__slider', 5, 5);
+    toggleDropDown('.catalog__button--mobile', '.menu__mobile', '.menu__mobile');
+    createSlider('.slider', 1, 1, 1, 1, 1);
+    createSlider('.sales__slider', 5, 5, 4, 4, 3);
+    createSlider('.new-offers__slider', 5, 5, 4, 4, 3);
+    createSlider('.additional-products__slider', 5, 5, 4, 4, 3);
+    createSlider('.new-offers__slider', 5, 5, 4, 4, 3);
+    createSlider('.recent-products__slider', 5, 5, 4, 4, 3);
 });
 
 $('.card__media').slick({
@@ -124,6 +146,16 @@ $(document).ready(function(){
             alert('need update remain_bv');
         }
     }, 1000);
+});
+
+var menuMobile = $('.catalog__menu--mobile');
+$('.menu__button--mobile').click(function () {
+    if(menuMobile.hasClass('show')) {
+        menuMobile.removeClass('show');
+    } else {
+        menuMobile.addClass('show');
+    }
+
 });
 
 

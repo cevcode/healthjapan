@@ -55,6 +55,9 @@
   display: flex;
   width: rem(1470px);
   margin: auto;
+  @include screen-lt(desktop-large) {
+    width: 100%;
+  }
   .slick-slide {
     margin: rem(0 12px);
   }

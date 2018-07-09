@@ -4,6 +4,13 @@
   display: flex;
   height: rem(50px);
   width: rem(600px);
+  @include screen-lt(desktop-small) {
+    width: rem(500px);
+  }
+  @include screen-lt(tablet) {
+    width: rem(550px);
+    margin: auto;
+  }
   &__field {
     display: flex;
     border: rem(1px solid $brilliant);
@@ -21,6 +28,9 @@
     @include main-font(400);
     border-right: rem(0.5px solid $light);
     width: rem(370px);
+    @include screen-lt(desktop-small) {
+      width: rem(300px);
+    }
   }
   &__button {
     &-categories {
@@ -38,6 +48,12 @@
       text-transform: none;
       @include main-font(400);
       font-size: rem(14px);
+      @include screen-lt(desktop-small) {
+        width: rem(170px);
+      }
+      @include screen-lt(desktop-small) {
+        width: rem(220px);
+      }
     }
   }
   &__result {

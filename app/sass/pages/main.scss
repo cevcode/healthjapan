@@ -9,8 +9,12 @@
   &__logo {
     width: rem(280px);
     height:  rem(40px);
-    margin-right: rem(24px);
+    margin-right: rem(25px);
     display: flex;
+    @include screen-lt(desktop-large) {
+      width: rem(205px);
+      height: rem(30px);
+    }
   }
   &__img {
     height:  100%;
@@ -26,6 +30,12 @@
       align-items: center;
       margin: rem(0 25px);
       position: relative;
+      @include screen-lt(desktop-large) {
+        margin: rem(0 15px);
+      }
+      @include screen-lt(tablet) {
+        margin: rem(0 22px);
+      }
     }
     &-link {
       display: flex;
@@ -40,12 +50,23 @@
       color: $orange;
       font-size: rem(14px);
       @include main-font(400);
+      @include screen-lt(tablet) {
+        right: rem(-20px);
+      }
     }
     &-description {
       font-size: rem(14px);
       padding: rem(15px 0 0 0);
       @include main-font(400);
       color: $cyan;
+      @include screen-lt(tablet) {
+        display: none;
+      }
+    }
+  }
+  &__search {
+    @include screen-lt(tablet) {
+      display: none;
     }
   }
 }
@@ -57,6 +78,9 @@
   height: rem(80px);
   box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
   background-color: #ecf1f5;
+  @include screen-lt(tablet) {
+    position: relative;
+  }
   &__column {
     display: flex;
   }
@@ -81,12 +105,18 @@
     &:hover {
       color: $brilliant;
     }
+    @include screen-lt(desktop-large) {
+      padding: rem(0 15px);
+    }
   }
 }
 
 .currency {
   display: flex;
   margin-right: rem(70px);
+  @include screen-lt(tablet) {
+    margin-right: rem(35px);
+  }
   &__item {
     @include main-font(500);
     text-transform: uppercase;
@@ -250,5 +280,55 @@
     @include main-font(300);
     margin-top: rem(30px);
     font-size: rem(14px);
+  }
+}
+
+.slick-prev {
+  @include screen-lt(desktop-large) {
+    left: 0 !important;
+  }
+}
+.slick-next {
+  @include screen-lt(desktop-large) {
+    right: 0 !important;
+  }
+}
+
+.menu__button--mobile {
+  background-color: $brilliant;
+  width: rem(550px);
+  margin: auto;
+  height: rem(50px);
+  padding: rem(0 35px);
+  display: flex;
+  font-size: rem(14px);
+  align-items: center;
+  color: $white;
+  @include main-font(600);
+  border: none;
+  position: relative;
+  &:after {
+    right: rem(25px);
+    background-repeat: no-repeat;
+    top: rem(22px);
+    content: '';
+    position: absolute;
+    background-image: url('../../img/icon/more-white.svg');
+    width: rem(14px);
+    height: rem(7px);
+    background-size: contain;
+  }
+}
+
+.menu__mobile {
+  position: absolute;
+  width: 100%;
+  background-color: $white;
+  box-shadow: rem(0 0 15px 5px rgba(227, 227, 227, 0.5));
+  top: rem(80px);
+  display: none;
+  z-index: 10;
+  &.show {
+    display: block;
   }
 }

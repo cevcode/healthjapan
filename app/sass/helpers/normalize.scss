@@ -40,7 +40,13 @@ body textarea:required:valid {
 html {
   @include rem-baseline;
   @include screen-lt(desktop-large) {
-    @include rem-baseline(90%);
+    @include rem-baseline(80%);
+  }
+  @include screen-lt(desktop-small) {
+    @include rem-baseline(70%);
+  }
+  @include screen-lt(tablet) {
+    @include rem-baseline(100%);
   }
 }
 html, body {
@@ -74,6 +80,23 @@ button {
 input, textarea {
   &:focus {
     outline: none;
+  }
+}
+
+.tc {
+  &-show {
+    &-1200 {
+      display: block;
+      @include screen-lt(tablet) {
+        display: none;
+      }
+    }
+    &-992 {
+      display: none;
+      @include screen-lt(tablet) {
+        display: block;
+      }
+    }
   }
 }
 

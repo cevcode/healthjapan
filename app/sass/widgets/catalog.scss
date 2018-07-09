@@ -5,7 +5,11 @@
   height: 100%;
   position: relative;
   width: rem(250px);
-  &__button {
+  @include screen-lt(tablet) {
+    width: rem(200px);
+    position: static;
+  }
+  &__button, &__button--mobile {
     background-color: $brilliant;
     height: 100%;
     width: 100%;
@@ -17,6 +21,18 @@
     position: relative;
     @include before('../../../img/icon/menu.svg', 18px, 13px, 33px, auto, auto, 55px);
     @include after('../../../img/icon/more-white.svg', 9px, 5px, 37px, 25px, auto, auto);
+    @include screen-lt(tablet) {
+      padding-left: 0;
+      &:before {
+        left: rem(30px);
+        top: rem(34px);
+      }
+      &:after {
+        width: rem(14px);
+        height: rem(7px);
+        right: rem(28px);
+      }
+    }
   }
   &__menu {
     position: absolute;
@@ -79,6 +95,39 @@
     }
     &-item {
       background-color: $white;
+    }
+  }
+}
+
+
+.catalog__menu--mobile {
+  display: none;
+  position: static;
+  width: rem(550px);
+  margin: auto;
+  .catalog__link {
+    background-color: $brilliant;
+    width: rem(550px);
+    margin: auto;
+    height: rem(50px);
+    padding: rem(0 35px);
+    display: flex;
+    font-size: rem(14px);
+    align-items: center;
+    color: $white;
+    @include main-font(600);
+    border: none;
+    position: relative;
+    &:after {
+      right: rem(25px);
+      background-repeat: no-repeat;
+      top: rem(22px);
+      content: '';
+      position: absolute;
+      background-image: url('../../img/icon/more-white.svg');
+      width: rem(14px);
+      height: rem(7px);
+      background-size: contain;
     }
   }
 }
