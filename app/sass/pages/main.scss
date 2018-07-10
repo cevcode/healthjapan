@@ -219,7 +219,7 @@
         display: none;
       }
     }
-    @include screen-lt(desktop-small) {
+    @include screen-lt(tablet) {
       width: calc(100%/2);
       &:nth-child(3), &:nth-child(4), &:nth-child(5) {
         display: none;
@@ -414,6 +414,10 @@
 
 .sales {
   .sales__slider, .new-offers__slider {
+    @include screen-lt(desktop-large) {
+      width: rem(1300px);
+      margin: auto;
+    }
     @include screen-lt(tablet) {
       width: rem(600px);
       margin: auto;
