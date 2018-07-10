@@ -66,6 +66,9 @@
   }
   .slick-dots {
     bottom: rem(-105px);
+    @include screen-lt(tablet) {
+      bottom: rem(-50px);
+    }
   }
   .slick-dots li button:before {
     color: $orange;

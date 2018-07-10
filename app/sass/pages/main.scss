@@ -87,6 +87,9 @@
   &__list {
     display: flex;
     height: 100%;
+    &.tc-show-1200 {
+      display: flex;
+    }
   }
   &__item {
     list-style-type: none;
@@ -140,9 +143,16 @@
 
 .advantages {
   margin: rem(105px 0);
+  @include screen-lt(tablet) {
+    width: rem(600px);
+    margin: auto;
+  }
   &__list {
     display: flex;
     justify-content: center;
+    @include screen-lt(tablet) {
+      flex-wrap: wrap;
+    }
   }
   &__item {
     box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
@@ -155,6 +165,15 @@
     margin: rem(0 12.5px);
     list-style-type: none;
     @include first-last;
+    @include screen-lt(tablet) {
+      margin-bottom: rem(25px);
+      &:nth-child(2) {
+        margin-right: 0;
+      }
+      &:nth-child(3) {
+        margin-left: 0;
+      }
+    }
   }
   &__description {
     text-align: center;
@@ -185,12 +204,27 @@
 }
 .content {
   margin: rem(100px 0);
+  @include screen-lt(tablet) {
+    margin: rem(50px 0);
+  }
 }
 
 .news {
   .post {
     width: calc(100%/5);
     overflow: hidden;
+    @include screen-lt(desktop-small) {
+      width: calc(100%/4);
+      &:nth-child(5) {
+        display: none;
+      }
+    }
+    @include screen-lt(desktop-small) {
+      width: calc(100%/2);
+      &:nth-child(3), &:nth-child(4), &:nth-child(5) {
+        display: none;
+      }
+    }
   }
   .button {
     margin: rem(40px) auto;
@@ -375,5 +409,19 @@
   }
   .menu__button--mobile {
     margin-bottom: rem(25px);
+  }
+}
+
+.sales {
+  .sales__slider, .new-offers__slider {
+    @include screen-lt(tablet) {
+      width: rem(600px);
+      margin: auto;
+    }
+  }
+}
+.footer__column {
+  &.tc-show-992 {
+    margin-top: rem(20px);
   }
 }

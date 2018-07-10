@@ -69,8 +69,8 @@ $(document).ready(function() {
     toggleDropDown('#compare-btn', '#compare-result', '.dropdown');
     toggleDropDown('.catalog__button', '.catalog__menu', '.catalog__menu');
     createSlider('.slider', 1, 1, 1, 1, 1);
-    createSlider('.sales__slider', 5, 5, 4, 4, 3);
-    createSlider('.new-offers__slider', 5, 5, 4, 4, 3);
+    createSlider('.sales__slider', 5, 5, 4, 4, 2);
+    createSlider('.new-offers__slider', 5, 5, 4, 4, 2);
     createSlider('.additional-products__slider', 5, 5, 4, 4, 3);
     createSlider('.new-offers__slider', 5, 5, 4, 4, 3);
     createSlider('.recent-products__slider', 5, 5, 4, 4, 3);

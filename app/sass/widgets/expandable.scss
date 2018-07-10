@@ -77,6 +77,27 @@ $bg-color: rgb(255,255,255);
       left: 0;
     }
   }
+  &--footer {
+    padding: 0;
+    .expandable__content {
+      width: 100%;
+      max-height: rem(10px);
+    }
+    .expandable__fade {
+      background: $white;
+      height: rem(20px);
+      margin-top: rem(-20px);
+    }
+    .expandable__button--hide, .expandable__button--show {
+      text-align: left;
+      left: 0;
+      color: $black;
+      @include main-font(600);
+      font-size: rem(18px);
+      @include before('../../../img/icon/more-black.svg', 8px, 6px, 11px, -15px, auto, auto);
+
+    }
+  }
 }
 
 
