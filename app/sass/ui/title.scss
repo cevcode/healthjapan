@@ -13,6 +13,9 @@ h4 {
   font-size: rem(28px);
   @include main-font(700);
   letter-spacing: rem(4px);
+  @include screen-lt(mobile-custom) {
+    font-size: rem(22px);
+  }
 }
 h5 {
   font-size: rem(20px);
@@ -31,6 +34,9 @@ h6 {
   @include main-font(600);
   width: max-content;
   margin-bottom: rem(20px);
+  @include screen-lt(mobile-custom) {
+    font-size: rem(22px);
+  }
 }
 
 

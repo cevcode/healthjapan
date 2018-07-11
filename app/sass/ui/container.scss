@@ -5,6 +5,9 @@
   flex-direction: column;
   width: calc(100% - 6rem);
   margin: auto;
+  @include screen-lt(mobile) {
+    width: 100%;
+  }
   &--kit {
     width: 90%;
   }

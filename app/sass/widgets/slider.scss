@@ -3,17 +3,41 @@
 .slider {
   height: rem(560px);
   width: 100%;
+  @include screen-lt(mobile) {
+    height: rem(630px);
+  }
   &__item {
     background-color: #bae8da;
     height: rem(560px);
     display: inline-flex !important;
     justify-content: center;
+    @include screen-lt(mobile) {
+      height: rem(630px);
+    }
+
     &-description {
       max-width: rem(440px);
       margin-left: rem(100px);
+      @include screen-lt(mobile) {
+        display: none;
+        margin-left: 0;
+        text-align: center;
+      }
+      @include screen-lt(mobile-custom) {
+        max-width: rem(280px);
+      }
+      &--mobile {
+        display: none;
+        @include screen-lt(mobile) {
+          display: block;
+        }
+      }
       h3 {
         color: $black;
         @include main-font(600);
+        @include screen-lt(mobile-custom) {
+          font-size: rem(26px);
+        }
       }
       p {
         @include main-font(400);
@@ -26,6 +50,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    @include screen-lt(mobile) {
+      flex-direction: column;
+    }
   }
   .slick-prev {
     left: rem(50px);
@@ -38,6 +65,9 @@
   }
   .slick-dots {
     bottom: rem(35px);
+    @include screen-lt(mobile) {
+      bottom: rem(25px);
+    }
   }
   .slick-dots li button:before {
     color: $white;
@@ -79,5 +109,12 @@
   }
   &-item {
     display: flex;
+  }
+}
+.slider__content--mobile-btn {
+  display: none;
+  @include screen-lt(mobile) {
+    display: block;
+    margin-top: rem(30px);
   }
 }

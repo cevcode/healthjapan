@@ -10,6 +10,9 @@
   border-top: none;
   box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
   width: rem(390px);
+  @include screen-lt(mobile-small) {
+    width: rem(300px);
+  }
   &:before {
     content: '';
     position: absolute;

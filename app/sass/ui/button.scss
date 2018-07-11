@@ -40,6 +40,9 @@ transparent, rem(1px solid $brilliant), $brilliant;
   text-transform: uppercase;
   letter-spacing: rem(.5px);
   align-items: center;
+  @include screen-lt(mobile-custom) {
+    font-size: rem(12px);
+  }
   &:hover {
     transition: $transitionHover;
   }
@@ -54,6 +57,10 @@ transparent, rem(1px solid $brilliant), $brilliant;
     &--large {
       width:  rem(280px);
       height: rem(65px);
+      @include screen-lt(mobile-custom) {
+        width: rem(165px);
+        height: rem(50px);
+      }
     }
   }
   &__color {

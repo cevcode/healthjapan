@@ -8,6 +8,10 @@
     @include main-font(600);
     padding: rem(0 15px);
     margin: rem(10px 0 40px 0);
+    @include screen-lt(mobile-custom) {
+      font-size: rem(22px);
+      padding-right: 0;
+    }
   }
   .post:first-child {
     margin-left: rem(12.5px);

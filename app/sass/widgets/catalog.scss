@@ -9,6 +9,9 @@
     width: rem(200px);
     position: static;
   }
+  @include screen-lt(mobile) {
+    width: rem(60px);
+  }
   &__button, &__button--mobile {
     background-color: $brilliant;
     height: 100%;
@@ -31,6 +34,16 @@
         width: rem(14px);
         height: rem(7px);
         right: rem(28px);
+      }
+    }
+    @include screen-lt(mobile) {
+      &:after {
+        display: none;
+        position: static;
+      }
+      &:before {
+        left: rem(23px);
+        top: rem(23px);
       }
     }
   }
@@ -124,6 +137,9 @@
     color: $white;
     @include main-font(600);
     position: relative;
+    @include screen-lt(mobile-custom) {
+      width: 90%;
+    }
     &:after {
       right: rem(25px);
       background-repeat: no-repeat;
@@ -143,5 +159,14 @@
     margin-left: 0;
     flex-wrap: nowrap;
     opacity: .8;
+  }
+}
+
+.catalog__button--mobile {
+  &.show {
+    &:before {
+      background-image: url('../../img/icon/close-white.svg');
+      background-size: contain;
+    }
   }
 }

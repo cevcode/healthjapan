@@ -2,9 +2,27 @@
 
 .header {
   padding: rem(27px 0 20px 0);
+  @include screen-lt(mobile) {
+    padding: 0;
+    height: rem(60px);
+    .container {
+      height: 100%;
+      margin: 0;
+    }
+    .row {
+      height: 100%;
+    }
+  }
   &__column {
     display: flex;
     align-items: center;
+    @include screen-lt(mobile) {
+      height: 100%;
+      &:last-child {
+        justify-content: flex-end;
+        margin-right: rem(30px);
+      }
+    }
   }
   &__logo {
     width: rem(280px);
@@ -14,6 +32,11 @@
     @include screen-lt(desktop-large) {
       width: rem(205px);
       height: rem(30px);
+    }
+    @include screen-lt(mobile) {
+      width: rem(100px);
+      height: rem(15px);
+      margin-left: rem(10px);
     }
   }
   &__img {
@@ -35,6 +58,38 @@
       }
       @include screen-lt(tablet) {
         margin: rem(0 22px);
+      }
+      @include screen-lt(mobile) {
+        margin: rem(0 13px);
+        &:first-child {
+          display: none;
+        }
+      }
+      @include screen-lt(mobile-custom) {
+        &:nth-child(2) {
+          .dropdown {
+            right: rem(-120px);
+            &:before {
+              right: rem(125px);
+            }
+          }
+        }
+        &:nth-child(3) {
+          .dropdown {
+            right: rem(-70px);
+            &:before {
+              right: rem(75px);
+            }
+          }
+        }
+        &:nth-child(4) {
+          .dropdown {
+            right: rem(-30px);
+            &:before {
+              right: rem(30px);
+            }
+          }
+        }
       }
     }
     &-link {
@@ -210,6 +265,9 @@
 }
 
 .news {
+  @include screen-lt(mobile) {
+    padding: rem(0 15px);
+  }
   .post {
     width: calc(100%/5);
     overflow: hidden;
@@ -225,9 +283,26 @@
         display: none;
       }
     }
+    @include screen-lt(mobile-custom) {
+      width: 100%;
+      margin-right: 0;
+      margin-left: 0;
+      margin-bottom: rem(25px);
+    }
   }
   .button {
     margin: rem(40px) auto;
+    @include screen-lt(mobile-custom) {
+      margin: rem(25px) auto;
+    }
+  }
+  .row {
+    @include screen-lt(mobile-custom) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
   }
 }
 
@@ -236,6 +311,16 @@
   padding: rem(40px 0);
   .row {
     justify-content: space-between;
+    @include screen-lt(mobile-custom) {
+      display: none;
+    }
+  }
+  &__mobile {
+    display: none;
+    padding: rem(0 15px);
+    @include screen-lt(mobile-custom) {
+      display: block;
+    }
   }
   &__column {
     display: flex;
@@ -251,6 +336,9 @@
   &__img {
     width: rem(280px);
     height: rem(40px);
+    @include screen-lt(mobile-custom) {
+      margin-bottom: rem(25px);
+    }
   }
   &__description {
     color: $black;
@@ -259,6 +347,9 @@
     @include main-font(400);
     &--margin {
       margin: rem(25px 0 40px 0);
+      @include screen-lt(mobile-custom) {
+        display: none;
+      }
     }
   }
   &__email {
@@ -314,6 +405,9 @@
     @include main-font(300);
     margin-top: rem(30px);
     font-size: rem(14px);
+    @include screen-lt(mobile-custom) {
+      padding: rem(0 15px);
+    }
   }
 }
 
@@ -341,6 +435,9 @@
   @include main-font(600);
   border: none;
   position: relative;
+  @include screen-lt(mobile-custom) {
+    width: 90%;
+  }
   &:after {
     right: rem(25px);
     background-repeat: no-repeat;
@@ -360,9 +457,12 @@
   background-color: $white;
   padding-top: rem(25px);
   box-shadow: rem(0 0 15px 5px rgba(227, 227, 227, 0.5));
-  top: rem(80px);
+  top: rem(155px);
   display: none;
   z-index: 10;
+  @include screen-lt(mobile-custom) {
+    top: rem(60px);
+  }
   &.show {
     display: block;
   }
@@ -383,6 +483,9 @@
     font-size: rem(14px);
     @include main-font(400);
     position: relative;
+    @include screen-lt(mobile-custom) {
+      width: 90%;
+    }
     &:hover {
       color: $brilliant;
       &:after {
@@ -422,6 +525,10 @@
       width: rem(600px);
       margin: auto;
     }
+    @include screen-lt(mobile-custom) {
+      width: rem(340px);
+      margin: auto;
+    }
   }
 }
 .footer__column {
@@ -429,3 +536,12 @@
     margin-top: rem(20px);
   }
 }
+
+.slick-slide img {
+  @include screen-lt(tablet) {
+    max-width: rem(300px);
+    max-height: rem(300px);
+  }
+}
+
+

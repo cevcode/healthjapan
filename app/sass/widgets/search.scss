@@ -11,6 +11,9 @@
     width: rem(550px);
     margin: auto;
   }
+  @include screen-lt(mobile-custom) {
+    width: 90%;
+  }
   &__field {
     display: flex;
     border: rem(1px solid $brilliant);
@@ -18,6 +21,10 @@
     align-items: center;
     position: relative;
     @include before('../../../img/search.svg', 18px, 18px, 17px, auto, auto, 20px);
+    @include screen-lt(mobile-custom) {
+      border-right: rem(1px solid $brilliant);
+      width: 100%;
+    }
   }
   &__input {
     border: none;
@@ -31,6 +38,10 @@
     @include screen-lt(desktop-small) {
       width: rem(300px);
     }
+    @include screen-lt(mobile-custom) {
+      border: none;
+      width: 100%;
+    }
   }
   &__button {
     &-categories {
@@ -42,6 +53,9 @@
       font-size: rem(14px);
       position: relative;
       @include after('../../../img/icon/more-grey.svg', 9px, 6px, 7px, 12px, auto, auto);
+      @include screen-lt(mobile-custom) {
+        display: none !important;
+      }
     }
     &-submit {
       width: rem(100px);
@@ -53,6 +67,9 @@
       }
       @include screen-lt(desktop-small) {
         width: rem(220px);
+      }
+      @include screen-lt(mobile-custom) {
+        display: none;
       }
     }
   }
@@ -66,6 +83,9 @@
     border: rem(1px solid $brilliant);
     border-top: none;
     width: calc(100% + .125rem);
+    @include screen-lt(mobile-custom) {
+      display: none !important;
+    }
     &-button {
       font-size: rem(12px);
       @include main-font(400);

@@ -97,6 +97,24 @@ input, textarea {
         display: block;
       }
     }
+    &-768 {
+      display: flex;
+      @include screen-lt(mobile) {
+        display: none !important;
+      }
+      &-block {
+        display: block;
+        @include screen-lt(mobile) {
+          display: none !important;
+        }
+      }
+    }
+    &-320 {
+      display: none;
+      @include screen-lt(mobile) {
+        display: flex;
+      }
+    }
   }
 }
 
