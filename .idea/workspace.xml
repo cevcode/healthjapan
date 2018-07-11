@@ -3,23 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6d32ebb9-35af-4e1e-ab47-fa026085a173" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/404.html" afterPath="$PROJECT_DIR$/app/404.html" />
-      <change beforePath="$PROJECT_DIR$/app/brand.html" afterPath="$PROJECT_DIR$/app/brand.html" />
-      <change beforePath="$PROJECT_DIR$/app/card.html" afterPath="$PROJECT_DIR$/app/card.html" />
-      <change beforePath="$PROJECT_DIR$/app/compare.html" afterPath="$PROJECT_DIR$/app/compare.html" />
-      <change beforePath="$PROJECT_DIR$/app/contacts.html" afterPath="$PROJECT_DIR$/app/contacts.html" />
-      <change beforePath="$PROJECT_DIR$/app/delivery.html" afterPath="$PROJECT_DIR$/app/delivery.html" />
-      <change beforePath="$PROJECT_DIR$/app/filter.html" afterPath="$PROJECT_DIR$/app/filter.html" />
-      <change beforePath="$PROJECT_DIR$/app/guarantee.html" afterPath="$PROJECT_DIR$/app/guarantee.html" />
-      <change beforePath="$PROJECT_DIR$/app/news.html" afterPath="$PROJECT_DIR$/app/news.html" />
-      <change beforePath="$PROJECT_DIR$/app/one-sale-page.html" afterPath="$PROJECT_DIR$/app/one-sale-page.html" />
-      <change beforePath="$PROJECT_DIR$/app/payment.html" afterPath="$PROJECT_DIR$/app/payment.html" />
-      <change beforePath="$PROJECT_DIR$/app/review.html" afterPath="$PROJECT_DIR$/app/review.html" />
-      <change beforePath="$PROJECT_DIR$/app/sales.html" afterPath="$PROJECT_DIR$/app/sales.html" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/filter.scss" afterPath="$PROJECT_DIR$/app/sass/pages/filter.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/filter.scss" afterPath="$PROJECT_DIR$/app/sass/widgets/filter.scss" />
-      <change beforePath="$PROJECT_DIR$/app/search.html" afterPath="$PROJECT_DIR$/app/search.html" />
-      <change beforePath="$PROJECT_DIR$/app/thanks.html" afterPath="$PROJECT_DIR$/app/thanks.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -549,14 +532,7 @@
       <workItem from="1529606662682" duration="334000" />
       <workItem from="1529607003829" duration="3753000" />
       <workItem from="1530966345886" duration="39536000" />
-      <workItem from="1531252188742" duration="11371000" />
-    </task>
-    <task id="LOCAL-00002" summary="added convertation rem to px function &amp;&amp; added ui-kit fonts">
-      <created>1529617070959</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1529617070959</updated>
+      <workItem from="1531252188742" duration="11434000" />
     </task>
     <task id="LOCAL-00003" summary="added base buttons to ui">
       <created>1529619100655</created>
@@ -894,22 +870,28 @@
       <option name="project" value="LOCAL" />
       <updated>1531346139584</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="updated header/footer in all pages with new responsive settings">
+      <created>1531347344884</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1531347344884</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138315000" />
+    <option name="totallyTimeSpent" value="138378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="814" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32684284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32684284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -933,7 +915,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added widget counter" />
     <MESSAGE value="added dist" />
     <MESSAGE value="uglify js" />
     <MESSAGE value="added filters page" />
@@ -958,7 +939,8 @@
     <MESSAGE value="some fixes" />
     <MESSAGE value="created full responsible main-page up to 320px" />
     <MESSAGE value="updated dist" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated dist" />
+    <MESSAGE value="updated header/footer in all pages with new responsive settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated header/footer in all pages with new responsive settings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
