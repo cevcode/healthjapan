@@ -95,6 +95,32 @@
           }
         }
       }
+      @include screen-lt(mobile-small) {
+        &:nth-child(2) {
+          .dropdown {
+            right: rem(-100px);
+            &:before {
+              right: rem(100px);
+            }
+          }
+        }
+        &:nth-child(3) {
+          .dropdown {
+            right: rem(-55px);
+            &:before {
+              right: rem(60px);
+            }
+          }
+        }
+        &:nth-child(4) {
+          .dropdown {
+            right: rem(-15px);
+            &:before {
+              right: rem(10px);
+            }
+          }
+        }
+      }
       @include screen-lt(mobile-custom) {
         margin: rem(0 10px);
       }
@@ -531,6 +557,10 @@
     }
     @include screen-lt(mobile-custom) {
       width: rem(340px);
+      margin: auto;
+    }
+    @include screen-lt(mobile-small) {
+      width: rem(320px);
       margin: auto;
     }
   }
