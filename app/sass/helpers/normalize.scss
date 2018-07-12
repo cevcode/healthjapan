@@ -118,3 +118,22 @@ input, textarea {
   }
 }
 
+.tc-hide-992 {
+  @include screen-lt(tablet) {
+    display: none;
+  }
+}
+
+.tc-hide-1200 {
+  @include screen-lt(desktop-small) {
+    display: none;
+  }
+}
+
+.tc-hide-668 {
+  @include screen-lt(mobile-custom) {
+    display: none;
+  }
+}
+
+

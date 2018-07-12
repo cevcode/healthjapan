@@ -14,6 +14,9 @@
   &--content {
     width: rem(1230px);
     padding: rem(0 15px);
+    @include screen-lt(tablet) {
+      width: 100%;
+    }
     &-small {
       width: rem(900px);
     }
@@ -22,6 +25,14 @@
     width: rem(1525px);
     margin: auto;
     padding-top: rem(40px);
+    @include screen-lt(desktop-large) {
+      width: rem(1475px);
+    }
+    @include screen-lt(desktop-small) {
+      width: 100%;
+      position: relative;
+      padding-top: 0;
+    }
   }
 }
 .row {

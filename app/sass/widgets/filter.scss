@@ -12,6 +12,20 @@ $bgItemChoose: #d8d8d8;
 .filter {
   min-width: rem(285px);
   margin-right: rem(12.5px);
+  @include screen-lt(desktop-small) {
+    position: absolute;
+    left: rem(-285px);
+    transition: ease-in .3s;
+    width: rem(285px);
+    opacity: 0;
+    top: rem(60px);
+    z-index: 4;
+    background-color: $white;
+  }
+  &.shown {
+    opacity: 1;
+    left: 0;
+  }
   &__inner {
     padding: rem(25px);
     position: relative;
@@ -35,6 +49,9 @@ $bgItemChoose: #d8d8d8;
   &__brand {
     border-bottom: rem(1px solid #cad2dc);
     margin-bottom: rem(25px);
+    .expandable {
+      padding: 0;
+    }
   }
   &__comments {
     @include blockStyle;

@@ -3,20 +3,35 @@
 .breadcrumbs {
   display: flex;
   padding: rem(15px 0);
+  @include screen-lt(mobile-small) {
+    padding: rem(10px 0);
+  }
   &__item {
     list-style-type: none;
     padding: rem(0 20px);
     @include first-last-padding;
     position: relative;
+    @include screen-lt(mobile-small) {
+      padding: rem(0 10px);
+      &:nth-child(3) {
+        padding-left: 0;
+      }
+    }
     &:after {
-      //TODO replace with arrow img
+      background-image: url('../../img/icon/more-cyan.svg');
+      transform: rotate(-90deg);
       content: '';
       position: absolute;
-      background-color: $cyan;
-      width: rem(6px);
-      height: rem(3px);
-      top: rem(7px);
-      right: 0;
+      width: rem(10px);
+      height: rem(10px);
+      background-repeat: no-repeat;
+      background-size: contain;
+      top: rem(4px);
+      right: rem(-5px);
+      @include screen-lt(mobile-small) {
+        width: rem(8px);
+        height: rem(8px);
+      }
     }
     &:last-child {
       &:after {
@@ -32,6 +47,9 @@
     color: $cyan;
     text-decoration: none;
     font-size: rem(14px);
-    @include main-font(600);
+    @include main-font(400);
+    @include screen-lt(mobile-small) {
+      font-size: rem(12px);
+    }
   }
 }

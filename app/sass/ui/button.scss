@@ -75,3 +75,27 @@ transparent, rem(1px solid $brilliant), $brilliant;
     }
   }
 }
+
+.filters__mobile {
+  @include screen-lt(mobile-custom) {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    @include main-font(600);
+    text-transform: uppercase;
+    letter-spacing: rem(.5px);
+    align-items: center;
+    height: rem(60px);
+    width: 100%;
+    @include btn-style($btn-color-outline...);
+    &:hover {
+      transition: $transitionHover;
+    }
+    &:active {
+      transition: $transitionActive;
+    }
+  }
+  @include screen-lt(mobile-small) {
+    height: rem(40px);
+  }
+}

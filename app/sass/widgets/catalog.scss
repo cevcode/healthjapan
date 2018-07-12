@@ -118,6 +118,9 @@
   position: static;
   width: rem(550px);
   margin: auto;
+  @include screen-lt(mobile-custom) {
+    width: 100%;
+  }
   &.shown {
     display: block;
   }

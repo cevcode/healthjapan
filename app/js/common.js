@@ -163,6 +163,16 @@ menuButtonMobile.click(function () {
     }
 });
 
+var menuFilters = $('.filter');
+var menuButtonFilters = $('.filters__mobile');
+menuButtonFilters.click(function () {
+    if(menuFilters.hasClass('shown')) {
+        menuFilters.removeClass('shown');
+    } else {
+        menuFilters.addClass('shown');
+    }
+});
+
 var menuMobileInner = $('.menu__mobile');
 var menuMobileInnerButton = $('.catalog__button--mobile');
 
@@ -175,6 +185,8 @@ menuMobileInnerButton.click(function () {
         menuMobileInnerButton.addClass('show');
     }
 });
+
+
 
 
 

@@ -38,6 +38,10 @@
       height: rem(15px);
       margin-left: rem(10px);
     }
+    @include screen-lt(mobile) {
+      width: rem(90px);
+      margin-right: rem(15px);
+    }
   }
   &__img {
     height:  100%;
@@ -90,6 +94,9 @@
             }
           }
         }
+      }
+      @include screen-lt(mobile-custom) {
+        margin: rem(0 10px);
       }
     }
     &-link {
@@ -509,9 +516,6 @@
   }
   .menu__item {
     border-bottom: rem(0.5px solid #e6e6e6);
-  }
-  .menu__button--mobile {
-    margin-bottom: rem(25px);
   }
 }
 
