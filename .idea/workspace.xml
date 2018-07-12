@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d32ebb9-35af-4e1e-ab47-fa026085a173" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/more-cyan.svg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/filter.html" afterPath="$PROJECT_DIR$/app/filter.html" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.js" afterPath="$PROJECT_DIR$/app/js/common.js" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.min.js" afterPath="$PROJECT_DIR$/app/js/common.min.js" />
-      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" />
-      <change beforePath="$PROJECT_DIR$/app/payment.html" afterPath="$PROJECT_DIR$/app/payment.html" />
-      <change beforePath="$PROJECT_DIR$/app/sass/helpers/normalize.scss" afterPath="$PROJECT_DIR$/app/sass/helpers/normalize.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/libs/select2.scss" afterPath="$PROJECT_DIR$/app/sass/libs/select2.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/filter.scss" afterPath="$PROJECT_DIR$/app/sass/pages/filter.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/main.scss" afterPath="$PROJECT_DIR$/app/sass/pages/main.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/ui/button.scss" afterPath="$PROJECT_DIR$/app/sass/ui/button.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/ui/container.scss" afterPath="$PROJECT_DIR$/app/sass/ui/container.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/breadcrumbs.scss" afterPath="$PROJECT_DIR$/app/sass/widgets/breadcrumbs.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/catalog.scss" afterPath="$PROJECT_DIR$/app/sass/widgets/catalog.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/filter.scss" afterPath="$PROJECT_DIR$/app/sass/widgets/filter.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -450,14 +435,7 @@
       <workItem from="1529606662682" duration="334000" />
       <workItem from="1529607003829" duration="3753000" />
       <workItem from="1530966345886" duration="39536000" />
-      <workItem from="1531252188742" duration="17322000" />
-    </task>
-    <task id="LOCAL-00004" summary="added base ui badges &amp;&amp; fix buttons">
-      <created>1529619873848</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1529619873848</updated>
+      <workItem from="1531252188742" duration="17363000" />
     </task>
     <task id="LOCAL-00005" summary="fix broken div">
       <created>1529620090886</created>
@@ -795,22 +773,28 @@
       <option name="project" value="LOCAL" />
       <updated>1531347384847</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="created filters page responsive up to 320px">
+      <created>1531432436632</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1531432436632</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144266000" />
+    <option name="totallyTimeSpent" value="144307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="814" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32684284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32684284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -834,7 +818,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added dist" />
     <MESSAGE value="uglify js" />
     <MESSAGE value="added filters page" />
     <MESSAGE value="add search page &amp;&amp; add filter result for widget" />
@@ -859,7 +842,8 @@
     <MESSAGE value="created full responsible main-page up to 320px" />
     <MESSAGE value="updated dist" />
     <MESSAGE value="updated header/footer in all pages with new responsive settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated header/footer in all pages with new responsive settings" />
+    <MESSAGE value="created filters page responsive up to 320px" />
+    <option name="LAST_COMMIT_MESSAGE" value="created filters page responsive up to 320px" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
