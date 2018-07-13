@@ -13,6 +13,8 @@ var gulp           = require('gulp'),
 		ftp            = require('vinyl-ftp'),
 		notify         = require("gulp-notify"),
 		rsync          = require('gulp-rsync');
+		purge 		   = require('gulp-css-purge');
+
 	gulp.task('browser-sync', function() {
 		browserSync({
 			server: {
@@ -80,7 +82,11 @@ gulp.task('build', ['removedist', 'imagemin', 'sass', 'js'], function() {
 
 	var buildCss = gulp.src([
 		'app/css/main.min.css',
-		]).pipe(gulp.dest('dist/css'));
+		])
+        .pipe(purge({
+            trim : true,
+        }))
+		.pipe(gulp.dest('dist/css'));
 
 	var buildJs = gulp.src([
 		'app/js/scripts.min.js',

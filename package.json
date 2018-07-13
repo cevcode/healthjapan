@@ -16,6 +16,7 @@
     "gulp-cache": "^1.0.2",
     "gulp-clean-css": "^3.9.4",
     "gulp-concat": "^2.6.1",
+    "gulp-css-purge": "^3.0.5",
     "gulp-imagemin": "^4.1.0",
     "gulp-notify": "^3.2.0",
     "gulp-rename": "^1.2.3",
