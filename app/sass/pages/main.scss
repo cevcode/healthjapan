@@ -550,6 +550,12 @@
     @include screen-lt(desktop-large) {
       width: rem(1300px);
       margin: auto;
+      .slick-next {
+        right: rem(-45px) !important;
+      }
+      .slick-prev {
+        left: rem(-45px) !important;
+      }
     }
     @include screen-lt(tablet) {
       width: rem(600px);

@@ -5,8 +5,24 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    @include screen-lt(desktop-small) {
+      width: rem(1340px);
+      margin-top: rem(20px);
+    }
+    @include screen-lt(tablet) {
+      width: rem(620px);
+      margin: auto;
+    }
+    @include screen-lt(mobile-custom) {
+      width: 100%;
+      margin: auto;
+      flex-direction: column;
+    }
   }
   &-info {
+    @include screen-lt(mobile-custom) {
+      margin: rem(0 15px 20px 15px);
+    }
     &__inner {
       min-width: rem(285px);
       box-shadow: 0 0 15px 0 rgba(227, 227, 227, 0.5);
@@ -24,6 +40,11 @@
     &__content {
       background-color: #efefef;
       padding: rem(25px);
+      @include screen-lt(mobile-custom) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
       h5 {
         letter-spacing: 0;
         text-align: center;
@@ -33,6 +54,9 @@
     &__cert {
       width: 100%;
       margin: rem(25px 0);
+      @include screen-lt(mobile-custom) {
+        max-width: rem(300px);
+      }
     }
     &__graduation {
       display: flex;
@@ -53,15 +77,38 @@
   &-catalog {
     margin-left: rem(25px);
     min-width: rem(600px);
+    @include screen-lt(desktop-small) {
+      min-width: rem(400px);
+    }
+    @include screen-lt(tablet) {
+      min-width: rem(285px);
+    }
+    @include screen-lt(mobile-custom) {
+      min-width: 100%;
+      width: 100%;
+      margin: auto;
+    }
     &__inner {
       background-color: $white;
+      margin: rem(0 15px);
       box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
       padding: rem(25px);
+      .row {
+        @include screen-lt(tablet) {
+          flex-direction: column;
+        }
+      }
     }
     h4 {
       letter-spacing: 0;
       @include main-font(600);
       font-size: rem(30px);
+      @include screen-lt(tablet) {
+        font-size: rem(22px) !important;
+      }
+      @include screen-lt(mobile-small) {
+        font-size: rem(18px) !important;
+      }
     }
     &__list {
       margin-top: rem(25px);
@@ -83,13 +130,29 @@
     }
   }
   .listing__container {
-    justify-content: center
+    justify-content: center;
+    @include screen-lt(tablet) {
+      width: rem(620px);
+      margin: auto;
+    }
+    @include screen-lt(mobile-custom) {
+      width: 100%;
+    }
   }
 }
 
 .brand__listing-title {
   letter-spacing: 0;
   @include main-font(600);
+  @include screen-lt(desktop-small) {
+    width: rem(1340px);
+    margin: auto;
+    padding-top: rem(20px);
+  }
+  @include screen-lt(tablet) {
+    width: 100%;
+    padding: rem(20px 15px 0 15px);
+  }
 }
 
 .brand-graduation__item {
@@ -118,9 +181,48 @@
   }
   &:nth-child(3n+3) {
     margin-right: 0;
+    @include screen-lt(mobile-custom) {
+      margin-right: rem(5px);
+    }
   }
   p {
     width: rem(42px);
     margin-left: rem(33px);
+  }
+}
+
+.expandable__mobile {
+  margin-top: rem(20px);
+  padding: rem(0 20px)
+}
+
+.brand-catalog-mobile-menu {
+  @include screen-lt(mobile-custom) {
+    display: none;
+    &.show {
+      display: block;
+    }
+  }
+}
+
+.brand-catalog-mobile-btn {
+  @include screen-lt(mobile-custom) {
+    position: relative;
+    &:after {
+      content: '';
+      position: absolute;
+      top: rem(12px);
+      right: 0;
+      background-size: contain;
+      width: 10px;
+      height: 10px;
+      background-image: url('../../img/icon/more-black.svg');
+      background-repeat: no-repeat;
+    }
+    &.show {
+      &:after {
+        transform: rotate(180deg);
+      }
+    }
   }
 }

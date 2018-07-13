@@ -186,6 +186,19 @@ menuMobileInnerButton.click(function () {
     }
 });
 
+var catalogMobileInner = $('.brand-catalog-mobile-menu');
+var catalogMobileInnerButton = $('.brand-catalog-mobile-btn');
+
+catalogMobileInnerButton.click(function () {
+    if(catalogMobileInner.hasClass('show') && catalogMobileInnerButton.hasClass('show')) {
+        catalogMobileInner.removeClass('show');
+        catalogMobileInnerButton.removeClass('show');
+    } else {
+        catalogMobileInner.addClass('show');
+        catalogMobileInnerButton.addClass('show');
+    }
+});
+
 
 
 

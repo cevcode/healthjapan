@@ -29,6 +29,7 @@
   &__input {
     border: none;
     height: 70%;
+    background-color: transparent;
     color: $black;
     @include placeholder-color($grey);
     padding: rem(0 20px 0 40px);
