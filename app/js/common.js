@@ -77,9 +77,9 @@ $(document).ready(function() {
     createSlider('.slider', 1, 1, 1, 1, 1, 1);
     createSlider('.sales__slider', 5, 5, 4, 4, 2, 1);
     createSlider('.new-offers__slider', 5, 5, 4, 4, 2, 1);
-    createSlider('.additional-products__slider', 5, 5, 4, 4, 3, 1);
-    createSlider('.new-offers__slider', 5, 5, 4, 4, 3, 1);
-    createSlider('.recent-products__slider', 5, 5, 4, 4, 3, 1);
+    createSlider('.additional-products__slider', 5, 5, 4, 4, 2, 1);
+    createSlider('.new-offers__slider', 5, 5, 4, 4, 2, 1);
+    createSlider('.recent-products__slider', 5, 5, 4, 4, 2, 1);
 });
 
 $('.card__media').slick({

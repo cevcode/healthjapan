@@ -546,7 +546,7 @@
 }
 
 .sales {
-  .sales__slider, .new-offers__slider {
+  .sales__slider, .new-offers__slider, .recent-products__slider, .additional-products__slider {
     @include screen-lt(desktop-large) {
       width: rem(1300px);
       margin: auto;

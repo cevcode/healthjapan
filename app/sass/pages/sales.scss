@@ -12,6 +12,9 @@
       font-size: rem(22px);
       padding-right: 0;
     }
+    @include screen-lt(mobile-small) {
+      font-size: rem(20px);
+    }
   }
   .post:first-child {
     margin-left: rem(12.5px);

@@ -11,6 +11,9 @@
     width: rem(75px);
     text-align: center;
     height: rem(40px);
+    @include screen-lt(tablet) {
+      width: rem(120px);
+    }
   }
   &__controls {
     display: flex;
