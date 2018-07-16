@@ -4,19 +4,48 @@
   &__top {
     display: flex;
     align-items: center;
+    margin-bottom: rem(22px);
+    @include screen-lt(desktop-small) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
     &-result {
       font-size: rem(20px);
       position: relative;
       line-height: 1.35;
-      margin-bottom: rem(22px);
       margin-left: rem(15px);
       span:first-child {
         font-size: 24px;
         @include main-font(600);
+        @include screen-lt(mobile-custom) {
+          font-size: rem(18px);
+        }
+      }
+      @include screen-lt(mobile-custom) {
+        font-size: rem(16px);
       }
     }
     .sorter {
       margin-left: rem(50px);
     }
+    .cart-form__select {
+      margin-left: rem(40px);
+      margin-bottom: 0;
+    }
+  }
+}
+.search__top-mobile {
+  width: 100%;
+  @include screen-lt(desktop-small) {
+    display: flex;
+    align-items: center;
+    padding: rem(0 35px);
+    .filters__mobile {
+      margin-top: rem(8px);
+    }
+  }
+  @include screen-lt(mobile-custom) {
+    flex-direction: column;
+    padding: rem(0 15px);
   }
 }

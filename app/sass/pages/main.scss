@@ -304,6 +304,9 @@
     position: absolute;
     top: 0;
     right: rem(-20px);
+    @include screen-lt(mobile-custom) {
+      font-size: rem(16px);
+    }
   }
 }
 .content {

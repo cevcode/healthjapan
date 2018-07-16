@@ -168,8 +168,10 @@ var menuButtonFilters = $('.filters__mobile');
 menuButtonFilters.click(function () {
     if(menuFilters.hasClass('shown')) {
         menuFilters.removeClass('shown');
+        menuButtonFilters.removeClass('shown');
     } else {
         menuFilters.addClass('shown');
+        menuButtonFilters.addClass('shown');
     }
 });
 

@@ -23,3 +23,18 @@
     margin-right: rem(12.5px);
   }
 }
+
+.row--sales {
+  @include screen-lt(tablet) {
+    width: rem(740px);
+    .post--long {
+      width: 46.6%;
+    }
+  }
+  @include screen-lt(mobile) {
+    width: 100%;
+    .post--long {
+      width: 100%;
+    }
+  }
+}

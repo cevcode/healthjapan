@@ -88,6 +88,9 @@
     }
     .post__container {
       padding: rem(40px);
+      @include screen-lt(mobile-small) {
+        padding: rem(15px);
+      }
     }
     .post__separator {
       width: rem(63px);

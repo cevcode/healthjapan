@@ -18,7 +18,7 @@ $bgItemChoose: #d8d8d8;
     transition: ease-in .3s;
     width: rem(285px);
     opacity: 0;
-    top: rem(60px);
+    top: rem(100px);
     z-index: 4;
     background-color: $white;
   }
@@ -166,5 +166,29 @@ $bgItemChoose: #d8d8d8;
   .checkmark {
     top: rem(4px);
   }
-
+}
+.filters__mobile {
+  display: none;
+  @include screen-lt(desktop-small) {
+    display: flex;
+    position: relative;
+    @include before('../../../img/icon/menu-black.svg', 18px, 13px, 4px, auto, auto, -22px);
+    &.shown {
+      &:before {
+        background-image: url('../../img/icon/close-black.svg');
+      }
+    }
+  }
+  @include screen-lt(mobile-custom) {
+    &:before {
+      display: none;
+      position: static;
+    }
+    &.shown {
+      &:before {
+        display: none;
+        position: static;
+      }
+    }
+  }
 }
