@@ -1,0 +1,421 @@
+.icon {
+    font-size: 10px;
+}
+
+.icon:before {
+    content:' ';
+    vertical-align:middle;
+    display: inline-block;
+    background-image: url("../svg/sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 28.3em 160.2em;
+}
+
+
+
+  .icon.Mastercard:before {
+      background-position: 0em 0em;
+      width: 5.1em;
+      height: 4em;
+  }
+
+
+
+
+  .icon.PayPal:before {
+      background-position: 0em -4em;
+      width: 9.6em;
+      height: 2.2em;
+  }
+
+
+
+
+  .icon.SWIFT.svg:before {
+      background-position: 0em -6.2em;
+      width: 4.3em;
+      height: 4.3em;
+  }
+
+
+
+
+  .icon.Search:before {
+      background-position: 0em -10.5em;
+      width: 1.8em;
+      height: 1.8em;
+  }
+
+
+
+
+  .icon.card-lock:before {
+      background-position: 0em -12.3em;
+      width: 6.2em;
+      height: 5.1em;
+  }
+
+
+
+
+  .icon.cart:before {
+      background-position: 0em -17.4em;
+      width: 2em;
+      height: 2.4em;
+  }
+
+
+
+
+  .icon.choice:before {
+      background-position: 0em -19.8em;
+      width: 7.4em;
+      height: 3.1em;
+  }
+
+
+
+
+  .icon.choose:before {
+      background-position: 0em -22.9em;
+      width: 2.4em;
+      height: 2.4em;
+  }
+
+
+
+
+  .icon.close:before {
+      background-position: 0em -25.3em;
+      width: 0.9em;
+      height: 0.9em;
+  }
+
+
+
+
+  .icon.close-black:before {
+      background-position: 0em -26.2em;
+      width: 0.9em;
+      height: 0.9em;
+  }
+
+
+
+
+  .icon.close-cyan:before {
+      background-position: 0em -27.1em;
+      width: 0.9em;
+      height: 0.9em;
+  }
+
+
+
+
+  .icon.close-red:before {
+      background-position: 0em -28em;
+      width: 0.9em;
+      height: 0.9em;
+  }
+
+
+
+
+  .icon.close-white:before {
+      background-position: 0em -28.9em;
+      width: 0.9em;
+      height: 0.9em;
+  }
+
+
+
+
+  .icon.comment:before {
+      background-position: 0em -29.8em;
+      width: 2.8em;
+      height: 2.6em;
+  }
+
+
+
+
+  .icon.credit-cards:before {
+      background-position: 0em -32.4em;
+      width: 6.3em;
+      height: 5.1em;
+  }
+
+
+
+
+  .icon.delivery:before {
+      background-position: 0em -37.5em;
+      width: 17.5em;
+      height: 24em;
+  }
+
+
+
+
+  .icon.favorite:before {
+      background-position: 0em -61.5em;
+      width: 2.8em;
+      height: 2.4em;
+  }
+
+
+
+
+  .icon.group:before {
+      background-position: 0em -63.9em;
+      width: 28.3em;
+      height: 32.1em;
+  }
+
+
+
+
+  .icon.leader:before {
+      background-position: 0em -96em;
+      width: 7.4em;
+      height: 3.1em;
+  }
+
+
+
+
+  .icon.mc:before {
+      background-position: 0em -99.1em;
+      width: 5.1em;
+      height: 4em;
+  }
+
+
+
+
+  .icon.menu:before {
+      background-position: 0em -103.1em;
+      width: 1.8em;
+      height: 1.3em;
+  }
+
+
+
+
+  .icon.menu-black:before {
+      background-position: 0em -104.4em;
+      width: 1.8em;
+      height: 1.3em;
+  }
+
+
+
+
+  .icon.mom:before {
+      background-position: 0em -105.7em;
+      width: 7.4em;
+      height: 3.1em;
+  }
+
+
+
+
+  .icon.money:before {
+      background-position: 0em -108.8em;
+      width: 6.3em;
+      height: 5.1em;
+  }
+
+
+
+
+  .icon.more:before {
+      background-position: 0em -113.9em;
+      width: 0.8em;
+      height: 0.6em;
+  }
+
+
+
+
+  .icon.more-black:before {
+      background-position: 0em -114.5em;
+      width: 0.8em;
+      height: 0.6em;
+  }
+
+
+
+
+  .icon.more-brilliant:before {
+      background-position: 0em -115.1em;
+      width: 0.8em;
+      height: 0.6em;
+  }
+
+
+
+
+  .icon.more-cyan:before {
+      background-position: 0em -115.7em;
+      width: 0.8em;
+      height: 0.6em;
+  }
+
+
+
+
+  .icon.more-grey:before {
+      background-position: 0em -116.3em;
+      width: 0.8em;
+      height: 0.6em;
+  }
+
+
+
+
+  .icon.more-white:before {
+      background-position: 0em -116.9em;
+      width: 0.8em;
+      height: 0.6em;
+  }
+
+
+
+
+  .icon.new:before {
+      background-position: 0em -117.5em;
+      width: 7.4em;
+      height: 3.1em;
+  }
+
+
+
+
+  .icon.ojf8ed4taaxccncp6pcp:before {
+      background-position: 0em -120.6em;
+      width: 7.3em;
+      height: 2.5em;
+  }
+
+
+
+
+  .icon.order:before {
+      background-position: 0em -123.1em;
+      width: 5.2em;
+      height: 5em;
+  }
+
+
+
+
+  .icon.play:before {
+      background-position: 0em -128.1em;
+      width: 7.6em;
+      height: 7.6em;
+  }
+
+
+
+
+  .icon.pp:before {
+      background-position: 0em -135.7em;
+      width: 9.6em;
+      height: 2.2em;
+  }
+
+
+
+
+  .icon.reviews:before {
+      background-position: 0em -137.9em;
+      width: 1.4em;
+      height: 1em;
+  }
+
+
+
+
+  .icon.reviews-icon:before {
+      background-position: 0em -138.9em;
+      width: 1.2em;
+      height: 0.9em;
+  }
+
+
+
+
+  .icon.sber:before {
+      background-position: 0em -139.8em;
+      width: 11.5em;
+      height: 2.6em;
+  }
+
+
+
+
+  .icon.sber_logo:before {
+      background-position: 0em -142.4em;
+      width: 11.5em;
+      height: 2.6em;
+  }
+
+
+
+
+  .icon.search:before {
+      background-position: 0em -145em;
+      width: 1.8em;
+      height: 1.8em;
+  }
+
+
+
+
+  .icon.search:before {
+      background-position: 0em -146.8em;
+      width: 1.8em;
+      height: 1.8em;
+  }
+
+
+
+
+  .icon.share:before {
+      background-position: 0em -148.6em;
+      width: 1.9em;
+      height: 2.4em;
+  }
+
+
+
+
+  .icon.swift:before {
+      background-position: 0em -151em;
+      width: 4.3em;
+      height: 4.3em;
+  }
+
+
+
+
+  .icon.visa:before {
+      background-position: 0em -155.3em;
+      width: 7.3em;
+      height: 2.5em;
+  }
+
+
+
+
+  .icon.write:before {
+      background-position: 0em -157.8em;
+      width: 2.4em;
+      height: 2.4em;
+  }
+
+
+
+
+

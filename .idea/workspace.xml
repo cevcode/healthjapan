@@ -2,24 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d32ebb9-35af-4e1e-ab47-fa026085a173" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/badges/choice.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/badges/leader.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/badges/mom.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/badges/new.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/sprite/css/sprite.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/sprite/sprite.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/sprite/svg/sprite.svg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/brand.html" afterPath="$PROJECT_DIR$/app/brand.html" />
-      <change beforePath="$PROJECT_DIR$/app/card.html" afterPath="$PROJECT_DIR$/app/card.html" />
-      <change beforePath="$PROJECT_DIR$/app/filter.html" afterPath="$PROJECT_DIR$/app/filter.html" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change beforePath="$PROJECT_DIR$/app/review.html" afterPath="$PROJECT_DIR$/app/review.html" />
-      <change beforePath="$PROJECT_DIR$/app/sass/helpers/normalize.scss" afterPath="$PROJECT_DIR$/app/sass/helpers/normalize.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/brand.scss" afterPath="$PROJECT_DIR$/app/sass/pages/brand.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/search.scss" afterPath="$PROJECT_DIR$/app/sass/pages/search.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/ui/button.scss" afterPath="$PROJECT_DIR$/app/sass/ui/button.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/filter.scss" afterPath="$PROJECT_DIR$/app/sass/widgets/filter.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/product.scss" afterPath="$PROJECT_DIR$/app/sass/widgets/product.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/slider.scss" afterPath="$PROJECT_DIR$/app/sass/widgets/slider.scss" />
-      <change beforePath="$PROJECT_DIR$/app/search.html" afterPath="$PROJECT_DIR$/app/search.html" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon/Search.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/brand.html" afterPath="$PROJECT_DIR$/dist/brand.html" />
+      <change beforePath="$PROJECT_DIR$/dist/card.html" afterPath="$PROJECT_DIR$/dist/card.html" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" afterPath="$PROJECT_DIR$/dist/css/main.min.css" />
+      <change beforePath="$PROJECT_DIR$/dist/filter.html" afterPath="$PROJECT_DIR$/dist/filter.html" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
+      <change beforePath="$PROJECT_DIR$/dist/review.html" afterPath="$PROJECT_DIR$/dist/review.html" />
+      <change beforePath="$PROJECT_DIR$/dist/search.html" afterPath="$PROJECT_DIR$/dist/search.html" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,16 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="card.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/card.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2154">
-              <caret line="1124" column="102" lean-forward="false" selection-start-line="1124" selection-start-column="102" selection-end-line="1124" selection-end-column="102" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="compare.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/compare.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,11 +83,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slider.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="slider.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/widgets/slider.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="281">
               <caret line="104" column="21" lean-forward="false" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1084">
+              <caret line="94" column="24" lean-forward="true" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sprite.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/img/sprite/css/sprite.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="376" column="29" lean-forward="true" selection-start-line="376" selection-start-column="29" selection-end-line="376" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -131,7 +137,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>table</find>
       <find>clear</find>
       <find>counter_add</find>
       <find>_add</find>
@@ -161,6 +166,7 @@
       <find>product</find>
       <find>result</find>
       <find>dots</find>
+      <find>Searc</find>
     </findStrings>
     <replaceStrings>
       <replace>OpenSans</replace>
@@ -189,13 +195,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/sass/pages/filter.scss" />
         <option value="$PROJECT_DIR$/app/sass/widgets/counter.scss" />
         <option value="$PROJECT_DIR$/dist/css/main.min.css" />
         <option value="$PROJECT_DIR$/app/sass/helpers/_libs.scss" />
         <option value="$PROJECT_DIR$/app/sass/helpers/index.scss" />
         <option value="$PROJECT_DIR$/app/sass/main.scss" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/sass/widgets/search.scss" />
         <option value="$PROJECT_DIR$/app/sass/widgets/dropdown.scss" />
         <option value="$PROJECT_DIR$/app/sass/widgets/catalog.scss" />
@@ -240,6 +244,8 @@
         <option value="$PROJECT_DIR$/app/sass/widgets/filter.scss" />
         <option value="$PROJECT_DIR$/app/sass/widgets/product.scss" />
         <option value="$PROJECT_DIR$/app/sass/widgets/slider.scss" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/img/sprite/css/sprite.css" />
       </list>
     </option>
   </component>
@@ -297,6 +303,28 @@
               <item name="healthjapan" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="healthjapan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healthjapan" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="Image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="healthjapan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healthjapan" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="sprite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="healthjapan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healthjapan" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="sprite" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="healthjapan" type="b2602c69:ProjectViewProjectNode" />
@@ -396,14 +424,7 @@
       <workItem from="1529607003829" duration="3753000" />
       <workItem from="1530966345886" duration="39536000" />
       <workItem from="1531252188742" duration="19494000" />
-      <workItem from="1531500171799" duration="38384000" />
-    </task>
-    <task id="LOCAL-00025" summary="added sales page">
-      <created>1530829128089</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1530829128089</updated>
+      <workItem from="1531500171799" duration="39115000" />
     </task>
     <task id="LOCAL-00026" summary="rebuild">
       <created>1530829157061</created>
@@ -741,14 +762,22 @@
       <option name="project" value="LOCAL" />
       <updated>1531776776751</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="fixed some problems">
+      <created>1531781320639</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1531781320640</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184822000" />
+    <option name="totallyTimeSpent" value="185553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="814" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -757,7 +786,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32684284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -801,8 +830,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added contacts page" />
-    <MESSAGE value="added review, 404, thanks page. 1v of Desktop is done" />
     <MESSAGE value="added popup in reviews" />
     <MESSAGE value="started responsive -v on main page, not done, broken menu" />
     <MESSAGE value="fixed responsive mobile menu" />
@@ -826,45 +853,15 @@
     <MESSAGE value="update dist" />
     <MESSAGE value="added sales &amp;&amp; search responsive -v to 320px &amp;&amp; fixed bugs" />
     <MESSAGE value="added static pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="added static pages" />
+    <MESSAGE value="fixed some problems" />
+    <MESSAGE value="created sprites, not included" />
+    <option name="LAST_COMMIT_MESSAGE" value="created sprites, not included" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/sass/widgets/dropdown.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="41" column="10" lean-forward="false" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/ui/checkbox.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="42" column="9" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/pages/compare.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="156" column="24" lean-forward="false" selection-start-line="156" selection-start-column="24" selection-end-line="156" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/widgets/accordion.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -1326,6 +1323,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="104" column="21" lean-forward="false" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/sprite/sprite.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1084">
+          <caret line="94" column="24" lean-forward="true" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/sprite/svg/sprite.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/sprite/css/sprite.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="376" column="29" lean-forward="true" selection-start-line="376" selection-start-column="29" selection-end-line="376" selection-end-column="29" />
           <folding />
         </state>
       </provider>

@@ -22,6 +22,7 @@
     "gulp-rename": "^1.2.3",
     "gulp-rsync": "0.0.8",
     "gulp-sass": "^4.0.1",
+    "gulp-svg-sprites": "^4.1.2",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
     "vinyl-ftp": "^0.6.1"
