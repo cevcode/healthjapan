@@ -6,6 +6,9 @@ $bgItem: #f9f9f9;
 .table {
   width: 100%;
   border-spacing: 0;
+  @include screen-lt(tablet) {
+    min-width: rem(1000px);
+  }
   &__row {
     height: 75px;
   }

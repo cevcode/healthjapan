@@ -9,6 +9,9 @@
   justify-content: center;
   margin: auto;
   flex-direction: column;
+  @include screen-lt(mobile-custom) {
+    width: 100%;
+  }
   &__heading {
     font-size: rem(24px);
     @include main-font(600);

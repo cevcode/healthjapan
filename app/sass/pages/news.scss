@@ -1,6 +1,9 @@
 @import '../helpers/index';
 
 .news {
+  @include screen-lt(mobile-custom) {
+    padding: 0 !important;
+  }
   &__title {
     letter-spacing: 0;
     text-align: center;
@@ -9,5 +12,23 @@
   }
   .card__image {
     margin-top: rem(20px);
+  }
+  .row__jc-md-2 {
+    @include screen-lt(tablet) {
+      flex-direction: column;
+      >* {
+        width: 100% !important;
+        margin-right: 0 !important;
+      }
+      .description {
+        margin: auto !important;
+      }
+    }
+  }
+}
+
+.row--scroll {
+  @include screen-lt(tablet) {
+    overflow: scroll;
   }
 }

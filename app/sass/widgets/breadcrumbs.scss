@@ -13,9 +13,9 @@
     position: relative;
     @include screen-lt(mobile-small) {
       padding: rem(0 10px);
-      &:nth-child(3) {
-        padding-left: 0;
-      }
+      //&:nth-child(3) {
+      //  padding-left: 0;
+      //}
     }
     &:after {
       background-image: url('../../img/icon/more-cyan.svg');

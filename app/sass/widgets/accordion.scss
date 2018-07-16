@@ -32,7 +32,12 @@
     transition: max-height 0.2s ease-out;
     margin-bottom: rem(20px);
   }
-
+  &--fill {
+    .accordion__title {
+      background-color: transparent;
+      padding: rem(15px 20px);
+    }
+  }
 }
 
 .active {
