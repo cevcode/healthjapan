@@ -31,6 +31,10 @@
       background-repeat: no-repeat;
       -webkit-background-size: cover;
       background-size: cover;
+      @include screen-lt(tablet) {
+        display: none;
+        position: static;
+      }
     }
     h6 {
       margin-bottom: rem(15px);

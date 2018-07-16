@@ -3,6 +3,9 @@
 .contacts {
   margin-bottom: rem(105px);
   margin-top: rem(105px);
+  @include screen-lt(mobile) {
+    margin-top: rem(20px);
+  }
   .description {
     color: $brown;
   }
@@ -15,10 +18,17 @@
       right: rem(350px);
       width: rem(150px);
       height: rem(265px);
-      background-image: url('../../img/Image/group.svg');
+      background-image: url('../../img/Image/contact.png');
       background-repeat: no-repeat;
       -webkit-background-size: cover;
       background-size: cover;
+      @include screen-lt(tablet) {
+        right: rem(250px);
+      }
+      @include screen-lt(mobile) {
+        display: none;
+        position: static;
+      }
     }
   }
   &__content {
