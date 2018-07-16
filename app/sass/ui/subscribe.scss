@@ -4,7 +4,7 @@
   display: flex;
   margin-top: rem(40px);
   &__input {
-    border: rem(1px solid $brilliant);
+    border: 1px solid $brilliant;
     width: rem(310px);
     color: $black;
     @include placeholder-color($grey);

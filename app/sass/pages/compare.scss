@@ -4,11 +4,20 @@
   display: flex;
   flex-direction: row;
   margin-bottom: rem(105px);
+  @include screen-lt(desktop-small) {
+    justify-content: center;
+  }
   &__filters {
     padding: rem(0 25px);
   }
   &__filter {
     width: rem(285px);
+    @include screen-lt(desktop-small) {
+      min-width: rem(285px);
+    }
+    @include screen-lt(desktop-small) {
+      min-width: rem(260px);
+    }
     &-inner {
       background-color: $white;
       box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
@@ -69,6 +78,19 @@
     margin-left: rem(25px);
     display: flex;
     flex-direction: row;
+    @include screen-lt(desktop-small) {
+      overflow-y: scroll;
+    }
+    @include screen-lt(tablet) {
+      margin-left: 0;
+    }
+    .product {
+      @include screen-lt(tablet) {
+        min-width: rem(285px);
+        margin-right: rem(5px);
+        margin-left: 0;
+      }
+    }
   }
   &__data {
     margin-top: rem(210px);

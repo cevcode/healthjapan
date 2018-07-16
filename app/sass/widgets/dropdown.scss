@@ -24,7 +24,7 @@
     transform: rotate(45deg);
   }
   &__item {
-    border-bottom: rem(1px solid $light);
+    border-bottom: 1px solid $light;
     padding: rem(25px);
     position: relative;
     display: flex;

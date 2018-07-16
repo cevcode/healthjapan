@@ -25,7 +25,7 @@
     }
     &:disabled ~ .checkmark {
       background-color: transparent;
-      border: rem(1px solid #d9d9da);
+      border: 1px solid #d9d9da;
       &:after {
         background-image: url('../../img/icon/more-grey.svg');
         left: rem(3px);
@@ -72,7 +72,7 @@
         left: 1px;
         width: 12px;
         height: 12px;
-        border: rem(1px solid $white);
+        border: 1px solid $white;
         border-radius: 47%;
       }
     }

@@ -53,3 +53,10 @@
     }
   }
 }
+
+.breadcrumbs__link--mobile {
+  display: none;
+  @include screen-lt(tablet) {
+    display: block;
+  }
+}

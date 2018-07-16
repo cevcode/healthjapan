@@ -37,6 +37,12 @@
 }
 .row {
   display: flex;
+  &.tc-show-992 {
+    display: none;
+    @include screen-lt(tablet) {
+      display: block !important;
+    }
+  }
   &__jc {
     &-sb {
       justify-content: space-between;

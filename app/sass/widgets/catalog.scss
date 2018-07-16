@@ -5,6 +5,12 @@
   height: 100%;
   position: relative;
   width: rem(250px);
+  &.tc-show-320 {
+    display: none;
+    @include screen-lt(mobile) {
+      display: flex;
+    }
+  }
   @include screen-lt(tablet) {
     width: rem(200px);
     position: static;
@@ -96,7 +102,7 @@
     }
   }
   &__item {
-    border-bottom: rem(0.5px solid #e6e6e6);
+    border-bottom: 1px solid #e6e6e6;
   }
   &__inner {
     &-list {
@@ -134,7 +140,7 @@
     height: rem(50px);
     padding: rem(0 35px);
     display: flex;
-    border-top: rem(1px solid #f9f9f9);
+    border-top: 1px solid #f9f9f9;
     font-size: rem(14px);
     align-items: flex-start;
     color: $white;

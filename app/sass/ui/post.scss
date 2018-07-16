@@ -19,7 +19,7 @@
   border-radius: rem(5px);
   height: rem(340px);
   -webkit-background-size: cover;
-  background-size: cover;
+  background-size: cover !important;
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: center;

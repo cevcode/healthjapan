@@ -57,6 +57,7 @@ gulp.task('sass', function() {
 	.pipe(rename({suffix: '.min', prefix : ''}))
 	.pipe(autoprefixer(['last 15 versions']))
 	.pipe(cleanCSS()) // Comment in debugger
+	.pipe(purge())
 	.pipe(gulp.dest('app/css'))
 	.pipe(browserSync.stream())
 });
@@ -85,6 +86,8 @@ gulp.task('build', ['removedist', 'imagemin', 'sass', 'js'], function() {
 		])
         .pipe(purge({
             trim : true,
+            shorten : true,
+            verbose : true
         }))
 		.pipe(gulp.dest('dist/css'));
 

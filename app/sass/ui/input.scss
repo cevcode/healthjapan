@@ -14,14 +14,14 @@
   &__state {
     &--success {
       .input {
-        border: rem(1px solid $blue);
+        border: 1px solid $blue;
       }
       @include before('../../../img/icon/close.svg', 10px, 10px, 45px, 20px, auto, auto);
 
     }
     &--error {
       .input {
-        border: rem(1px solid $red);
+        border: 1px solid $red;
       }
       @include before('../../../img/icon/close.svg', 10px, 10px, 45px, 20px, auto, auto);
     }
@@ -46,7 +46,7 @@
 .input {
   border-radius: rem(3px);
   box-shadow: rem(inset 0 0 3px 0 #d9d9da);
-  border: rem(1px solid $light);
+  border: 1px solid $light;
   color: $black;
   position: relative;
   font-size: rem(14px);
@@ -57,11 +57,11 @@
   align-items: center;
   @include placeholder-color($grey);
   &:hover {
-    border: rem(1px solid $grey);
+    border: 1px solid $grey;
     transition: $transitionHover;
   }
   &:focus {
-    border: rem(1px solid $grey);
+    border: 1px solid $grey;
   }
 }
 

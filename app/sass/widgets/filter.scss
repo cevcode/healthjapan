@@ -5,7 +5,7 @@ $bgItemChoose: #d8d8d8;
 
 @mixin blockStyle() {
   padding-bottom: rem(25px);
-  border-bottom: rem(1px solid #cad2dc);
+  border-bottom: 1px solid #cad2dc;
   margin-bottom: rem(25px);
 }
 
@@ -47,7 +47,7 @@ $bgItemChoose: #d8d8d8;
 
   }
   &__brand {
-    border-bottom: rem(1px solid #cad2dc);
+    border-bottom: 1px solid #cad2dc;
     margin-bottom: rem(25px);
     .expandable {
       padding: 0;
@@ -155,7 +155,7 @@ $bgItemChoose: #d8d8d8;
     input {
       width: rem(75px);
       height: rem(40px);
-      border: rem(1px solid rgba(75, 101, 132, 0.3));
+      border: 1px solid rgba(75, 101, 132, 0.3);
       text-align: center;
       color: $brown;
     }

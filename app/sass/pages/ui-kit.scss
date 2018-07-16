@@ -7,7 +7,7 @@
   display: flex;
   &-item {
     list-style-type: none;
-    border: rem(1px solid $light);
+    border: 1px solid $light;
     height: rem(155px);
     width: calc(100%/10);
     margin: rem(10px 5px);
