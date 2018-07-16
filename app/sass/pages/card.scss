@@ -207,8 +207,10 @@ $mr: rem(20px);
           left: calc(130/2 - 32px);
           width: rem(75px);
           height: rem(75px);
-          background-color: $white;
-          border-radius: 50%;
+          background: url('../../img/icon/play.svg');
+          background-repeat: no-repeat;
+          background-size: contain !important;
+          z-index: 2;
           @include screen-lt(mobile-custom) {
             width: rem(30px);
             height: rem(30px);
