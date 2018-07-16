@@ -7,6 +7,9 @@
   @include screen-lt(desktop-small) {
     justify-content: center;
   }
+  @include screen-lt(mobile-custom) {
+    flex-direction: column;
+  }
   &__filters {
     padding: rem(0 25px);
   }
@@ -17,6 +20,9 @@
     }
     @include screen-lt(desktop-small) {
       min-width: rem(260px);
+    }
+    @include screen-lt(mobile-custom) {
+      display: none;
     }
     &-inner {
       background-color: $white;
@@ -60,14 +66,16 @@
       border: none;
       padding-left: rem(15px);
       background-color: transparent;
+      @include screen-lt(mobile-custom) {
+        margin-top: rem(10px);
+      }
       &:before {
         content: '';
         position: absolute;
         width: rem(9px);
-        -webkit-background-size: cover;
-        background-size: cover;
+        background-size: contain !important;
         height: rem(10px);
-        top: rem(4px);
+        top: rem(6px);
         left: 0;
         background-image: url('../../img/icon/close-red.svg');
         background-repeat: no-repeat;
@@ -134,5 +142,21 @@
     h5 {
       padding-top: 0;
     }
+  }
+}
+
+.compare__filter--mobile {
+  display: none;
+  @include screen-lt(mobile-custom) {
+    display: block;
+    width: 100%;
+    min-width: inherit;
+    padding: rem(15px);
+  }
+  .compare__filters {
+    padding: rem(0 10px);
+  }
+  .cart-form__select {
+    font-size: rem(12px);
   }
 }

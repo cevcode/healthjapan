@@ -255,6 +255,8 @@
   &__img {
     max-width: rem(60px);
     margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   &__item {
     box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
