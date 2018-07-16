@@ -83,6 +83,13 @@ input, textarea {
   }
 }
 
+a {
+  color: $cyan;
+  &:hover {
+    color: $brilliant;
+  }
+}
+
 .tc {
   &-show {
     &-1200 {

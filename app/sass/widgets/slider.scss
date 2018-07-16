@@ -8,6 +8,7 @@
   }
   .slick-next:before, .slick-prev:before {
     background-image: url('../../img/icon/more-white.svg');
+    display: block;
   }
   &__item {
     background-color: #bae8da;
@@ -96,11 +97,12 @@
   }
   .slick-next:before, .slick-prev:before {
     color: $black;
+    display: block;
   }
   .slick-dots {
-    bottom: rem(-105px);
+    bottom: rem(-55px);
     @include screen-lt(tablet) {
-      bottom: rem(-50px);
+      bottom: rem(-25px);
     }
   }
   .slick-dots li button:before {

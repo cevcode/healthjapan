@@ -62,6 +62,13 @@ transparent, 1px solid $brilliant, $brilliant;
         height: rem(50px);
       }
     }
+    &--full {
+      width: 100%;
+      height: rem(65px);
+      @include screen-lt(mobile-custom) {
+        height: rem(50px);
+      }
+    }
   }
   &__color {
     &--brilliant {

@@ -127,6 +127,14 @@
       span {
         @include main-font(700);
       }
+      a {
+        color: $cyan;
+        text-decoration: none;
+        &:hover {
+          color: $brilliant;
+          text-decoration: underline;
+        }
+      }
     }
   }
   .listing__container {
@@ -163,21 +171,9 @@
   margin-right: rem(5px);
   display: flex;
   align-items: center;
-  text-transform: uppercase;
   margin-top: rem(5px);
-  color: $white;
-  font-size: rem(7px);
-  &--1 {
-    background-image: linear-gradient(to bottom, #a1cf4f, #429321);
-  }
-  &--2 {
-    background-image: linear-gradient(to bottom, #a8c0ff, #3f2b96);
-  }
-  &--3 {
-    background-image: linear-gradient(to bottom, #4388f2, #2050e0);
-  }
-  &--4 {
-    background-image: linear-gradient(to bottom, #f2c94c, #f2994a);
+  img {
+    width: 100%;
   }
   &:nth-child(3n+3) {
     margin-right: 0;
