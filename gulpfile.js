@@ -39,7 +39,9 @@ gulp.task('common-js', function() {
 
 gulp.task('sprites', function () {
     return gulp.src('app/img/**/*.svg')
-        .pipe(svgSprite())
+        .pipe(svgSprite({
+            selector: "icon-%f"
+        }))
         .pipe(gulp.dest("app/img/sprite"));
 });
 
