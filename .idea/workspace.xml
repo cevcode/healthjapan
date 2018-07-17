@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d32ebb9-35af-4e1e-ab47-fa026085a173" name="Default" comment="">
+    <list default="true" id="6d32ebb9-35af-4e1e-ab47-fa026085a173" name="Default" comment="updated dist, finish">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/img/sprite/svg/sprite.svg" afterPath="$PROJECT_DIR$/app/img/sprite/svg/sprite.svg" />
-      <change beforePath="$PROJECT_DIR$/dist/img/sprite/svg/sprite.svg" afterPath="$PROJECT_DIR$/dist/img/sprite/svg/sprite.svg" />
-      <change beforePath="$PROJECT_DIR$/dist/js/scripts.min.js" afterPath="$PROJECT_DIR$/dist/js/scripts.min.js" />
-      <change beforePath="$PROJECT_DIR$/dist/payment.html" afterPath="$PROJECT_DIR$/dist/payment.html" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" afterPath="$PROJECT_DIR$/dist/css/main.min.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,8 +60,8 @@
       <file leaf-file-name="main.min.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/css/main.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="0" column="217801" lean-forward="true" selection-start-line="0" selection-start-column="217801" selection-end-line="0" selection-end-column="217801" />
+            <state relative-caret-position="127">
+              <caret line="0" column="157135" lean-forward="false" selection-start-line="0" selection-start-column="157135" selection-end-line="0" selection-end-column="157135" />
               <folding />
             </state>
           </provider>
@@ -138,8 +135,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>product__controls</find>
-      <find>&lt;img src=&quot;img/icon/choose.svg&quot; alt=&quot;&quot;&gt;</find>
       <find>&lt;img src=&quot;img/icon/favorite.svg&quot; alt=&quot;&quot;&gt;</find>
       <find>&lt;i cl</find>
       <find>&lt;img src=&quot;img/logos/sber.svg&quot; alt=&quot;&quot; class=&quot;footer__pay-img&quot;&gt;&lt;</find>
@@ -164,10 +159,12 @@
       <find>choose</find>
       <find>&lt;img src=&quot;img/icon/cart.svg&quot; alt=&quot;&quot; class=&quot;header__controls-img&quot;&gt;</find>
       <find>more-</find>
-      <find>../../</find>
       <find>news</find>
       <find>input</find>
       <find>TODO</find>
+      <find>ico</find>
+      <find>icon/men</find>
+      <find>../../</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;../fonts/</replace>
@@ -198,8 +195,8 @@
       <replace>&lt;i class=&quot;icon icon-choose header__controls-img&quot;&gt;&lt;/i&gt;</replace>
       <replace>&lt;i class=&quot;icon icon-favorite header__controls-img&quot;&gt;&lt;/i&gt;</replace>
       <replace>&lt;i class=&quot;icon icon-cart header__controls-img&quot;&gt;&lt;/i&gt;</replace>
-      <replace>../</replace>
       <replace>.icon-</replace>
+      <replace>../</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/css</dir>
@@ -459,14 +456,7 @@
       <workItem from="1529607003829" duration="3753000" />
       <workItem from="1530966345886" duration="39536000" />
       <workItem from="1531252188742" duration="19494000" />
-      <workItem from="1531500171799" duration="47558000" />
-    </task>
-    <task id="LOCAL-00030" summary="updated dist">
-      <created>1530972478163</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1530972478163</updated>
+      <workItem from="1531500171799" duration="47675000" />
     </task>
     <task id="LOCAL-00031" summary="added cart page">
       <created>1531072757328</created>
@@ -804,11 +794,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531826453125</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="updated dist, finish">
+      <created>1531826529606</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1531826529607</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193996000" />
+    <option name="totallyTimeSpent" value="194113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="814" extended-state="0" />
@@ -865,7 +862,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="created main-page responsive up to 768px" />
     <MESSAGE value="some fixes" />
     <MESSAGE value="created full responsible main-page up to 320px" />
     <MESSAGE value="updated header/footer in all pages with new responsive settings" />
@@ -890,7 +886,8 @@
     <MESSAGE value="included sprites" />
     <MESSAGE value="last fixed &amp;&amp; project done" />
     <MESSAGE value="added validations" />
-    <option name="LAST_COMMIT_MESSAGE" value="added validations" />
+    <MESSAGE value="updated dist, finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated dist, finish" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1351,8 +1348,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/main.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="0" column="217801" lean-forward="true" selection-start-line="0" selection-start-column="217801" selection-end-line="0" selection-end-column="217801" />
+        <state relative-caret-position="127">
+          <caret line="0" column="157135" lean-forward="false" selection-start-line="0" selection-start-column="157135" selection-end-line="0" selection-end-column="157135" />
           <folding />
         </state>
       </provider>
