@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d32ebb9-35af-4e1e-ab47-fa026085a173" name="Default" comment="added v">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/.bower.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/CONTRIBUTING.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/bower.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/demo/datepicker.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/demo/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/dist/jquery.maskedinput.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/dist/jquery.maskedinput.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/gruntfile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/jquery.maskedinput.nuspec" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/src/jquery.maskedinput.js" />
+    <list default="true" id="6d32ebb9-35af-4e1e-ab47-fa026085a173" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/img/sprite/svg/sprite.svg" afterPath="$PROJECT_DIR$/app/img/sprite/svg/sprite.svg" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.js" afterPath="$PROJECT_DIR$/app/js/common.js" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.min.js" afterPath="$PROJECT_DIR$/app/js/common.min.js" />
-      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" />
-      <change beforePath="$PROJECT_DIR$/app/payment.html" afterPath="$PROJECT_DIR$/app/payment.html" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sprite/svg/sprite.svg" afterPath="$PROJECT_DIR$/dist/img/sprite/svg/sprite.svg" />
+      <change beforePath="$PROJECT_DIR$/dist/js/scripts.min.js" afterPath="$PROJECT_DIR$/dist/js/scripts.min.js" />
+      <change beforePath="$PROJECT_DIR$/dist/payment.html" afterPath="$PROJECT_DIR$/dist/payment.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/app/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="257">
-              <caret line="200" column="5" lean-forward="true" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
+              <caret line="200" column="5" lean-forward="false" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -65,11 +50,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="payment.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="payment.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/payment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="425" column="57" lean-forward="false" selection-start-line="425" selection-start-column="57" selection-end-line="425" selection-end-column="57" />
+            <state relative-caret-position="250">
+              <caret line="421" column="42" lean-forward="false" selection-start-line="421" selection-start-column="42" selection-end-line="421" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.min.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist/css/main.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="0" column="217801" lean-forward="true" selection-start-line="0" selection-start-column="217801" selection-end-line="0" selection-end-column="217801" />
               <folding />
             </state>
           </provider>
@@ -90,16 +85,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="82" column="32" lean-forward="false" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contacts.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/sass/pages/contacts.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -153,7 +138,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;div class=&quot;product__controls&quot;&gt;                            &lt;a href=&quot;#&quot; class=&quot;product__controls-item&quot;&gt;&lt;img src=&quot;img/icon/choose.svg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;                            &lt;a href=&quot;#&quot; class=&quot;product__controls-item&quot;&gt;&lt;img src=&quot;img/icon/favorite.svg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;                        &lt;/div&gt;</find>
       <find>product__controls</find>
       <find>&lt;img src=&quot;img/icon/choose.svg&quot; alt=&quot;&quot;&gt;</find>
       <find>&lt;img src=&quot;img/icon/favorite.svg&quot; alt=&quot;&quot;&gt;</find>
@@ -183,6 +167,7 @@
       <find>../../</find>
       <find>news</find>
       <find>input</find>
+      <find>TODO</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;../fonts/</replace>
@@ -272,11 +257,11 @@
         <option value="$PROJECT_DIR$/app/sass/pages/delivery.scss" />
         <option value="$PROJECT_DIR$/app/guarantee.html" />
         <option value="$PROJECT_DIR$/app/sass/pages/main.scss" />
-        <option value="$PROJECT_DIR$/dist/css/main.min.css" />
         <option value="$PROJECT_DIR$/app/sass/ui/input.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/js/common.js" />
         <option value="$PROJECT_DIR$/app/payment.html" />
+        <option value="$PROJECT_DIR$/dist/css/main.min.css" />
       </list>
     </option>
   </component>
@@ -474,14 +459,7 @@
       <workItem from="1529607003829" duration="3753000" />
       <workItem from="1530966345886" duration="39536000" />
       <workItem from="1531252188742" duration="19494000" />
-      <workItem from="1531500171799" duration="47479000" />
-    </task>
-    <task id="LOCAL-00029" summary="added one-sale-page">
-      <created>1530972452802</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1530972452802</updated>
+      <workItem from="1531500171799" duration="47558000" />
     </task>
     <task id="LOCAL-00030" summary="updated dist">
       <created>1530972478163</created>
@@ -819,14 +797,22 @@
       <option name="project" value="LOCAL" />
       <updated>1531822989430</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="added validations">
+      <created>1531826453125</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1531826453125</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193917000" />
+    <option name="totallyTimeSpent" value="193996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="814" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -835,7 +821,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32684284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -879,7 +865,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed responsive mobile menu" />
     <MESSAGE value="created main-page responsive up to 768px" />
     <MESSAGE value="some fixes" />
     <MESSAGE value="created full responsible main-page up to 320px" />
@@ -904,7 +889,8 @@
     <MESSAGE value="created sprites, not included" />
     <MESSAGE value="included sprites" />
     <MESSAGE value="last fixed &amp;&amp; project done" />
-    <option name="LAST_COMMIT_MESSAGE" value="last fixed &amp;&amp; project done" />
+    <MESSAGE value="added validations" />
+    <option name="LAST_COMMIT_MESSAGE" value="added validations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1323,14 +1309,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/css/main.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="0" column="214916" lean-forward="false" selection-start-line="0" selection-start-column="214916" selection-end-line="0" selection-end-column="214916" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1358,15 +1336,23 @@
     <entry file="file://$PROJECT_DIR$/app/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
-          <caret line="200" column="5" lean-forward="true" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
+          <caret line="200" column="5" lean-forward="false" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/payment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="425" column="57" lean-forward="false" selection-start-line="425" selection-start-column="57" selection-end-line="425" selection-end-column="57" />
+        <state relative-caret-position="250">
+          <caret line="421" column="42" lean-forward="false" selection-start-line="421" selection-start-column="42" selection-end-line="421" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/main.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="0" column="217801" lean-forward="true" selection-start-line="0" selection-start-column="217801" selection-end-line="0" selection-end-column="217801" />
           <folding />
         </state>
       </provider>

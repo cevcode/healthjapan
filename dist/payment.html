@@ -376,76 +376,75 @@
                 </div>
             </div>
             <div class="cart__column cart-form">
+                <form action="#" id="payment-form">
                 <div class="cart-form__title">
                     <h4>Оформление заказа</h4>
                 </div>
                 <div class="cart-form__content">
                     <h5>Получатель</h5>
-                    <form action="#">
+                    <div class="field field__size--full">
+                        <label for="cart-fio">Имя Фамилия</label>
+                        <input name="cart-fio" type="text" id="cart-fio" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" oninvalid="setCustomValidity('Имя должно содержать 2-20 символов')" placeholder="Игнат" class="input" required />
+                    </div>
+                    <div class="field field__size--full">
+                        <label for="cart-phone">Телефон</label>
+                        <input name="cart-phone" required id="cart-phone" placeholder="+7 (979) 123 45 84" class="input"/>
+                    </div>
+                    <div class="field field__size--full">
+                        <label for="email">Электронная почта</label>
+                        <input name="email" id="email" required placeholder="test@gmail.com" class="input" type="email" />
+                    </div>
+                    <div class="row row--selects">
+                        <div class="cart-form__select">
+                            <label for="country">Выбрать страну</label>
+                            <select class="select" id="country" name="country">
+                                <option value="RU">Россия</option>
+                                <option value="UA">Украина</option>
+                                <option value="BE">Беларусь</option>
+                            </select>
+                        </div>
+                        <div class="cart-form__select">
+                            <label for="city">Выбрать город</label>
+                            <select class="select" id="city" name="city">
+                                <option value="Moscow">Москва</option>
+                                <option value="Kiev">Киев</option>
+                                <option value="Minsk">Минск</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row cart-form__data">
                         <div class="field field__size--full">
-                            <label for="cart-fio">Имя Фамилия</label>
-                            <input name="cart-fio" type="text" id="cart-fio" placeholder="Игнат" class="input"/>
+                            <label for="street">Улица</label>
+                            <input name="street" required id="street" placeholder="Пушкина" class="input" type="text" />
                         </div>
                         <div class="field field__size--full">
-                            <label for="cart-phone">Телефон</label>
-                            <input name="cart-phone" type="number" id="cart-phone" placeholder="+7 (979) 123 45 84" class="input"/>
+                            <label for="house">Дом и квартира</label>
+                            <input name="house" required id="house" placeholder="д.45 кв.9" class="input" type="text" />
                         </div>
                         <div class="field field__size--full">
-                            <label for="email">Электронная почта</label>
-                            <input name="email" id="email" placeholder="test@gmail.com" class="input" type="email" />
+                            <label for="index">Индекс</label>
+                            <input name="index" required id="index" placeholder="49023" class="input" type="number" />
                         </div>
-                        <div class="row row--selects">
-                            <div class="cart-form__select">
-                                <label for="country">Выбрать страну</label>
-                                <select class="select" id="country" name="country">
-                                    <option value="RU">Россия</option>
-                                    <option value="UA">Украина</option>
-                                    <option value="BE">Беларусь</option>
-                                </select>
-                            </div>
-                            <div class="cart-form__select">
-                                <label for="city">Выбрать город</label>
-                                <select class="select" id="city" name="city">
-                                    <option value="Moscow">Москва</option>
-                                    <option value="Kiev">Киев</option>
-                                    <option value="Minsk">Минск</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="row cart-form__data">
-                            <div class="field field__size--full">
-                                <label for="street">Улица</label>
-                                <input name="street" id="street" placeholder="Пушкина" class="input" type="text" />
-                            </div>
-                            <div class="field field__size--full">
-                                <label for="house">Дом и квартира</label>
-                                <input name="house" id="house" placeholder="д.45 кв.9" class="input" type="text" />
-                            </div>
-                            <div class="field field__size--full">
-                                <label for="index">Индекс</label>
-                                <input name="index" id="index" placeholder="49023" class="input" type="number" />
-                            </div>
-                        </div>
-                        <label class="checkbox__label">Хочу получать персональные предложения и скидки по эл. почте
-                            <input type="checkbox" checked="checked" disabled>
+                    </div>
+                    <label class="checkbox__label">Хочу получать персональные предложения и скидки по эл. почте
+                        <input type="checkbox" checked="checked" disabled>
+                        <span class="checkmark"></span>
+                    </label>
+                    <p class="cart-form___pay-title">Способ оплаты</p>
+                    <div class="row payment">
+                        <label class="checkbox__label checkbox-radio">Paypal
+                            <input id="paypal" type="radio" checked="checked" name="pay-variant">
                             <span class="checkmark"></span>
                         </label>
-                        <p class="cart-form___pay-title">Способ оплаты</p>
-                        <div class="row payment">
-                            <label class="checkbox__label checkbox-radio">Paypal
-                                <input id="paypal" type="radio" checked="checked" name="pay-variant">
-                                <span class="checkmark"></span>
-                            </label>
-                            <label class="checkbox__label checkbox-radio">перевод swift
-                                <input id="swift" type="radio" name="pay-variant">
-                                <span class="checkmark"></span>
-                            </label>
-                            <label class="checkbox__label checkbox-radio">Сбербанка
-                                <input id="sberbank" type="radio" name="pay-variant">
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-                    </form>
+                        <label class="checkbox__label checkbox-radio">перевод swift
+                            <input id="swift" type="radio" name="pay-variant">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="checkbox__label checkbox-radio">Сбербанка
+                            <input id="sberbank" type="radio" name="pay-variant">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
                 </div>
                 <div class="cart-form__footer">
                     <div class="row row__jc-sb">
@@ -453,9 +452,10 @@
                         <h5>18000 руб. <span class="cart-form__info">i</span></h5>
                     </div>
                     <div class="row">
-                        <button class="button button__color--brilliant button__size--large">Подтвердить заказ</button>
+                        <button type="submit" class="button button__color--brilliant button__size--large">Подтвердить заказ</button>
                     </div>
                 </div>
+                </form>
             </div>
         </div>
     </div>
