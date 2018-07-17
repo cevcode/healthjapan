@@ -201,7 +201,9 @@ catalogMobileInnerButton.click(function () {
     }
 });
 
-
+$(function($) {
+    $("#cart-phone").mask("+9 (999) 999-99-99");
+});
 
 
 

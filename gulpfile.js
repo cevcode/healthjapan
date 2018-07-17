@@ -52,7 +52,8 @@ gulp.task('js', ['common-js'], function() {
 		'app/libs/superfish/dist/js/superfish.js',
 		'app/libs/select2/dist/js/select2.min.js',
 		'app/libs/remodal/dist/remodal.min.js',
-		'app/js/common.min.js', // Always end
+		'app/libs/jquery.maskedinput/dist/jquery.maskedinput.min.js',
+		'app/js/common.min.js' // Always end
 		])
 	.pipe(concat('scripts.min.js'))
 	.pipe(uglify()) // For minimize all js files

@@ -1,42 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d32ebb9-35af-4e1e-ab47-fa026085a173" name="Default" comment="">
+    <list default="true" id="6d32ebb9-35af-4e1e-ab47-fa026085a173" name="Default" comment="added v">
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/.bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/CONTRIBUTING.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/demo/datepicker.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/demo/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/dist/jquery.maskedinput.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/dist/jquery.maskedinput.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/gruntfile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/jquery.maskedinput.nuspec" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery.maskedinput/src/jquery.maskedinput.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/404.html" afterPath="$PROJECT_DIR$/app/404.html" />
-      <change beforePath="$PROJECT_DIR$/app/brand.html" afterPath="$PROJECT_DIR$/app/brand.html" />
-      <change beforePath="$PROJECT_DIR$/app/card.html" afterPath="$PROJECT_DIR$/app/card.html" />
-      <change beforePath="$PROJECT_DIR$/app/compare.html" afterPath="$PROJECT_DIR$/app/compare.html" />
-      <change beforePath="$PROJECT_DIR$/app/contacts.html" afterPath="$PROJECT_DIR$/app/contacts.html" />
-      <change beforePath="$PROJECT_DIR$/app/delivery.html" afterPath="$PROJECT_DIR$/app/delivery.html" />
-      <change beforePath="$PROJECT_DIR$/app/filter.html" afterPath="$PROJECT_DIR$/app/filter.html" />
-      <change beforePath="$PROJECT_DIR$/app/guarantee.html" afterPath="$PROJECT_DIR$/app/guarantee.html" />
       <change beforePath="$PROJECT_DIR$/app/img/sprite/svg/sprite.svg" afterPath="$PROJECT_DIR$/app/img/sprite/svg/sprite.svg" />
-      <change beforePath="$PROJECT_DIR$/app/news.html" afterPath="$PROJECT_DIR$/app/news.html" />
-      <change beforePath="$PROJECT_DIR$/app/one-sale-page.html" afterPath="$PROJECT_DIR$/app/one-sale-page.html" />
+      <change beforePath="$PROJECT_DIR$/app/js/common.js" afterPath="$PROJECT_DIR$/app/js/common.js" />
+      <change beforePath="$PROJECT_DIR$/app/js/common.min.js" afterPath="$PROJECT_DIR$/app/js/common.min.js" />
+      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" />
       <change beforePath="$PROJECT_DIR$/app/payment.html" afterPath="$PROJECT_DIR$/app/payment.html" />
-      <change beforePath="$PROJECT_DIR$/app/review.html" afterPath="$PROJECT_DIR$/app/review.html" />
-      <change beforePath="$PROJECT_DIR$/app/sales.html" afterPath="$PROJECT_DIR$/app/sales.html" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/main.scss" afterPath="$PROJECT_DIR$/app/sass/pages/main.scss" />
-      <change beforePath="$PROJECT_DIR$/app/search.html" afterPath="$PROJECT_DIR$/app/search.html" />
-      <change beforePath="$PROJECT_DIR$/app/thanks.html" afterPath="$PROJECT_DIR$/app/thanks.html" />
-      <change beforePath="$PROJECT_DIR$/dist/404.html" afterPath="$PROJECT_DIR$/dist/404.html" />
-      <change beforePath="$PROJECT_DIR$/dist/brand.html" afterPath="$PROJECT_DIR$/dist/brand.html" />
-      <change beforePath="$PROJECT_DIR$/dist/card.html" afterPath="$PROJECT_DIR$/dist/card.html" />
-      <change beforePath="$PROJECT_DIR$/dist/compare.html" afterPath="$PROJECT_DIR$/dist/compare.html" />
-      <change beforePath="$PROJECT_DIR$/dist/contacts.html" afterPath="$PROJECT_DIR$/dist/contacts.html" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" afterPath="$PROJECT_DIR$/dist/css/main.min.css" />
-      <change beforePath="$PROJECT_DIR$/dist/delivery.html" afterPath="$PROJECT_DIR$/dist/delivery.html" />
-      <change beforePath="$PROJECT_DIR$/dist/filter.html" afterPath="$PROJECT_DIR$/dist/filter.html" />
-      <change beforePath="$PROJECT_DIR$/dist/guarantee.html" afterPath="$PROJECT_DIR$/dist/guarantee.html" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change beforePath="$PROJECT_DIR$/dist/news.html" afterPath="$PROJECT_DIR$/dist/news.html" />
-      <change beforePath="$PROJECT_DIR$/dist/one-sale-page.html" afterPath="$PROJECT_DIR$/dist/one-sale-page.html" />
-      <change beforePath="$PROJECT_DIR$/dist/payment.html" afterPath="$PROJECT_DIR$/dist/payment.html" />
-      <change beforePath="$PROJECT_DIR$/dist/review.html" afterPath="$PROJECT_DIR$/dist/review.html" />
-      <change beforePath="$PROJECT_DIR$/dist/sales.html" afterPath="$PROJECT_DIR$/dist/sales.html" />
-      <change beforePath="$PROJECT_DIR$/dist/search.html" afterPath="$PROJECT_DIR$/dist/search.html" />
-      <change beforePath="$PROJECT_DIR$/dist/thanks.html" afterPath="$PROJECT_DIR$/dist/thanks.html" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/app/sass/pages/main.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
-              <caret line="329" column="7" lean-forward="true" selection-start-line="329" selection-start-column="7" selection-end-line="329" selection-end-column="7" />
+              <caret line="329" column="7" lean-forward="false" selection-start-line="329" selection-start-column="7" selection-end-line="329" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -63,8 +48,8 @@
       <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="186" column="47" lean-forward="true" selection-start-line="186" selection-start-column="47" selection-end-line="186" selection-end-column="47" />
+            <state relative-caret-position="257">
+              <caret line="200" column="5" lean-forward="true" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -73,18 +58,28 @@
       <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="120" column="7" lean-forward="true" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
+            <state relative-caret-position="208">
+              <caret line="49" column="45" lean-forward="false" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.min.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dist/css/main.min.css">
+      <file leaf-file-name="payment.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/payment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25147">
-              <caret line="0" column="6617" lean-forward="true" selection-start-line="0" selection-start-column="6617" selection-end-line="0" selection-end-column="6617" />
+            <state relative-caret-position="310">
+              <caret line="425" column="57" lean-forward="false" selection-start-line="425" selection-start-column="57" selection-end-line="425" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/sass/ui/input.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -95,16 +90,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="82" column="32" lean-forward="false" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="guarantee.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/sass/pages/guarantee.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="39" column="31" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -169,7 +154,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>&lt;div class=&quot;product__controls&quot;&gt;                            &lt;a href=&quot;#&quot; class=&quot;product__controls-item&quot;&gt;&lt;img src=&quot;img/icon/choose.svg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;                            &lt;a href=&quot;#&quot; class=&quot;product__controls-item&quot;&gt;&lt;img src=&quot;img/icon/favorite.svg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;                        &lt;/div&gt;</find>
-      <find>&lt;div class=&quot;product__controls&quot;&gt;                            &lt;a href=&quot;#&quot; class=&quot;product__controls-item&quot;&gt;&lt;img src=&quot;img/icon/choose.svg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;                            &lt;a href=&quot;#&quot; class=&quot;product__controls-item&quot;&gt;&lt;img src=&quot;img/icon/favorite.svg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;                        &lt;/div&gt;</find>
       <find>product__controls</find>
       <find>&lt;img src=&quot;img/icon/choose.svg&quot; alt=&quot;&quot;&gt;</find>
       <find>&lt;img src=&quot;img/icon/favorite.svg&quot; alt=&quot;&quot;&gt;</find>
@@ -196,8 +180,9 @@
       <find>choose</find>
       <find>&lt;img src=&quot;img/icon/cart.svg&quot; alt=&quot;&quot; class=&quot;header__controls-img&quot;&gt;</find>
       <find>more-</find>
-      <find>news</find>
       <find>../../</find>
+      <find>news</find>
+      <find>input</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;../fonts/</replace>
@@ -228,8 +213,8 @@
       <replace>&lt;i class=&quot;icon icon-choose header__controls-img&quot;&gt;&lt;/i&gt;</replace>
       <replace>&lt;i class=&quot;icon icon-favorite header__controls-img&quot;&gt;&lt;/i&gt;</replace>
       <replace>&lt;i class=&quot;icon icon-cart header__controls-img&quot;&gt;&lt;/i&gt;</replace>
-      <replace>.icon-</replace>
       <replace>../</replace>
+      <replace>.icon-</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/css</dir>
@@ -241,7 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/sass/widgets/dropdown.scss" />
         <option value="$PROJECT_DIR$/app/sass/widgets/catalog.scss" />
         <option value="$PROJECT_DIR$/app/sass/ui/checkbox.scss" />
         <option value="$PROJECT_DIR$/app/compare.html" />
@@ -253,14 +237,12 @@
         <option value="$PROJECT_DIR$/app/sass/widgets/breadcrumbs.scss" />
         <option value="$PROJECT_DIR$/app/one-sale-page.html" />
         <option value="$PROJECT_DIR$/app/sass/widgets/timer.scss" />
-        <option value="$PROJECT_DIR$/app/payment.html" />
         <option value="$PROJECT_DIR$/app/sass/pages/cart.scss" />
         <option value="$PROJECT_DIR$/app/sass/pages/card.scss" />
         <option value="$PROJECT_DIR$/app/sass/pages/review.scss" />
         <option value="$PROJECT_DIR$/app/sales.html" />
         <option value="$PROJECT_DIR$/app/sass/pages/sales.scss" />
         <option value="$PROJECT_DIR$/app/img/icon/menu-black.svg" />
-        <option value="$PROJECT_DIR$/app/js/common.js" />
         <option value="$PROJECT_DIR$/app/img/icon/close-black.svg" />
         <option value="$PROJECT_DIR$/app/sass/helpers/_mixins.scss" />
         <option value="$PROJECT_DIR$/app/sass/ui/container.scss" />
@@ -276,7 +258,6 @@
         <option value="$PROJECT_DIR$/app/sass/widgets/filter.scss" />
         <option value="$PROJECT_DIR$/app/sass/widgets/product.scss" />
         <option value="$PROJECT_DIR$/app/sass/widgets/slider.scss" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/img/sprite/css/sprite.css" />
         <option value="$PROJECT_DIR$/app/sass/helpers/sprite.scss" />
         <option value="$PROJECT_DIR$/app/sass/helpers/index.scss" />
@@ -292,6 +273,10 @@
         <option value="$PROJECT_DIR$/app/guarantee.html" />
         <option value="$PROJECT_DIR$/app/sass/pages/main.scss" />
         <option value="$PROJECT_DIR$/dist/css/main.min.css" />
+        <option value="$PROJECT_DIR$/app/sass/ui/input.scss" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/js/common.js" />
+        <option value="$PROJECT_DIR$/app/payment.html" />
       </list>
     </option>
   </component>
@@ -355,6 +340,36 @@
               <item name="healthjapan" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="healthjapan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healthjapan" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="healthjapan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healthjapan" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery.maskedinput" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="healthjapan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healthjapan" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery.maskedinput" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="healthjapan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healthjapan" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery.maskedinput" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery.maskedinput.js" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="healthjapan" type="b2602c69:ProjectViewProjectNode" />
@@ -459,14 +474,7 @@
       <workItem from="1529607003829" duration="3753000" />
       <workItem from="1530966345886" duration="39536000" />
       <workItem from="1531252188742" duration="19494000" />
-      <workItem from="1531500171799" duration="44268000" />
-    </task>
-    <task id="LOCAL-00028" summary="update dist">
-      <created>1530970650818</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1530970650818</updated>
+      <workItem from="1531500171799" duration="47479000" />
     </task>
     <task id="LOCAL-00029" summary="added one-sale-page">
       <created>1530972452802</created>
@@ -804,24 +812,30 @@
       <option name="project" value="LOCAL" />
       <updated>1531821685292</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="last fixed &amp;&amp; project done">
+      <created>1531822989430</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1531822989430</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190706000" />
+    <option name="totallyTimeSpent" value="193917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="814" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32684284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32684284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -865,7 +879,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="started responsive -v on main page, not done, broken menu" />
     <MESSAGE value="fixed responsive mobile menu" />
     <MESSAGE value="created main-page responsive up to 768px" />
     <MESSAGE value="some fixes" />
@@ -890,29 +903,14 @@
     <MESSAGE value="fixed some problems" />
     <MESSAGE value="created sprites, not included" />
     <MESSAGE value="included sprites" />
-    <option name="LAST_COMMIT_MESSAGE" value="included sprites" />
+    <MESSAGE value="last fixed &amp;&amp; project done" />
+    <option name="LAST_COMMIT_MESSAGE" value="last fixed &amp;&amp; project done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/sass/pages/review.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/widgets/catalog.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="30" column="86" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/img/icon/menu-black.svg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1287,14 +1285,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="82" column="32" lean-forward="false" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -1328,31 +1318,55 @@
     <entry file="file://$PROJECT_DIR$/app/sass/pages/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="329" column="7" lean-forward="true" selection-start-line="329" selection-start-column="7" selection-end-line="329" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="120" column="7" lean-forward="true" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="186" column="47" lean-forward="true" selection-start-line="186" selection-start-column="47" selection-end-line="186" selection-end-column="47" />
+          <caret line="329" column="7" lean-forward="false" selection-start-line="329" selection-start-column="7" selection-end-line="329" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/main.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25147">
-          <caret line="0" column="6617" lean-forward="true" selection-start-line="0" selection-start-column="6617" selection-end-line="0" selection-end-column="6617" />
+        <state relative-caret-position="173">
+          <caret line="0" column="214916" lean-forward="false" selection-start-line="0" selection-start-column="214916" selection-end-line="0" selection-end-column="214916" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="82" column="32" lean-forward="false" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/ui/input.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="49" column="45" lean-forward="false" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="200" column="5" lean-forward="true" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/payment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="425" column="57" lean-forward="false" selection-start-line="425" selection-start-column="57" selection-end-line="425" selection-end-column="57" />
           <folding />
         </state>
       </provider>
