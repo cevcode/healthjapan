@@ -317,7 +317,7 @@
 }
 
 .news {
-  @include screen-lt(mobile) {
+  @include screen-lt(mobile-custom) {
     padding: rem(0 15px);
   }
   .post {
