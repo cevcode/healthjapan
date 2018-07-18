@@ -1,0 +1,102 @@
+
+
+.search {
+  display: flex;
+  height: rem(50px);
+  width: rem(600px);
+  @include screen-lt(desktop-small) {
+    width: rem(500px);
+  }
+  @include screen-lt(tablet) {
+    width: rem(550px);
+    margin: auto;
+  }
+  @include screen-lt(mobile-custom) {
+    width: 90%;
+  }
+  &__field {
+    display: flex;
+    border: 1px solid $brilliant;
+    border-right: 0px;
+    align-items: center;
+    position: relative;
+    width: rem(500px);
+    @include before('../../img/icon/search.svg', 18px, 18px, 17px, auto, auto, 20px);
+    @include screen-lt(mobile-custom) {
+      border-right: 1px solid $brilliant;
+      width: 100%;
+    }
+  }
+  &__input {
+    border: none;
+    height: 70%;
+    background-color: transparent;
+    color: $black;
+    @include placeholder-color($grey);
+    padding: rem(0 20px 0 40px);
+    @include main-font(400);
+    border-right: 1px solid $light;
+    width: rem(370px);
+    @include screen-lt(desktop-small) {
+      width: rem(300px);
+    }
+    @include screen-lt(mobile-custom) {
+      border: none;
+      width: 100%;
+    }
+  }
+  &__button {
+    &-categories {
+      background-color: transparent;
+      border: none;
+      padding-right: rem(20px);
+      color: $grey;
+      width: rem(130px);
+      font-size: rem(14px);
+      position: relative;
+      @include after('../../../img/icon/more-grey.svg', 9px, 6px, 7px, 12px, auto, auto);
+      @include screen-lt(mobile-custom) {
+        display: none !important;
+      }
+    }
+    &-submit {
+      width: rem(100px);
+      text-transform: none;
+      margin: 0;
+      @include main-font(400);
+      font-size: rem(14px);
+      @include screen-lt(desktop-small) {
+        width: rem(170px);
+      }
+      @include screen-lt(desktop-small) {
+        width: rem(220px);
+      }
+      @include screen-lt(mobile-custom) {
+        display: none;
+      }
+    }
+  }
+  &__result {
+    position: absolute;
+    display: none;
+    top: rem(50px);
+    left: rem(-1px);
+    z-index: 2;
+    background-color: $white;
+    border: 1px solid $brilliant;
+    border-top: none;
+    width: calc(100% + .125rem);
+    @include screen-lt(mobile-custom) {
+      display: none !important;
+    }
+    &-button {
+      font-size: rem(12px);
+      @include main-font(400);
+      color: $brilliant;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      padding: rem(25px 0);
+    }
+  }
+}

@@ -1,0 +1,52 @@
+
+
+.contacts {
+  margin-bottom: rem(105px);
+  margin-top: rem(105px);
+  @include screen-lt(mobile) {
+    margin-top: rem(20px);
+  }
+  .description {
+    color: $brown;
+  }
+  &__header {
+    position: relative;
+    &:after {
+      content: '';
+      position: absolute;
+      top: rem(15px);
+      right: rem(350px);
+      width: rem(150px);
+      height: rem(265px);
+      background-image: url('../../img/assets/contact.png');
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      background-size: cover;
+      @include screen-lt(tablet) {
+        right: rem(250px);
+      }
+      @include screen-lt(mobile) {
+        display: none;
+        position: static;
+      }
+    }
+  }
+  &__content {
+    h6 {
+      margin-top: rem(40px);
+    }
+    .description {
+      margin-top: rem(25px);
+    }
+    ol {
+      margin-top: rem(15px);
+      padding-left: rem(15px);
+    }
+    li {
+      font-size: rem(14px);
+      color: $brown;
+      @include main-font(400);
+      line-height: 1.86;
+    }
+  }
+}

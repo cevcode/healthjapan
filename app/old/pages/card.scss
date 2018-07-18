@@ -1,0 +1,385 @@
+
+
+$mr: rem(20px);
+
+.card {
+  margin: rem(25px 0);
+  @include screen-lt(tablet) {
+    margin-bottom: rem(50px);
+  }
+  @include screen-lt(mobile-custom) {
+    margin-bottom: rem(20px);
+  }
+  @include screen-lt(mobile-custom) {
+    flex-direction: column;
+  }
+  &__slider, &__description {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    @include screen-lt(mobile-custom) {
+      width: 100%;
+    }
+  }
+  .counter {
+    @include screen-lt(tablet) {
+      margin-right: rem(30px);
+    }
+  }
+  .slick-slide img {
+    max-width: 90%;
+    max-height: 90%;
+  }
+  &__description {
+    .row {
+      margin-bottom: rem(20px);
+    }
+  }
+  &__slider {
+    margin-right: rem(30px);
+    @include screen-lt(tablet) {
+      margin-right: rem(10px);
+    }
+    @include screen-lt(mobile-custom) {
+      margin-right: 0;
+    }
+    .slick-slide {
+      margin: 0 !important;
+    }
+    .slick-dots {
+      bottom: rem(-35px) !important;
+    }
+  }
+  &__id {
+    margin: rem(25px 0 35px 0);
+    font-size: rem(14px);
+    color: $grey;
+    line-height: 1.29;
+    @include main-font(300);
+  }
+  .product__indicator {
+    position: relative;
+    color: $black;
+    font-size: rem(14px);
+  }
+  .product__comments {
+    position: relative;
+    font-size: rem(14px);
+    @include screen-lt(tablet) {
+      padding-right: rem(30px);
+      margin-left: rem(40px);
+    }
+  }
+  &__curs {
+    display: flex;
+    font-size: rem(14px);
+    align-items: center;
+    @include screen-lt(tablet) {
+      margin-top: rem(20px);
+    }
+    &-description {
+      font-size: rem(14px);
+      line-height: 1.93;
+    }
+    &-dropdown {
+      font-size: rem(14px);
+      line-height: 1.93;
+      @include main-font(600);
+      margin-right: rem(20px);
+      padding: rem(0 5px);
+      position: relative;
+      @include after('../../../img/icon/more-black.svg', 9px, 6px, 10px, -20px, auto, auto);
+    }
+  }
+  &__price {
+    .product__price-item {
+      text-align: left;
+      font-size: rem(30px);
+      &--old {
+        font-size: rem(18px);
+      }
+    }
+  }
+  &__count {
+    width: rem(75px);
+    height: rem(40px);
+    border: 1px solid $cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header__controls-link {
+    margin: rem(0 12.5px);
+    @include first-last;
+  }
+  .description__style--bold {
+    margin-right: rem(10px);
+  }
+  &__characteristics {
+    margin-bottom: rem(25px);
+    p {
+      display: flex;
+      width: 50%;
+    }
+    .row {
+      margin-bottom: 0;
+    }
+  }
+  &__danger {
+    color: $lightRed;
+    @include main-font(600);
+  }
+  &__image {
+    width: 100%;
+    height: 100%;
+  }
+  &__content {
+    .row {
+      margin-bottom: rem(20px);
+    }
+    p {
+      line-height: 2.07 !important;
+    }
+  }
+  &__media {
+    width: 100% !important;
+    margin: rem(0 0 40px 0) !important;
+    height: rem(460px) !important;
+    @include screen-lt(tablet) {
+      height: rem(260px) !important;
+    }
+    &-item {
+      width: 50%;
+      height: rem(460px);
+      display: inline-flex !important;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      @include screen-lt(tablet) {
+        height: rem(260px);
+      }
+    }
+    &-img {
+      max-width: 40%;
+      max-height: rem(420px);
+    }
+  }
+  &__nav {
+    width: 100% !important;
+    margin: inherit !important;
+    display: flex;
+    justify-content: space-between;
+    &-img {
+      @include screen-lt(tablet) {
+        max-width: 90% !important;
+        max-height: 90% !important;
+      }
+    }
+    &-item {
+      height: rem(130px);
+      cursor: pointer;
+      margin: rem(5px 0) !important;
+      display: inline-flex !important;
+      position: relative;
+      justify-content: center;
+      box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
+      align-items: center;
+      @include screen-lt(tablet) {
+        height: rem(70px);
+      }
+      @include screen-lt(mobile-custom) {
+        height: rem(40px);
+      }
+      &:hover {
+        box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 1));
+        transition: $transitionHover;
+      }
+      &--video {
+        background-color: $black;
+        opacity: .4;
+        &:before {
+          background-color: $black !important;
+        }
+        &:after {
+          content: '';
+          top: calc(130/2 - 32px);
+          position: absolute;
+          left: calc(130/2 - 32px);
+          width: rem(75px);
+          height: rem(75px);
+          background: url('../../img/icon/play.svg');
+          background-repeat: no-repeat;
+          background-size: contain !important;
+          z-index: 2;
+          @include screen-lt(mobile-custom) {
+            width: rem(30px);
+            height: rem(30px);
+          }
+        }
+        .card__nav-img {
+          opacity: .5;
+          filter: grayscale(50%);
+          @include screen-lt(tablet) {
+            max-width: 90%;
+            max-height: 90%;
+          }
+        }
+      }
+    }
+    &-img {
+      max-width: 80%;
+      max-height: rem(100px);
+    }
+    .slick-list {
+      padding: 0 !important;
+    }
+    .slick-slide {
+      margin: rem(10px) !important;
+    }
+    .slick-current {
+      .card__nav-item {
+        border: rem(2px solid rgba(250, 130, 49, 0.38));
+        &:before {
+          content: '';
+          position: absolute;
+          top: rem(-10px);
+          border: rem(2px solid transparent);
+          border-top-color: rgba(250, 130, 49, 0.38);
+          border-left-color: rgba(250, 130, 49, 0.38);
+          right: calc(100%/2 - 1rem);
+          width: rem(20px);
+          height: rem(20px);
+          background-color: $white;
+          transform: rotate(45deg);
+          @include screen-lt(tablet) {
+            right: calc(100%/2 - .8rem);
+          }
+          @include screen-lt(mobile-custom) {
+            width: rem(10px);
+            height: rem(10px);
+            top: rem(-5px);
+            right: calc(100%/2 - .5rem);
+          }
+        }
+      }
+    }
+  }
+}
+
+.additional-products__slider, .recent-products__slider {
+  .slick-dots {
+    bottom: rem(-40px) !important;
+  }
+}
+.additional-products__slider {
+  @include screen-lt(mobile-small) {
+    margin-bottom: rem(50px) !important;
+  }
+}
+
+.recent-products__slider {
+  margin-bottom: rem(80px) !important;
+}
+
+.card__title-mobile {
+  flex-direction: column;
+  display: none;
+  @include screen-lt(tablet) {
+    display: flex;
+  }
+}
+
+.breadcrumbs {
+  &--card {
+    .breadcrumbs__item {
+      &:nth-child(2) {
+        @include screen-lt(tablet) {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}
+
+.card--row-mobile {
+  @include screen-lt(tablet) {
+    flex-wrap: wrap;
+  }
+}
+
+.card-controls_mobile {
+  margin-top: rem(30px);
+}
+
+.card-buttons--mobile {
+  justify-content: flex-start;
+  .button__size--large {
+    width:  rem(170px);
+    font-size: rem(12px);
+    &:first-child {
+      margin-right: rem(10px);
+    }
+  }
+  @include screen-lt(mobile-custom) {
+    .button__size--large {
+      width: 100%;
+      &:first-child {
+        display: none;
+      }
+    }
+  }
+}
+
+.tabs-mobile {
+  display: none;
+  @include screen-lt(tablet) {
+    display: block;
+  }
+  .expandable__fade {
+    background: none;
+  }
+  .expandable__content {
+    max-height: 0;
+  }
+  .expandable__button {
+    width: 100%;
+    left: 0;
+    text-align: left;
+    padding: rem(25px 15px);
+    bottom: 0;
+    background-color: #FAFAFA;
+    border-bottom: 1px solid $light;
+    line-height: 1;
+    &:before {
+      content: '';
+      position: absolute;
+      background-image: url('../../img/icon/more-brilliant.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      top: rem(25px);
+      right: rem(25px);
+      width: rem(10px);
+      height: rem(10px);
+    }
+  }
+}
+
+.card__description {
+  @include screen-lt(mobile-custom) {
+    margin-top: rem(70px);
+  }
+}
+.row__jc-md-2 {
+  @include screen-lt(mobile-custom) {
+    flex-direction: column;
+    > * {
+      width: 100% !important;
+    }
+    .description {
+      margin-right: 0 !important;
+    }
+    .card__image {
+      margin-right: 0 !important;
+    }
+  }
+}

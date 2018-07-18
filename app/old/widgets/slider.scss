@@ -1,0 +1,147 @@
+
+
+.slider {
+  height: rem(560px);
+  width: 100%;
+  @include screen-lt(mobile) {
+    height: rem(630px);
+  }
+  .slick-next:before, .slick-prev:before {
+    background-image: url('../../img/icon/more-white.svg');
+    display: block;
+  }
+  &__item {
+    background-color: #bae8da;
+    height: rem(560px);
+    display: inline-flex !important;
+    justify-content: center;
+    @include screen-lt(mobile) {
+      height: rem(630px);
+    }
+
+    &-description {
+      max-width: rem(440px);
+      margin-left: rem(100px);
+      @include screen-lt(mobile) {
+        display: none;
+        margin-left: 0;
+        text-align: center;
+      }
+      @include screen-lt(mobile-custom) {
+        max-width: rem(280px);
+      }
+      &--mobile {
+        display: none;
+        @include screen-lt(mobile) {
+          display: block;
+        }
+      }
+      h3 {
+        color: $black;
+        @include main-font(600);
+        @include screen-lt(mobile-custom) {
+          font-size: rem(26px);
+        }
+      }
+      p {
+        @include main-font(400);
+        font-size: rem(14px);
+        padding: rem(15px 0 25px 0);
+      }
+    }
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include screen-lt(mobile) {
+      flex-direction: column;
+    }
+  }
+  .slick-prev {
+    left: rem(50px);
+  }
+  .slick-next {
+    right: rem(50px);
+  }
+  .slick-next, .slick-prev {
+    z-index: 2;
+  }
+  .slick-dots {
+    bottom: rem(35px);
+    @include screen-lt(mobile) {
+      bottom: rem(25px);
+    }
+  }
+  .slick-dots li button:before {
+    color: $white;
+    font-size: rem(12px);
+  }
+  .slick-dots li.slick-active button:before {
+    color: $white;
+  }
+  .slick-slide {
+    width: 100%;
+  }
+}
+
+.base-slider {
+  display: flex;
+  width: rem(1470px);
+  margin: auto;
+  @include screen-lt(desktop-large) {
+    width: 100%;
+  }
+  .slick-slide {
+    margin: rem(0 12px);
+  }
+  .slick-next:before, .slick-prev:before {
+    color: $black;
+    display: block;
+  }
+  .slick-dots {
+    bottom: rem(-55px);
+    @include screen-lt(tablet) {
+      bottom: rem(-25px);
+    }
+  }
+  .slick-dots li button:before {
+    color: $orange;
+    font-size: rem(12px);
+  }
+  .slick-dots li.slick-active button:before {
+    color: $orange;
+  }
+  &-item {
+    display: flex;
+  }
+}
+.slider__content--mobile-btn {
+  display: none;
+  @include screen-lt(mobile) {
+    display: block;
+    margin-top: rem(30px);
+  }
+}
+.slick-next:before, .slick-prev:before {
+  content: '' !important;
+  font-size: 0 !important;
+  position: absolute;
+  width: rem(30px);
+  height: rem(40px);
+  transform: rotate(90deg);
+  background-image: url('../../img/icon/more-cyan.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+}
+
+.slick-next:before {
+  transform: rotate(-90deg);
+}
+
+.slick-next, .slick-prev {
+  width: rem(35px) !important;
+  height: rem(40px) !important;
+}

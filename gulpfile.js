@@ -94,11 +94,11 @@ gulp.task('build', ['removedist', 'imagemin', 'sass', 'js', 'sprites'], function
 	var buildCss = gulp.src([
 		'app/css/main.min.css',
 		])
-        .pipe(purge({
-            trim : true,
-            shorten : true,
-            verbose : true
-        }))
+        // .pipe(purge({
+        //     trim : true,
+        //     shorten : true,
+        //     verbose : true
+        // }))
 		.pipe(gulp.dest('dist/css'));
 
 	var buildJs = gulp.src([

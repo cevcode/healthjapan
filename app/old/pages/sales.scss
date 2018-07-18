@@ -1,0 +1,40 @@
+
+
+.sales {
+  h4 {
+    font-size: 30px;
+    text-transform: none;
+    letter-spacing: 0;
+    @include main-font(600);
+    padding: rem(0 15px);
+    margin: rem(10px 0 40px 0);
+    @include screen-lt(mobile-custom) {
+      font-size: rem(22px);
+      padding-right: 0;
+    }
+    @include screen-lt(mobile-small) {
+      font-size: rem(20px);
+    }
+  }
+  .post:first-child {
+    margin-left: rem(12.5px);
+  }
+  .post:last-child {
+    margin-right: rem(12.5px);
+  }
+}
+
+.row--sales {
+  @include screen-lt(tablet) {
+    width: rem(740px);
+    .post--long {
+      width: 46.6%;
+    }
+  }
+  @include screen-lt(mobile) {
+    width: 100%;
+    .post--long {
+      width: 100%;
+    }
+  }
+}

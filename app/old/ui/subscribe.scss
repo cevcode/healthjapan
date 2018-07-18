@@ -1,0 +1,27 @@
+
+
+.subscribe {
+  display: flex;
+  margin-top: rem(40px);
+  &__input {
+    border: 1px solid $brilliant;
+    width: rem(310px);
+    color: $black;
+    @include placeholder-color($grey);
+    margin: 0;
+    padding: rem(0 20px);
+    @include main-font(300);
+    border-top-left-radius: rem(2px);
+    border-bottom-left-radius: rem(2px);
+    font-size: rem(14px);
+  }
+  .button {
+    border-top-right-radius: rem(2px);
+    border-bottom-right-radius: rem(2px);
+    font-size: rem(14px);
+    @include main-font(300);
+    text-transform: none;
+  }
+}
+
+

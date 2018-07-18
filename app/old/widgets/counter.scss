@@ -1,0 +1,48 @@
+
+
+.counter {
+  position: relative;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  &__input {
+    border: rem(solid 1px rgba(75, 101, 132, 0.3));
+    padding-right: rem(20px);
+    width: rem(75px);
+    text-align: center;
+    height: rem(40px);
+    @include screen-lt(tablet) {
+      width: rem(120px);
+    }
+  }
+  &__controls {
+    display: flex;
+    position: absolute;
+    right: 0;
+    flex-direction: column;
+  }
+  &__button {
+    height: rem(20px);
+    width: rem(20px);
+    font-size: rem(14px);
+    border: rem(solid 1px rgba(75, 101, 132, 0.3));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $cyan;
+    &:first-child {
+      border-bottom: none;
+    }
+  }
+  &__description {
+    font-size: rem(14px);
+    color: $cyan;
+    margin-top: rem(3px);
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

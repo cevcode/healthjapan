@@ -8,7 +8,7 @@
     display: inline-block;
     background-image: url("../svg/sprite.svg");
     background-repeat: no-repeat;
-    background-size: 28.3em 244.4em;
+    background-size: 28.3em 242.1em;
 }
 
 .no-svg .icon:before {
@@ -152,8 +152,17 @@
 
 
 
-  .icon.icon-delivery:before {
+  .icon.icon-delete-black:before {
       background-position: 0em -66.6em;
+      width: 0.6em;
+      height: 0.6em;
+  }
+
+
+
+
+  .icon.icon-delivery:before {
+      background-position: 0em -67.2em;
       width: 17.5em;
       height: 24em;
   }
@@ -162,16 +171,7 @@
 
 
   .icon.icon-favorite:before {
-      background-position: 0em -90.6em;
-      width: 3.3200000000000003em;
-      height: 2.85em;
-  }
-
-
-
-
-  .icon.icon-favorite-active:before {
-      background-position: 0em -93.5em;
+      background-position: 0em -91.2em;
       width: 3.3200000000000003em;
       height: 2.85em;
   }
@@ -180,7 +180,7 @@
 
 
   .icon.icon-menu:before {
-      background-position: 0em -96.4em;
+      background-position: 0em -94.1em;
       width: 1.8em;
       height: 1.3em;
   }
@@ -189,7 +189,7 @@
 
 
   .icon.icon-menu-black:before {
-      background-position: 0em -97.7em;
+      background-position: 0em -95.4em;
       width: 1.8em;
       height: 1.3em;
   }
@@ -198,7 +198,7 @@
 
 
   .icon.icon-money:before {
-      background-position: 0em -99em;
+      background-position: 0em -96.7em;
       width: 6.3em;
       height: 5.1em;
   }
@@ -207,7 +207,7 @@
 
 
   .icon.icon-more:before {
-      background-position: 0em -104.1em;
+      background-position: 0em -101.8em;
       width: 0.8em;
       height: 0.6em;
   }
@@ -216,7 +216,7 @@
 
 
   .icon.icon-more-black:before {
-      background-position: 0em -104.7em;
+      background-position: 0em -102.4em;
       width: 0.8em;
       height: 0.6em;
   }
@@ -225,7 +225,7 @@
 
 
   .icon.icon-more-brilliant:before {
-      background-position: 0em -105.3em;
+      background-position: 0em -103em;
       width: 0.8em;
       height: 0.6em;
   }
@@ -234,7 +234,7 @@
 
 
   .icon.icon-more-cyan:before {
-      background-position: 0em -105.9em;
+      background-position: 0em -103.6em;
       width: 0.8em;
       height: 0.6em;
   }
@@ -243,7 +243,7 @@
 
 
   .icon.icon-more-grey:before {
-      background-position: 0em -106.5em;
+      background-position: 0em -104.2em;
       width: 0.8em;
       height: 0.6em;
   }
@@ -252,7 +252,7 @@
 
 
   .icon.icon-more-white:before {
-      background-position: 0em -107.1em;
+      background-position: 0em -104.8em;
       width: 0.8em;
       height: 0.6em;
   }
@@ -261,7 +261,7 @@
 
 
   .icon.icon-order:before {
-      background-position: 0em -107.7em;
+      background-position: 0em -105.4em;
       width: 5.2em;
       height: 5em;
   }
@@ -270,7 +270,7 @@
 
 
   .icon.icon-payment-mc:before {
-      background-position: 0em -112.7em;
+      background-position: 0em -110.4em;
       width: 5.1em;
       height: 4em;
   }
@@ -279,7 +279,7 @@
 
 
   .icon.icon-payment-pp:before {
-      background-position: 0em -116.7em;
+      background-position: 0em -114.4em;
       width: 9.6em;
       height: 2.2em;
   }
@@ -288,7 +288,7 @@
 
 
   .icon.icon-payment-sber:before {
-      background-position: 0em -118.9em;
+      background-position: 0em -116.6em;
       width: 11.5em;
       height: 2.6em;
   }
@@ -297,7 +297,7 @@
 
 
   .icon.icon-payment-swift:before {
-      background-position: 0em -121.5em;
+      background-position: 0em -119.2em;
       width: 4.3em;
       height: 4.3em;
   }
@@ -306,7 +306,7 @@
 
 
   .icon.icon-payment-visa:before {
-      background-position: 0em -125.8em;
+      background-position: 0em -123.5em;
       width: 7.3em;
       height: 2.5em;
   }
@@ -315,7 +315,7 @@
 
 
   .icon.icon-play:before {
-      background-position: 0em -128.3em;
+      background-position: 0em -126em;
       width: 7.6em;
       height: 7.6em;
   }
@@ -324,7 +324,7 @@
 
 
   .icon.icon-reviews:before {
-      background-position: 0em -135.9em;
+      background-position: 0em -133.6em;
       width: 1.4em;
       height: 1em;
   }
@@ -333,7 +333,7 @@
 
 
   .icon.icon-reviews-icon:before {
-      background-position: 0em -136.9em;
+      background-position: 0em -134.6em;
       width: 1.2em;
       height: 0.9em;
   }
@@ -342,7 +342,7 @@
 
 
   .icon.icon-search:before {
-      background-position: 0em -137.8em;
+      background-position: 0em -135.5em;
       width: 1.8em;
       height: 1.8em;
   }
@@ -351,7 +351,7 @@
 
 
   .icon.icon-share:before {
-      background-position: 0em -139.6em;
+      background-position: 0em -137.3em;
       width: 1.9em;
       height: 2.4em;
   }
@@ -360,8 +360,8 @@
 
 
   .icon.icon-sprite:before {
-      background-position: 0em -142em;
-      width: 11.742738589211617em;
+      background-position: 0em -139.7em;
+      width: 11.689384551838083em;
       height: 100em;
   }
 
@@ -369,7 +369,7 @@
 
 
   .icon.icon-write:before {
-      background-position: 0em -242em;
+      background-position: 0em -239.7em;
       width: 2.4em;
       height: 2.4em;
   }

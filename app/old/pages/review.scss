@@ -1,0 +1,129 @@
+
+
+.review {
+  &__header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: rem(40px);
+    .button {
+      margin: auto;
+    }
+    h6 {
+      margin-bottom: rem(40px);
+    }
+  }
+  &__item {
+    height: rem(220px);
+    width: 100%;
+    margin-bottom: rem(15px);
+    display: flex;
+    padding: rem(35px 0);
+    box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
+    background-color: $white;
+    @include screen-lt(mobile-custom) {
+      height: auto;
+      padding: rem(25px);
+      flex-direction: column;
+    }
+    &--answer {
+      margin-left: rem(155px);
+      width: calc(100% - 9.6875rem);
+      @include screen-lt(mobile-custom) {
+        width: 100%;
+        margin-left: 0;
+      }
+      .review__author {
+        @include screen-lt(mobile-custom) {
+          margin-left: rem(40px);
+        }
+      }
+      .review__content {
+        @include screen-lt(mobile-custom) {
+          margin-left: rem(40px);
+        }
+        p {
+          margin-right: 0;
+
+        }
+      }
+    }
+  }
+  &__author {
+    min-width: rem(155px);
+    display: flex;
+    justify-content: center;
+    @include screen-lt(mobile-custom) {
+      min-width: inherit;
+      justify-content: flex-start;
+    }
+    p {
+      color: $brown;
+      font-size: rem(14px);
+      @include main-font(600);
+    }
+  }
+  &__content {
+    p {
+      color: $brown;
+      font-size: rem(14px);
+      @include main-font(400);
+      line-height: 1.86;
+      margin-right: rem(155px);
+      margin-bottom: rem(40px);
+      max-height: rem(80px);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      @include screen-lt(mobile-custom) {
+        margin-right: 0;
+        max-height: inherit;
+      }
+    }
+  }
+  &__button {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    color: $cyan;
+    font-size: rem(14px);
+    padding-left: rem(35px);
+    &:before {
+      content: '';
+      position: absolute;
+      top: rem(-2px);
+      left: 0;
+      width: rem(26px);
+      height: rem(26px);
+      background-image: url('../../img/icon/comment.svg');
+      background-repeat: no-repeat;
+      background-size: contain !important;
+    }
+  }
+  &__form {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: left;
+    h4 {
+      letter-spacing: 0;
+    }
+    h6 {
+      margin-top: rem(40px);
+      margin-bottom: rem(25px);
+    }
+    .field label {
+      @include main-font(400);
+    }
+    &-footer {
+      margin-top: rem(40px);
+    }
+    .button {
+      margin: auto;
+    }
+  }
+}
+
+.remodal-close {
+  left: auto !important;
+  right: 0 !important;
+}
+

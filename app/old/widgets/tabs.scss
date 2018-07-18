@@ -1,0 +1,52 @@
+
+
+$bg: #fcfcfc;
+$height: rem(80px);
+
+.tabs {
+  width: 100%;
+  height: $height;
+  background-color: $bg;
+  box-shadow: 0 0 15px 0 rgba(227, 227, 227, 0.5);
+  &__container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-between;
+  }
+  &__item {
+    list-style-type: none;
+    position: relative;
+    display: flex;
+  }
+  &__button {
+    height: 100%;
+    font-size: rem(14px);
+    @include main-font(400);
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: $cyan;
+    &:hover {
+      color: $brilliant;
+    }
+    &--active {
+      color: $brilliant;
+    }
+  }
+  &__counter {
+    position: absolute;
+    top: rem(20px);
+    right: rem(-15px);
+    color: $orange;
+    font-size: rem(10px);
+    @include main-font(600);
+  }
+}
+
+#tab2, #tab3, #tab4, #tab5, #tab6 {
+  display: none;
+}
+

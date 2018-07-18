@@ -1,0 +1,106 @@
+
+
+$bg-color: rgb(255,255,255);
+
+.expandable {
+  position: relative;
+  margin-bottom: rem(40px);
+  @include screen-lt(desktop-large) {
+    padding: rem(0 60px);
+  }
+  @include screen-lt(tablet) {
+    padding: rem(0 15px);
+  }
+  &__content {
+    position: relative;
+    max-height: rem(120px);
+    width: rem(1470px);
+    margin: auto;
+    @include main-font(400);
+    font-size: rem(14px);
+    line-height: 2;
+    color: $black;
+    overflow: hidden;
+    transition: max-height .9s ease;
+    @include screen-lt(desktop-large) {
+      width: 100%;
+    }
+  }
+  &__fade {
+    background: linear-gradient(to bottom, rgba($bg-color,0) 0%,rgba($bg-color,1) 65%);
+    height: rem(100px);
+    margin-top: rem(-100px);
+    position: relative;
+  }
+  &__button {
+    color: $brilliant;
+    font-size: rem(14px);
+    line-height: 1.43;
+    text-decoration: none;
+    @include main-font(400);
+    text-align: center;
+    @include before('../../../img/icon/more.svg', 8px, 6px, 7px, -15px, auto, auto);
+    &--show, &--hide {
+      position: absolute;
+      bottom: rem(-10px);
+      z-index: 100;
+      text-align: center;
+    }
+    &--hide {
+      display: none;
+      left: calc(50% - 45px/2);
+      &:before {
+        transform: rotate(180deg);
+      }
+    }
+    &--show {
+      left: calc(50% - 137px/2);
+    }
+    &--show:target {display: none;}
+    &--show:target ~ .expandable__button--hide {display: block;}
+    &--show:target ~ .expandable__content {
+      max-height: rem(2000px);
+    }
+    &--show:target ~ .expandable__fade {
+      margin-top: 0;
+    }
+  }
+  &--filters {
+    .expandable__content {
+      width: 100%;
+      max-height: rem(330px);
+    }
+    .expandable__fade {
+      background: $white;
+      height: rem(20px);
+      margin-top: rem(-20px);
+    }
+    .expandable__button--hide, .expandable__button--show {
+      text-align: left;
+      left: 0;
+    }
+  }
+  &--footer {
+    padding: 0;
+    .expandable__content {
+      width: 100%;
+      max-height: rem(10px);
+    }
+    .expandable__fade {
+      background: $white;
+      height: rem(20px);
+      margin-top: rem(-20px);
+    }
+    .expandable__button--hide, .expandable__button--show {
+      text-align: left;
+      left: 0;
+      color: $black;
+      @include main-font(600);
+      font-size: rem(18px);
+      @include before('../../../img/icon/more-black.svg', 8px, 6px, 11px, -15px, auto, auto);
+
+    }
+  }
+}
+
+

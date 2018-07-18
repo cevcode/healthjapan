@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="6px" viewBox="0 0 6 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>delete button</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="compare_drop_down" transform="translate(-357.000000, -39.000000)" fill="#1F1F1F">
+            <path d="M360,41.3167974 L362.316797,39 L363,39.6832026 L360.683203,42 L363,44.3167974 L362.316797,45 L360,42.6832026 L357.683203,45 L357,44.3167974 L359.316797,42 L357,39.6832026 L357.683203,39 L360,41.3167974 Z" id="delete-button"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,36 @@
+
+
+.description {
+  margin: rem(5px 0);
+  color: $black;
+  font-size: rem(14px);
+  line-height: 1.64;
+  &--kit {
+    color: $grey;
+    font-size: rem(14px);
+  }
+  &--sm {
+    color: $black;
+    font-size: rem(12px);
+  }
+  &__align {
+    &--center {
+      text-align: center;
+    }
+    &--right {
+      text-align: right;
+    }
+  }
+  &__color {
+    &--brown {
+      color: $brown;
+    }
+  }
+  &__style {
+    &--bold {
+      @include main-font(700);
+    }
+  }
+}
+
+

@@ -1,0 +1,198 @@
+
+
+$bgChoose: #efefef;
+$bgItemChoose: #d8d8d8;
+
+@mixin blockStyle() {
+  padding-bottom: rem(25px);
+  border-bottom: 1px solid #cad2dc;
+  margin-bottom: rem(25px);
+}
+
+.filter {
+  min-width: rem(285px);
+  margin-right: rem(12.5px);
+  @include screen-lt(desktop-small) {
+    position: absolute;
+    left: rem(-285px);
+    transition: ease-in .3s;
+    width: rem(285px);
+    opacity: 0;
+    top: rem(100px);
+    z-index: 4;
+    background-color: $white;
+  }
+  &.shown {
+    opacity: 1;
+    left: 0;
+  }
+  &__inner {
+    padding: rem(25px);
+    position: relative;
+    box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
+    h5 {
+      margin-bottom: rem(15px);
+    }
+  }
+  &__choose {
+    background-color: $bgChoose;
+    padding: rem(25px);
+    box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
+  }
+  &__price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include blockStyle;
+
+  }
+  &__brand {
+    border-bottom: 1px solid #cad2dc;
+    margin-bottom: rem(25px);
+    .expandable {
+      padding: 0;
+    }
+  }
+  &__comments {
+    @include blockStyle;
+  }
+  &__for {
+    @include blockStyle;
+  }
+  &__result {
+    bottom: rem(350px);
+    right: rem(-170px);
+    background-color: $brilliant;
+    line-height: 1;
+    position: absolute;
+    height: rem(60px);
+    padding: rem(15px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    font-size: rem(14px);
+    box-shadow: 0 0 15px 0 rgba(227, 227, 227, 0.5);
+    text-decoration: underline;
+    z-index: 3;
+    &:hover {
+      color: $white;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      top: rem(20px);
+      left: rem(-10px);
+      width: rem(20px);
+      height: rem(20px);
+      background-color: $brilliant;
+      transform: rotate(45deg);
+    }
+  }
+}
+
+.choose {
+  &__item {
+    background-color: $bgItemChoose;
+    border-radius: rem(9.5px);
+    height: rem(20px);
+    display: inline-flex;
+    align-items: center;
+    margin: rem(7.5px 0);
+    padding: rem(5px 10px);
+    &:nth-child(even) {
+      margin-left: rem(7.5px);
+    }
+    p {
+      font-size: rem(14px);
+      color: $brown;
+    }
+  }
+  &__clear {
+    background-color: transparent;
+    background-image: url('../../img/icon/close-red.svg');
+    background-repeat: no-repeat;
+    width: rem(8px);
+    height: rem(8px);
+    background-size: contain;
+    border: none;
+    margin-left: rem(2px);
+    &-all {
+      font-size: rem(14px);
+      @include main-font(300);
+      color: $lightRed;
+      line-height: 1.43;
+      background-color: transparent;
+      border: none;
+      position: relative;
+      width: 100%;
+      &:before {
+        content: '';
+        position: absolute;
+        top: rem(6px);
+        left: rem(60px);
+        background-image: url('../../img/icon/close-red.svg');
+        width: rem(8px);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: rem(8px);
+      }
+    }
+  }
+  &__container {
+    padding: rem(5px 0 15px 0);
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.price {
+  &__field {
+    display: flex;
+    align-items: center;
+    label {
+      font-size: rem(14px);
+      color: $brown;
+      line-height: 2.21;
+      margin-right: rem(10px);
+    }
+    input {
+      width: rem(75px);
+      height: rem(40px);
+      border: 1px solid rgba(75, 101, 132, 0.3);
+      text-align: center;
+      color: $brown;
+    }
+  }
+}
+
+.brand__item {
+  .checkmark {
+    top: rem(4px);
+  }
+}
+.filters__mobile {
+  display: none;
+  @include screen-lt(desktop-small) {
+    display: flex;
+    position: relative;
+    @include before('../../../img/icon/menu-black.svg', 18px, 13px, 4px, auto, auto, -22px);
+    &.shown {
+      &:before {
+        background-image: url('../../img/icon/close-black.svg');
+      }
+    }
+  }
+  @include screen-lt(mobile-custom) {
+    &:before {
+      display: none;
+      position: static;
+    }
+    &.shown {
+      &:before {
+        display: none;
+        position: static;
+      }
+    }
+  }
+}

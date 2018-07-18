@@ -1,0 +1,74 @@
+
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin: rem(10px 0);
+  position: relative;
+  label {
+    color: $black;
+    font-size: rem(14px);
+    @include main-font(700);
+    margin-bottom: rem(10px);
+  }
+  &__state {
+    &--success {
+      .input {
+        border: 1px solid $blue;
+      }
+      @include before('../../../img/icon/close.svg', 10px, 10px, 45px, 20px, auto, auto);
+
+    }
+    &--error {
+      .input {
+        border: 1px solid $red;
+      }
+      @include before('../../../img/icon/close.svg', 10px, 10px, 45px, 20px, auto, auto);
+    }
+  }
+  &__size {
+    &--large {
+      width: rem(540px);
+      .input {
+        height: rem(45px);
+      }
+    }
+    &--full {
+      width: 100%;
+      .input {
+        height: rem(45px);
+        width: 100%;
+      }
+    }
+  }
+}
+
+.input {
+  border-radius: rem(3px);
+  box-shadow: rem(inset 0 0 3px 0 #d9d9da);
+  border: 1px solid $light;
+  color: $black;
+  position: relative;
+  font-size: rem(14px);
+  @include main-font(400);
+  line-height: 1.36;
+  display: flex;
+  padding: rem(0 35px 0 20px);
+  align-items: center;
+  @include placeholder-color($grey);
+  &:hover {
+    border: 1px solid $grey;
+    transition: $transitionHover;
+  }
+  &:focus {
+    border: 1px solid $grey;
+  }
+}
+
+textarea {
+  height: rem(200px) !important;
+  padding-top: rem(15px) !important;
+  resize: none;
+}
+
+
