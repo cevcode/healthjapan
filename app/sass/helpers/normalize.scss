@@ -83,6 +83,10 @@ input, textarea {
   }
 }
 
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
 a {
   color: $cyan;
   &:hover {

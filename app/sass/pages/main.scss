@@ -566,6 +566,12 @@
 
 .sales {
   .sales__slider, .new-offers__slider, .recent-products__slider, .additional-products__slider {
+    .slick-next {
+      right: rem(-65px) !important;
+    }
+    .slick-prev {
+      left: rem(-65px) !important;
+    }
     @include screen-lt(desktop-large) {
       width: rem(1300px);
       margin: auto;

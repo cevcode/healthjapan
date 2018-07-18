@@ -450,22 +450,22 @@
         <div class="tabs tc-hide-992">
             <ul class="container container--content tabs__container">
                 <li class="tabs__item">
-                    <button class="tabs__button tabs__button--active">Описание товара</button>
+                    <a href="#tab1" onclick="show('tab1'); return false;" class="tabs__button tabs__button--active">Описание товара</a>
                 </li>
                 <li class="tabs__item">
-                    <button class="tabs__button">Состав</button>
+                    <a href="#tab2" onclick="show('tab2'); return false;"  class="tabs__button">Состав</a>
                 </li>
                 <li class="tabs__item">
-                    <button class="tabs__button">Способ применения и дозировка</button>
+                    <a href="#tab3" onclick="show('tab3'); return false;"  class="tabs__button">Способ применения и дозировка</a>
                 </li>
                 <li class="tabs__item">
-                    <button class="tabs__button">Противопоказания</button>
+                    <a href="#tab4" onclick="show('tab4'); return false;"  class="tabs__button">Противопоказания</a>
                 </li>
                 <li class="tabs__item">
-                    <button class="tabs__button">Форма выпуска и упаковка</button>
+                    <a href="#tab5" onclick="show('tab5'); return false;"  class="tabs__button">Форма выпуска и упаковка</a>
                 </li>
                 <li class="tabs__item">
-                    <button class="tabs__button">Отзывы</button>
+                    <a href="#tab6" onclick="show('tab6'); return false;"  class="tabs__button">Отзывы</a>
                     <span class="tabs__counter">34</span>
                 </li>
             </ul>
@@ -574,9 +574,8 @@
                 <div class="expandable__fade"></div>
             </div>
         </div>
-
         <div class="container container--content tc-hide-992">
-            <div class="card card__content">
+            <div class="card card__content" id="tab1">
                 <div class="row">
                     <p class="description description__color--brown"><b>Lorem ipsum</b> - dolor sit amet, consectetur adipiscing elit. Cras eget
                         scelerisque purus, vel feugiat ipsum. Nunc ornare est ut cursus eleifend. Nunc hendrerit
@@ -631,6 +630,131 @@
                         per conubia nostra, per inceptos himenaeos.</p>
                 </div>
             </div>
+            <div class="card card__content" id="tab2">
+                <div class="row">
+                    <p class="description description__color--brown"><b>Lorem ipsum</b> - dolor sit amet, consectetur adipiscing elit. Cras eget
+                        scelerisque purus, vel feugiat ipsum. Nunc ornare est ut cursus eleifend. Nunc hendrerit
+                        tincidunt dolor, nec dapibus turpis tincidunt vitae. Duis quis sem metus. Nullam imperdiet
+                        lorem id mi ultrices, vitae venenatis enim eleifend. tab2</p>
+                </div>
+            </div>
+            <div class="card card__content" id="tab3">
+                <div class="row">
+                    <p class="description description__color--brown"><b>Lorem ipsum</b> - dolor sit amet, consectetur adipiscing elit. Cras eget
+                        scelerisque purus, vel feugiat ipsum. Nunc ornare est ut cursus eleifend. Nunc hendrerit
+                        tincidunt dolor, nec dapibus turpis tincidunt vitae. Duis quis sem metus. Nullam imperdiet
+                        lorem id mi ultrices, vitae venenatis enim eleifend. tab3</p>
+                </div>
+            </div>
+            <div class="card card__content" id="tab4">
+                <div class="row">
+                    <p class="description description__color--brown"><b>Lorem ipsum</b> - dolor sit amet, consectetur adipiscing elit. Cras eget
+                        scelerisque purus, vel feugiat ipsum. Nunc ornare est ut cursus eleifend. Nunc hendrerit
+                        tincidunt dolor, nec dapibus turpis tincidunt vitae. Duis quis sem metus. Nullam imperdiet
+                        lorem id mi ultrices, vitae venenatis enim eleifend. tab4</p>
+                </div>
+            </div>
+            <div class="card card__content" id="tab5">
+                <div class="row">
+                    <p class="description description__color--brown"><b>Lorem ipsum</b> - dolor sit amet, consectetur adipiscing elit. Cras eget
+                        scelerisque purus, vel feugiat ipsum. Nunc ornare est ut cursus eleifend. Nunc hendrerit
+                        tincidunt dolor, nec dapibus turpis tincidunt vitae. Duis quis sem metus. Nullam imperdiet
+                        lorem id mi ultrices, vitae venenatis enim eleifend. tab5</p>
+                </div>
+            </div>
+            <div class="card card__content review" id="tab6">
+                <div class="review__header">
+                    <h6>Отзывы о Gammalon Гаммалон – ноотропное средство</h6>
+                    <button class="button button__size--large button__color--outline" data-remodal-target="modal">Оставить отзыв</button>
+                </div>
+                <div class="review__container">
+                    <div class="review__item">
+                        <div class="review__author">
+                            <p>Маргарита</p>
+                        </div>
+                        <div class="review__content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Vestibulum iaculis odio sed luctus ultrices. Nam id turpis quam. Nulla dui urna,
+                                posuere eget purus et, luctus lacinia nisl. Suspendisse sollicitudin ullamcorper
+                                mauris ut tincidunt. Vestibulum condimentum, lacus eu tincidunt lacinia, sem nisl
+                                molestie tellus, id auctor arcu odio non dui.
+                            </p>
+                            <button class="review__button">Ответить</button>
+                        </div>
+                    </div>
+                    <div class="review__item review__item--answer">
+                        <div class="review__author">
+                            <p>Маргарита</p>
+                        </div>
+                        <div class="review__content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Vestibulum iaculis odio sed luctus ultrices. Nam id turpis quam. Nulla dui urna,
+                                posuere eget purus et, luctus lacinia nisl. Suspendisse sollicitudin ullamcorper
+                                mauris ut tincidunt. Vestibulum condimentum, lacus eu tincidunt lacinia, sem nisl
+                                molestie tellus, id auctor arcu odio non dui.
+                                molestie tellus, id auctor arcu odio non dui.
+                                molestie tellus, id auctor arcu odio non dui.
+                                molestie tellus, id auctor arcu odio non dui.
+                            </p>
+                            <button class="review__button">Ответить</button>
+                        </div>
+                    </div>
+                    <div class="review__item">
+                        <div class="review__author">
+                            <p>Маргарита</p>
+                        </div>
+                        <div class="review__content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Vestibulum iaculis odio sed luctus ultrices. Nam id turpis quam. Nulla dui urna,
+                                posuere eget purus et, luctus lacinia nisl. Suspendisse sollicitudin ullamcorper
+                                mauris ut tincidunt. Vestibulum condimentum, lacus eu tincidunt lacinia, sem nisl
+                                molestie tellus, id auctor arcu odio non dui.
+                            </p>
+                            <button class="review__button">Ответить</button>
+                        </div>
+                    </div>
+                    <div class="review__item">
+                        <div class="review__author">
+                            <p>Маргарита</p>
+                        </div>
+                        <div class="review__content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Vestibulum iaculis odio sed luctus ultrices. Nam id turpis quam. Nulla dui urna,
+                                posuere eget purus et, luctus lacinia nisl. Suspendisse sollicitudin ullamcorper
+                                mauris ut tincidunt. Vestibulum condimentum, lacus eu tincidunt lacinia, sem nisl
+                                molestie tellus, id auctor arcu odio non dui.
+                            </p>
+                            <button class="review__button">Ответить</button>
+                        </div>
+                    </div>
+                    <div class="review__item">
+                        <div class="review__author">
+                            <p>Маргарита</p>
+                        </div>
+                        <div class="review__content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Vestibulum iaculis odio sed luctus ultrices. Nam id turpis quam. Nulla dui urna,
+                                posuere eget purus et, luctus lacinia nisl. Suspendisse sollicitudin ullamcorper
+                                mauris ut tincidunt. Vestibulum condimentum, lacus eu tincidunt lacinia, sem nisl
+                                molestie tellus, id auctor arcu odio non dui.
+                            </p>
+                            <button class="review__button">Ответить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="listing__footer">
+                    <button class="button button__size--large button__color--brilliant">посмотреть еще</button>
+                    <ul class="pagination">
+                        <li class="pagination__item"><a class="pagination__link pagination__link--active" href="#">1</a></li>
+                        <li class="pagination__item"><a class="pagination__link" href="#">2</a></li>
+                        <li class="pagination__item"><a class="pagination__link" href="#">3</a></li>
+                        <li class="pagination__item"><a class="pagination__link" href="#">...</a></li>
+                        <li class="pagination__item"><a class="pagination__link" href="#">21</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
         </div>
         </div>
     <div class="sales">
@@ -1347,6 +1471,29 @@
             </li>
         </ui>
     </div>
+    <div class="remodal review__form" data-remodal-id="modal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <h4>Оставить отзыв</h4>
+        <h6>Заполните все поля</h6>
+        <form action="#">
+            <div class="field field__size--full">
+                <label for="comment-fio">Имя Фамилия</label>
+                <input name="comment-fio" type="text" id="comment-fio" placeholder="Игнат" class="input"/>
+            </div>
+            <div class="field field__size--full">
+                <label for="comment-phone">Телефон и почта</label>
+                <input name="comment-phone" type="number" id="comment-phone" placeholder="+7 (979) 123 45 84" class="input"/>
+            </div>
+            <div class="field field__size--full">
+                <label for="comment-content">Комментарий</label>
+                <textarea name="comment-content" id="comment-content" placeholder="Начните набирать текст" class="input"></textarea>
+            </div>
+            <div class="review__form-footer">
+                <button class="button button__size--large button__color--brilliant">Подтвердить заказ</button>
+            </div>
+        </form>
+    </div>
+
 
     <script src="js/scripts.min.js"></script>
 

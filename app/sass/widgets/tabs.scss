@@ -25,12 +25,14 @@ $height: rem(80px);
     @include main-font(400);
     background-color: transparent;
     border: none;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
     color: $cyan;
     &:hover {
       color: $brilliant;
     }
     &--active {
-      @include main-font(700);
       color: $brilliant;
     }
   }
@@ -43,3 +45,8 @@ $height: rem(80px);
     @include main-font(600);
   }
 }
+
+#tab2, #tab3, #tab4, #tab5, #tab6 {
+  display: none;
+}
+

@@ -1,365 +1,374 @@
 .icon {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .icon:before {
-    content:' ';
-    vertical-align:middle;
-    display: inline-block;
-    background-image: url("../../img/sprite.svg");
-    background-repeat: no-repeat;
-    background-size: 28.3em 241em;
+  content:' ';
+  vertical-align:middle;
+  display: inline-block;
+  background-image: url("../../img/sprite/svg/sprite.svg");
+  background-repeat: no-repeat;
+  background-size: 28.3em 244.4em;
 }
 
 
 
-  .icon.icon-badge-choice:before {
-      background-position: 0em 0em;
-      width: 7.4em;
-      height: 3.1em;
-  }
+.icon.icon-badge-choice:before {
+  background-position: 0em 0em;
+  width: 7.4em;
+  height: 3.1em;
+}
 
 
 
 
-  .icon.icon-badge-leader:before {
-      background-position: 0em -3.1em;
-      width: 7.4em;
-      height: 3.1em;
-  }
+.icon.icon-badge-leader:before {
+  background-position: 0em -3.1em;
+  width: 7.4em;
+  height: 3.1em;
+}
 
 
 
 
-  .icon.icon-badge-mom:before {
-      background-position: 0em -6.2em;
-      width: 7.4em;
-      height: 3.1em;
-  }
+.icon.icon-badge-mom:before {
+  background-position: 0em -6.2em;
+  width: 7.4em;
+  height: 3.1em;
+}
 
 
 
 
-  .icon.icon-badge-new:before {
-      background-position: 0em -9.3em;
-      width: 7.4em;
-      height: 3.1em;
-  }
+.icon.icon-badge-new:before {
+  background-position: 0em -9.3em;
+  width: 7.4em;
+  height: 3.1em;
+}
 
 
 
 
-  .icon.icon-boy:before {
-      background-position: 0em -12.4em;
-      width: 28.3em;
-      height: 32.1em;
-  }
+.icon.icon-boy:before {
+  background-position: 0em -12.4em;
+  width: 28.3em;
+  height: 32.1em;
+}
 
 
 
 
-  .icon.icon-card-lock:before {
-      background-position: 0em -44.5em;
-      width: 6.2em;
-      height: 5.1em;
-  }
+.icon.icon-card-lock:before {
+  background-position: 0em -44.5em;
+  width: 6.2em;
+  height: 5.1em;
+}
 
 
 
 
-  .icon.icon-cart:before {
-      background-position: 0em -49.6em;
-      width: 2em;
-      height: 2.4em;
-  }
+.icon.icon-cart:before {
+  background-position: 0em -49.6em;
+  width: 2em;
+  height: 2.4em;
+}
 
 
 
 
-  .icon.icon-choose:before {
-      background-position: 0em -52em;
-      width: 2.4em;
-      height: 2.4em;
-  }
+.icon.icon-choose:before {
+  background-position: 0em -52em;
+  width: 2.4em;
+  height: 2.4em;
+}
 
 
 
 
-  .icon.icon-close:before {
-      background-position: 0em -54.4em;
-      width: 0.9em;
-      height: 0.9em;
-  }
+.icon.icon-close:before {
+  background-position: 0em -54.4em;
+  width: 0.9em;
+  height: 0.9em;
+}
 
 
 
 
-  .icon.icon-close-black:before {
-      background-position: 0em -55.3em;
-      width: 0.9em;
-      height: 0.9em;
-  }
+.icon.icon-close-black:before {
+  background-position: 0em -55.3em;
+  width: 0.9em;
+  height: 0.9em;
+}
 
 
 
 
-  .icon.icon-close-cyan:before {
-      background-position: 0em -56.2em;
-      width: 0.9em;
-      height: 0.9em;
-  }
+.icon.icon-close-cyan:before {
+  background-position: 0em -56.2em;
+  width: 0.9em;
+  height: 0.9em;
+}
 
 
 
 
-  .icon.icon-close-red:before {
-      background-position: 0em -57.1em;
-      width: 0.9em;
-      height: 0.9em;
-  }
+.icon.icon-close-red:before {
+  background-position: 0em -57.1em;
+  width: 0.9em;
+  height: 0.9em;
+}
 
 
 
 
-  .icon.icon-close-white:before {
-      background-position: 0em -58em;
-      width: 0.9em;
-      height: 0.9em;
-  }
+.icon.icon-close-white:before {
+  background-position: 0em -58em;
+  width: 0.9em;
+  height: 0.9em;
+}
 
 
 
 
-  .icon.icon-comment:before {
-      background-position: 0em -58.9em;
-      width: 2.8em;
-      height: 2.6em;
-  }
+.icon.icon-comment:before {
+  background-position: 0em -58.9em;
+  width: 2.8em;
+  height: 2.6em;
+}
 
 
 
 
-  .icon.icon-credit-cards:before {
-      background-position: 0em -61.5em;
-      width: 6.3em;
-      height: 5.1em;
-  }
+.icon.icon-credit-cards:before {
+  background-position: 0em -61.5em;
+  width: 6.3em;
+  height: 5.1em;
+}
 
 
 
 
-  .icon.icon-delivery:before {
-      background-position: 0em -66.6em;
-      width: 17.5em;
-      height: 24em;
-  }
+.icon.icon-delivery:before {
+  background-position: 0em -66.6em;
+  width: 17.5em;
+  height: 24em;
+}
 
 
 
 
-  .icon.icon-favorite:before {
-      background-position: 0em -90.6em;
-      width: 2.8em;
-      height: 2.4em;
-  }
+.icon.icon-favorite:before {
+  background-position: 0em -90.6em;
+  width: 3.3200000000000003em;
+  height: 2.85em;
+}
 
 
 
 
-  .icon.icon-menu:before {
-      background-position: 0em -93em;
-      width: 1.8em;
-      height: 1.3em;
-  }
+.icon.icon-favorite-active:before {
+  background-position: 0em -93.5em;
+  width: 3.3200000000000003em;
+  height: 2.85em;
+}
 
 
 
 
-  .icon.icon-menu-black:before {
-      background-position: 0em -94.3em;
-      width: 1.8em;
-      height: 1.3em;
-  }
+.icon.icon-menu:before {
+  background-position: 0em -96.4em;
+  width: 1.8em;
+  height: 1.3em;
+}
 
 
 
 
-  .icon.icon-money:before {
-      background-position: 0em -95.6em;
-      width: 6.3em;
-      height: 5.1em;
-  }
+.icon.icon-menu-black:before {
+  background-position: 0em -97.7em;
+  width: 1.8em;
+  height: 1.3em;
+}
 
 
 
 
-  .icon.icon-more:before {
-      background-position: 0em -100.7em;
-      width: 0.8em;
-      height: 0.6em;
-  }
+.icon.icon-money:before {
+  background-position: 0em -99em;
+  width: 6.3em;
+  height: 5.1em;
+}
 
 
 
 
-  .icon.icon-more-black:before {
-      background-position: 0em -101.3em;
-      width: 0.8em;
-      height: 0.6em;
-  }
+.icon.icon-more:before {
+  background-position: 0em -104.1em;
+  width: 0.8em;
+  height: 0.6em;
+}
 
 
 
 
-  .icon.icon-more-brilliant:before {
-      background-position: 0em -101.9em;
-      width: 0.8em;
-      height: 0.6em;
-  }
+.icon.icon-more-black:before {
+  background-position: 0em -104.7em;
+  width: 0.8em;
+  height: 0.6em;
+}
 
 
 
 
-  .icon.icon-more-cyan:before {
-      background-position: 0em -102.5em;
-      width: 0.8em;
-      height: 0.6em;
-  }
+.icon.icon-more-brilliant:before {
+  background-position: 0em -105.3em;
+  width: 0.8em;
+  height: 0.6em;
+}
 
 
 
 
-  .icon.icon-more-grey:before {
-      background-position: 0em -103.1em;
-      width: 0.8em;
-      height: 0.6em;
-  }
+.icon.icon-more-cyan:before {
+  background-position: 0em -105.9em;
+  width: 0.8em;
+  height: 0.6em;
+}
 
 
 
 
-  .icon.icon-more-white:before {
-      background-position: 0em -103.7em;
-      width: 0.8em;
-      height: 0.6em;
-  }
+.icon.icon-more-grey:before {
+  background-position: 0em -106.5em;
+  width: 0.8em;
+  height: 0.6em;
+}
 
 
 
 
-  .icon.icon-order:before {
-      background-position: 0em -104.3em;
-      width: 5.2em;
-      height: 5em;
-  }
+.icon.icon-more-white:before {
+  background-position: 0em -107.1em;
+  width: 0.8em;
+  height: 0.6em;
+}
 
 
 
 
-  .icon.icon-payment-mc:before {
-      background-position: 0em -109.3em;
-      width: 5.1em;
-      height: 4em;
-  }
+.icon.icon-order:before {
+  background-position: 0em -107.7em;
+  width: 5.2em;
+  height: 5em;
+}
 
 
 
 
-  .icon.icon-payment-pp:before {
-      background-position: 0em -113.3em;
-      width: 9.6em;
-      height: 2.2em;
-  }
+.icon.icon-payment-mc:before {
+  background-position: 0em -112.7em;
+  width: 5.1em;
+  height: 4em;
+}
 
 
 
 
-  .icon.icon-payment-sber:before {
-      background-position: 0em -115.5em;
-      width: 11.5em;
-      height: 2.6em;
-  }
+.icon.icon-payment-pp:before {
+  background-position: 0em -116.7em;
+  width: 9.6em;
+  height: 2.2em;
+}
 
 
 
 
-  .icon.icon-payment-swift:before {
-      background-position: 0em -118.1em;
-      width: 4.3em;
-      height: 4.3em;
-  }
+.icon.icon-payment-sber:before {
+  background-position: 0em -118.9em;
+  width: 11.5em;
+  height: 2.6em;
+}
 
 
 
 
-  .icon.icon-payment-visa:before {
-      background-position: 0em -122.4em;
-      width: 7.3em;
-      height: 2.5em;
-  }
+.icon.icon-payment-swift:before {
+  background-position: 0em -121.5em;
+  width: 4.3em;
+  height: 4.3em;
+}
 
 
 
 
-  .icon.icon-play:before {
-      background-position: 0em -124.9em;
-      width: 7.6em;
-      height: 7.6em;
-  }
+.icon.icon-payment-visa:before {
+  background-position: 0em -125.8em;
+  width: 7.3em;
+  height: 2.5em;
+}
 
 
 
 
-  .icon.icon-reviews:before {
-      background-position: 0em -132.5em;
-      width: 1.4em;
-      height: 1em;
-  }
+.icon.icon-play:before {
+  background-position: 0em -128.3em;
+  width: 7.6em;
+  height: 7.6em;
+}
 
 
 
 
-  .icon.icon-reviews-icon:before {
-      background-position: 0em -133.5em;
-      width: 1.2em;
-      height: 0.9em;
-  }
+.icon.icon-reviews:before {
+  background-position: 0em -135.9em;
+  width: 1.4em;
+  height: 1em;
+}
 
 
 
 
-  .icon.icon-search:before {
-      background-position: 0em -134.4em;
-      width: 1.8em;
-      height: 1.8em;
-  }
+.icon.icon-reviews-icon:before {
+  background-position: 0em -136.9em;
+  width: 1.2em;
+  height: 0.9em;
+}
 
 
 
 
-  .icon.icon-share:before {
-      background-position: 0em -136.2em;
-      width: 1.9em;
-      height: 2.4em;
-  }
+.icon.icon-search:before {
+  background-position: 0em -137.8em;
+  width: 1.8em;
+  height: 1.8em;
+}
 
 
 
 
-  .icon.icon-sprite:before {
-      background-position: 0em -138.6em;
-      width: 11.742738589211617em;
-      height: 100em;
-  }
+.icon.icon-share:before {
+  background-position: 0em -139.6em;
+  width: 1.9em;
+  height: 2.4em;
+}
 
 
 
 
-  .icon.icon-write:before {
-      background-position: 0em -238.6em;
-      width: 2.4em;
-      height: 2.4em;
-  }
+.icon.icon-sprite:before {
+  background-position: 0em -142em;
+  width: 11.742738589211617em;
+  height: 100em;
+}
+
+
+
+
+.icon.icon-write:before {
+  background-position: 0em -242em;
+  width: 2.4em;
+  height: 2.4em;
+}
 
 
 

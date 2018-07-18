@@ -1,6 +1,8 @@
+// if(!event){ event = window.event; }
+
 function toggleDropDown(button, id, wrapper) {
-    $(button).click(function() {
-        event.preventDefault();
+    $(button).click(function(e) {
+        e.preventDefault();
         var elem = $(id);
         if(elem.hasClass('show')) {
             elem.removeClass('show');
@@ -205,6 +207,21 @@ $(function($) {
     $("#cart-phone").mask("+9 (999) 999-99-99");
 });
 
+
+var current = 'tab1';
+function show(id) {
+    document.getElementById(current).style.display = 'none';
+    document.getElementById(id).style.display = 'block';
+    current = id;
+};
+
+$('.tabs__container').each( function( i, buttonLinks ) {
+    var $buttonLinks = $( buttonLinks );
+    $buttonLinks.on( 'click', 'a', function() {
+        $buttonLinks.find('.tabs__button--active').removeClass('tabs__button--active');
+        $( this ).addClass('tabs__button--active');
+    });
+});
 
 
 
