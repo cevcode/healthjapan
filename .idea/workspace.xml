@@ -1,74 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d32ebb9-35af-4e1e-ab47-fa026085a173" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/delete-black.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/old/libs/index.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/old/libs/remodal-default-theme.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/old/libs/remodal.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/old/libs/slick-theme.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/old/libs/slick.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/old/libs/superfish.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/old/main.scss" />
+    <list default="true" id="6d32ebb9-35af-4e1e-ab47-fa026085a173" name="Default" comment="fix configs fix styles, bad compile gulp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/img/icon/favorite-active.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/img/icon/favorite.svg" afterPath="$PROJECT_DIR$/app/img/icon/favorite.svg" />
-      <change beforePath="$PROJECT_DIR$/app/img/sprite/css/sprite.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/img/sprite/sprite.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/img/sprite/svg/sprite.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/404.html" afterPath="$PROJECT_DIR$/app/404.html" />
+      <change beforePath="$PROJECT_DIR$/app/brand.html" afterPath="$PROJECT_DIR$/app/brand.html" />
+      <change beforePath="$PROJECT_DIR$/app/card.html" afterPath="$PROJECT_DIR$/app/card.html" />
+      <change beforePath="$PROJECT_DIR$/app/compare.html" afterPath="$PROJECT_DIR$/app/compare.html" />
+      <change beforePath="$PROJECT_DIR$/app/contacts.html" afterPath="$PROJECT_DIR$/app/contacts.html" />
+      <change beforePath="$PROJECT_DIR$/app/delivery.html" afterPath="$PROJECT_DIR$/app/delivery.html" />
+      <change beforePath="$PROJECT_DIR$/app/filter.html" afterPath="$PROJECT_DIR$/app/filter.html" />
+      <change beforePath="$PROJECT_DIR$/app/guarantee.html" afterPath="$PROJECT_DIR$/app/guarantee.html" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon/payment-sber.svg" afterPath="$PROJECT_DIR$/app/img/icon/payment-sber.svg" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon/payment-swift.svg" afterPath="$PROJECT_DIR$/app/img/icon/payment-swift.svg" />
+      <change beforePath="$PROJECT_DIR$/app/img/icon/payment-visa.svg" afterPath="$PROJECT_DIR$/app/img/icon/payment-visa.svg" />
+      <change beforePath="$PROJECT_DIR$/app/img/sprite/svg/sprite.svg" afterPath="$PROJECT_DIR$/app/img/sprite/svg/sprite.svg" />
       <change beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change beforePath="$PROJECT_DIR$/app/sass/helpers/_fonts.scss" afterPath="$PROJECT_DIR$/app/old/helpers/_fonts.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/helpers/_mixins.scss" afterPath="$PROJECT_DIR$/app/old/helpers/_mixins.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/helpers/_vars.scss" afterPath="$PROJECT_DIR$/app/old/helpers/_vars.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/helpers/index.scss" afterPath="$PROJECT_DIR$/app/old/helpers/index.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/helpers/normalize.scss" afterPath="$PROJECT_DIR$/app/old/helpers/normalize.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/helpers/sprite.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/sass/libs/index.scss" afterPath="$PROJECT_DIR$/app/sass/libs/index.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/libs/select2.scss" afterPath="$PROJECT_DIR$/app/old/libs/select2.scss" />
+      <change beforePath="$PROJECT_DIR$/app/js/common.js" afterPath="$PROJECT_DIR$/app/js/common.js" />
+      <change beforePath="$PROJECT_DIR$/app/js/common.min.js" afterPath="$PROJECT_DIR$/app/js/common.min.js" />
+      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" />
+      <change beforePath="$PROJECT_DIR$/app/news.html" afterPath="$PROJECT_DIR$/app/news.html" />
+      <change beforePath="$PROJECT_DIR$/app/one-sale-page.html" afterPath="$PROJECT_DIR$/app/one-sale-page.html" />
+      <change beforePath="$PROJECT_DIR$/app/payment.html" afterPath="$PROJECT_DIR$/app/payment.html" />
+      <change beforePath="$PROJECT_DIR$/app/review.html" afterPath="$PROJECT_DIR$/app/review.html" />
+      <change beforePath="$PROJECT_DIR$/app/sales.html" afterPath="$PROJECT_DIR$/app/sales.html" />
       <change beforePath="$PROJECT_DIR$/app/sass/main.scss" afterPath="$PROJECT_DIR$/app/sass/main.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/brand.scss" afterPath="$PROJECT_DIR$/app/old/pages/brand.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/card.scss" afterPath="$PROJECT_DIR$/app/old/pages/card.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/cart.scss" afterPath="$PROJECT_DIR$/app/old/pages/cart.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/compare.scss" afterPath="$PROJECT_DIR$/app/old/pages/compare.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/contacts.scss" afterPath="$PROJECT_DIR$/app/old/pages/contacts.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/delivery.scss" afterPath="$PROJECT_DIR$/app/old/pages/delivery.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/error.scss" afterPath="$PROJECT_DIR$/app/old/pages/error.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/filter.scss" afterPath="$PROJECT_DIR$/app/old/pages/filter.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/guarantee.scss" afterPath="$PROJECT_DIR$/app/old/pages/guarantee.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/index.scss" afterPath="$PROJECT_DIR$/app/old/pages/index.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/main.scss" afterPath="$PROJECT_DIR$/app/old/pages/main.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/news.scss" afterPath="$PROJECT_DIR$/app/old/pages/news.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/review.scss" afterPath="$PROJECT_DIR$/app/old/pages/review.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/sales.scss" afterPath="$PROJECT_DIR$/app/old/pages/sales.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/search.scss" afterPath="$PROJECT_DIR$/app/old/pages/search.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/thanks.scss" afterPath="$PROJECT_DIR$/app/old/pages/thanks.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/pages/ui-kit.scss" afterPath="$PROJECT_DIR$/app/old/pages/ui-kit.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/ui/badge.scss" afterPath="$PROJECT_DIR$/app/old/ui/badge.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/ui/button.scss" afterPath="$PROJECT_DIR$/app/old/ui/button.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/ui/checkbox.scss" afterPath="$PROJECT_DIR$/app/old/ui/checkbox.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/ui/container.scss" afterPath="$PROJECT_DIR$/app/old/ui/container.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/ui/description.scss" afterPath="$PROJECT_DIR$/app/old/ui/description.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/ui/index.scss" afterPath="$PROJECT_DIR$/app/old/ui/index.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/ui/input.scss" afterPath="$PROJECT_DIR$/app/old/ui/input.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/ui/post.scss" afterPath="$PROJECT_DIR$/app/old/ui/post.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/ui/subscribe.scss" afterPath="$PROJECT_DIR$/app/old/ui/subscribe.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/ui/title.scss" afterPath="$PROJECT_DIR$/app/old/ui/title.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/accordion.scss" afterPath="$PROJECT_DIR$/app/old/widgets/accordion.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/breadcrumbs.scss" afterPath="$PROJECT_DIR$/app/old/widgets/breadcrumbs.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/catalog.scss" afterPath="$PROJECT_DIR$/app/old/widgets/catalog.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/counter.scss" afterPath="$PROJECT_DIR$/app/old/widgets/counter.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/dropdown.scss" afterPath="$PROJECT_DIR$/app/old/widgets/dropdown.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/expandable.scss" afterPath="$PROJECT_DIR$/app/old/widgets/expandable.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/filter.scss" afterPath="$PROJECT_DIR$/app/old/widgets/filter.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/index.scss" afterPath="$PROJECT_DIR$/app/old/widgets/index.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/pagination.scss" afterPath="$PROJECT_DIR$/app/old/widgets/pagination.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/product.scss" afterPath="$PROJECT_DIR$/app/old/widgets/product.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/search.scss" afterPath="$PROJECT_DIR$/app/old/widgets/search.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/slider.scss" afterPath="$PROJECT_DIR$/app/old/widgets/slider.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/sorter.scss" afterPath="$PROJECT_DIR$/app/old/widgets/sorter.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/table.scss" afterPath="$PROJECT_DIR$/app/old/widgets/table.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/tabs.scss" afterPath="$PROJECT_DIR$/app/old/widgets/tabs.scss" />
-      <change beforePath="$PROJECT_DIR$/app/sass/widgets/timer.scss" afterPath="$PROJECT_DIR$/app/old/widgets/timer.scss" />
+      <change beforePath="$PROJECT_DIR$/app/search.html" afterPath="$PROJECT_DIR$/app/search.html" />
+      <change beforePath="$PROJECT_DIR$/app/thanks.html" afterPath="$PROJECT_DIR$/app/thanks.html" />
       <change beforePath="$PROJECT_DIR$/dist/404.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/dist/all.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/dist/brand.html" afterPath="" />
@@ -151,7 +109,6 @@
       <change beforePath="$PROJECT_DIR$/dist/img/icon/comment.svg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/dist/img/icon/credit-cards.svg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/dist/img/icon/delivery.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/favorite-active.svg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/dist/img/icon/favorite.svg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/dist/img/icon/menu-black.svg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/dist/img/icon/menu.svg" afterPath="" />
@@ -177,7 +134,7 @@
       <change beforePath="$PROJECT_DIR$/dist/img/photos/img.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/dist/img/photos/img.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/dist/img/sprite.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/sprite/css/sprite.css" afterPath="$PROJECT_DIR$/app/old/helpers/sprite.scss" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sprite/css/sprite.css" afterPath="" />
       <change beforePath="$PROJECT_DIR$/dist/img/sprite/sprite.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/dist/img/sprite/svg/sprite.svg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" afterPath="" />
@@ -189,7 +146,6 @@
       <change beforePath="$PROJECT_DIR$/dist/sales.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/dist/search.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/dist/thanks.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -203,51 +159,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="301" selection-end-column="10" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ui#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#3;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/news.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="374" column="0" lean-forward="false" selection-start-line="374" selection-start-column="0" selection-end-line="389" selection-end-column="26" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ui#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="one-sale-page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/one-sale-page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="301" selection-end-column="10" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ui#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="card.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/card.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="592" column="105" lean-forward="false" selection-start-line="592" selection-start-column="93" selection-end-line="592" selection-end-column="105" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ui#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="338" column="41" lean-forward="false" selection-start-line="338" selection-start-column="27" selection-end-line="338" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5314" column="26" lean-forward="true" selection-start-line="5314" selection-start-column="26" selection-end-line="5314" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sprite.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/img/sprite/css/sprite.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-260">
-              <caret line="9" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/sass/libs/index.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slick-theme.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/sass/libs/slick-theme.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="superfish.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/sass/libs/superfish.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="583" column="9" lean-forward="true" selection-start-line="583" selection-start-column="9" selection-end-line="583" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -257,39 +258,38 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>post</find>
-      <find>найдено</find>
-      <find>result</find>
-      <find>.subscribe</find>
-      <find>menu</find>
-      <find>sales</find>
-      <find>new-offer</find>
-      <find>st0</find>
-      <find>#fa8231</find>
-      <find>.st0</find>
-      <find>st0{fill:#fa8231}</find>
-      <find>cyan</find>
-      <find>wri</find>
-      <find>icon-wr</find>
-      <find>.icon-write</find>
-      <find>.icon{</find>
-      <find>background</find>
-      <find>icon-write</find>
-      <find>write</find>
-      <find>delete</find>
-      <find>dropdow</find>
-      <find>close</find>
-      <find>sass</find>
-      <find>@import '../helpers/index';</find>
-      <find>dropdown__cl</find>
-      <find>@import &quot;../helpers/index&quot;;</find>
-      <find>../../</find>
-      <find>$whi</find>
-      <find>$white</find>
-      <find>.icon</find>
+      <find>написа</find>
+      <find>&lt;img src=&quot;img/icon/write.svg&quot; alt=&quot;&quot; class=&quot;header__controls-img&quot;&gt;</find>
+      <find>sber</find>
+      <find>close-black</find>
+      <find>.sales</find>
+      <find>select2</find>
+      <find>.container {</find>
+      <find>counter_add</find>
+      <find>.search</find>
+      <find>icon-s</find>
+      <find>icon-</find>
+      <find>product</find>
+      <find>.product {</find>
+      <find>timer</find>
+      <find>.catalog</find>
+      <find>catalog__bu</find>
+      <find>counter_a</find>
+      <find>mobile</find>
+      <find>button--mobile</find>
+      <find>icon-choose</find>
+      <find>.row--sales</find>
+      <find>select2-selection__rendered</find>
+      <find>.card</find>
+      <find>counter</find>
+      <find>.counter {</find>
+      <find>catalog</find>
+      <find>review</find>
+      <find>.review</find>
+      <find>revi</find>
+      <find>accordion</find>
     </findStrings>
     <replaceStrings>
-      <replace>catalog__inner-item</replace>
       <replace>.card__media</replace>
       <replace>card__nav</replace>
       <replace>img/</replace>
@@ -318,6 +318,7 @@
       <replace>st0{fill:#4b6584}</replace>
       <replace />
       <replace>../</replace>
+      <replace>&lt;i class=&quot;icon icon-write header__controls-img&quot;&gt;&lt;/i&gt;</replace>
       <replace>#fff</replace>
     </replaceStrings>
     <dirStrings>
@@ -330,39 +331,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/all.html" />
-        <option value="$PROJECT_DIR$/app/sass/pages/search.scss" />
-        <option value="$PROJECT_DIR$/app/sass/ui/button.scss" />
-        <option value="$PROJECT_DIR$/app/filter.html" />
-        <option value="$PROJECT_DIR$/app/review.html" />
-        <option value="$PROJECT_DIR$/app/sass/widgets/slider.scss" />
-        <option value="$PROJECT_DIR$/app/brand.html" />
-        <option value="$PROJECT_DIR$/app/thanks.html" />
-        <option value="$PROJECT_DIR$/app/404.html" />
-        <option value="$PROJECT_DIR$/app/sass/pages/guarantee.scss" />
-        <option value="$PROJECT_DIR$/app/guarantee.html" />
         <option value="$PROJECT_DIR$/app/sass/ui/input.scss" />
         <option value="$PROJECT_DIR$/dist/css/main.min.css" />
-        <option value="$PROJECT_DIR$/app/payment.html" />
         <option value="$PROJECT_DIR$/app/img/icon/favorite-active.svg" />
         <option value="$PROJECT_DIR$/app/sass/widgets/tabs.scss" />
-        <option value="$PROJECT_DIR$/app/card.html" />
         <option value="$PROJECT_DIR$/app/sass/widgets/product.scss" />
-        <option value="$PROJECT_DIR$/app/sales.html" />
-        <option value="$PROJECT_DIR$/app/search.html" />
         <option value="$PROJECT_DIR$/app/sass/widgets/filter.scss" />
         <option value="$PROJECT_DIR$/app/sass/helpers/normalize.scss" />
         <option value="$PROJECT_DIR$/app/sass/widgets/search.scss" />
         <option value="$PROJECT_DIR$/app/sass/ui/subscribe.scss" />
         <option value="$PROJECT_DIR$/app/sass/ui/post.scss" />
         <option value="$PROJECT_DIR$/app/sass/widgets/catalog.scss" />
-        <option value="$PROJECT_DIR$/app/js/common.js" />
         <option value="$PROJECT_DIR$/app/sass/pages/main.scss" />
         <option value="$PROJECT_DIR$/app/img/sprite/css/sprite.css" />
         <option value="$PROJECT_DIR$/app/sass/helpers/index.scss" />
         <option value="$PROJECT_DIR$/app/img/sprite/svg/sprite.svg" />
         <option value="$PROJECT_DIR$/app/img/icon/favorite.svg" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/sass/helpers/sprite.scss" />
         <option value="$PROJECT_DIR$/app/sass/widgets/dropdown.scss" />
@@ -380,6 +364,23 @@
         <option value="$PROJECT_DIR$/app/sass/ui/badge.scss" />
         <option value="$PROJECT_DIR$/app/sass/libs/select2.scss" />
         <option value="$PROJECT_DIR$/app/sass/libs/index.scss" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/404.html" />
+        <option value="$PROJECT_DIR$/app/brand.html" />
+        <option value="$PROJECT_DIR$/app/compare.html" />
+        <option value="$PROJECT_DIR$/app/contacts.html" />
+        <option value="$PROJECT_DIR$/app/delivery.html" />
+        <option value="$PROJECT_DIR$/app/filter.html" />
+        <option value="$PROJECT_DIR$/app/guarantee.html" />
+        <option value="$PROJECT_DIR$/app/news.html" />
+        <option value="$PROJECT_DIR$/app/one-sale-page.html" />
+        <option value="$PROJECT_DIR$/app/payment.html" />
+        <option value="$PROJECT_DIR$/app/review.html" />
+        <option value="$PROJECT_DIR$/app/sales.html" />
+        <option value="$PROJECT_DIR$/app/search.html" />
+        <option value="$PROJECT_DIR$/app/thanks.html" />
+        <option value="$PROJECT_DIR$/app/card.html" />
+        <option value="$PROJECT_DIR$/app/js/common.js" />
         <option value="$PROJECT_DIR$/app/sass/main.scss" />
       </list>
     </option>
@@ -443,22 +444,7 @@
               <item name="healthjapan" type="b2602c69:ProjectViewProjectNode" />
               <item name="healthjapan" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="sprite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="healthjapan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="healthjapan" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="sprite" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="healthjapan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="healthjapan" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -484,6 +470,7 @@
       <recent name="$PROJECT_DIR$/app/img/badges" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/img/icon" />
       <recent name="$PROJECT_DIR$/app/img" />
       <recent name="$PROJECT_DIR$/app/assets/photos" />
       <recent name="$PROJECT_DIR$/app/sass/helpers" />
@@ -520,14 +507,7 @@
       <workItem from="1531252188742" duration="19494000" />
       <workItem from="1531500171799" duration="48349000" />
       <workItem from="1531832805329" duration="3324000" />
-      <workItem from="1531908230794" duration="9505000" />
-    </task>
-    <task id="LOCAL-00036" summary="created compare page">
-      <created>1531081740004</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1531081740004</updated>
+      <workItem from="1531908230794" duration="19086000" />
     </task>
     <task id="LOCAL-00037" summary="updated dist">
       <created>1531081767066</created>
@@ -865,11 +845,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531914175301</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="fix configs fix styles, bad compile gulp">
+      <created>1531927506732</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1531927506732</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207616000" />
+    <option name="totallyTimeSpent" value="217197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="814" extended-state="0" />
@@ -880,7 +867,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32684284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32684284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -926,7 +913,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="some style fixes" />
     <MESSAGE value="added full responsive brand page, up to 320px" />
     <MESSAGE value="rebuild" />
     <MESSAGE value="removed duplicate styles" />
@@ -951,154 +937,14 @@
     <MESSAGE value="fixed global tabs, fixed global comments link, added few scripts for has url and ease scroll func" />
     <MESSAGE value="fixed cross bugs" />
     <MESSAGE value="added brands slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="added brands slider" />
+    <MESSAGE value="fix configs fix styles, bad compile gulp" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix configs fix styles, bad compile gulp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/img/icon/favorite.svg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/helpers/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="417" column="0" lean-forward="true" selection-start-line="417" selection-start-column="0" selection-end-line="417" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/old/ui/post.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/pages/brand.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/pages/card.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="381" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/pages/cart.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/pages/compare.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/pages/contacts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/pages/delivery.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/pages/error.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/pages/filter.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/pages/guarantee.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/pages/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/pages/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="616" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="645" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/pages/news.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/pages/review.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/pages/sales.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/pages/search.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/pages/thanks.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1352,10 +1198,260 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/icon/payment-sber.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="301" selection-end-column="10" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ui#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/brand.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="301" selection-end-column="10" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ui#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/compare.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="301" selection-end-column="10" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ui#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="301" selection-end-column="10" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ui#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/delivery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="301" selection-end-column="10" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ui#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/filter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="301" selection-end-column="10" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ui#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/guarantee.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="301" selection-end-column="10" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ui#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="301" selection-end-column="10" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ui#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#3;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/payment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="301" selection-end-column="10" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ui#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/review.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="301" selection-end-column="10" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ui#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sales.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="301" selection-end-column="10" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ui#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/thanks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="62" lean-forward="true" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ui#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="374" column="0" lean-forward="false" selection-start-line="374" selection-start-column="0" selection-end-line="389" selection-end-column="26" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ui#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="301" selection-end-column="10" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ui#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/one-sale-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="301" selection-end-column="10" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ui#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="592" column="105" lean-forward="false" selection-start-line="592" selection-start-column="93" selection-end-line="592" selection-end-column="105" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ui#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="338" column="41" lean-forward="false" selection-start-line="338" selection-start-column="27" selection-end-line="338" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5314" column="26" lean-forward="true" selection-start-line="5314" selection-start-column="26" selection-end-line="5314" selection-end-column="26" />
+        <state relative-caret-position="105">
+          <caret line="583" column="9" lean-forward="true" selection-start-line="583" selection-start-column="9" selection-end-line="583" selection-end-column="9" />
           <folding />
         </state>
       </provider>
