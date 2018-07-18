@@ -326,7 +326,10 @@ html {
 	}
 }
 html, body {
-	height: 100%
+	height: 100%;
+	::selection {
+		background-color: $brilliant;
+	}
 }
 
 h1,h2,h3,h4,h5,h6,p,ol,ul {
@@ -1856,6 +1859,8 @@ a {
 			}
 			@include screen-lt(mobile) {
 				margin: rem(0 13px);
+				height: rem(30px);
+				width: rem(30px);
 				&:first-child {
 					display: none;
 				}
@@ -2100,6 +2105,9 @@ a {
 .news {
 	@include screen-lt(mobile-custom) {
 		padding: rem(0 15px);
+		.row--fixed {
+			padding: rem(0 15px);
+		}
 	}
 	.post {
 		width: calc(100%/5);
@@ -2612,9 +2620,15 @@ a {
 	}
 	.post:first-child {
 		margin-left: rem(12.5px);
+		@include screen-lt(mobile) {
+			margin-left: 0;
+		}
 	}
 	.post:last-child {
 		margin-right: rem(12.5px);
+		@include screen-lt(mobile) {
+			margin-right: 0;
+		}
 	}
 }
 
@@ -4291,6 +4305,8 @@ $bgItemChoose: #d8d8d8;
 		bottom: rem(-65px);
 		@include screen-lt(mobile-custom) {
 			bottom: rem(-50px);
+			opacity: 1;
+			position: static;
 		}
 	}
 }

@@ -52,7 +52,8 @@ function createSlider(selector, slidesToShow, slidesToScroll, slidesToShowDeskto
             {
                 breakpoint: 668,
                 settings: {
-                    slidesToShow: slidesToShowDesktopMobile
+                    slidesToShow: slidesToShowDesktopMobile,
+                    arrows: false
                 }
             },
         ]
