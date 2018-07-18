@@ -17,6 +17,7 @@
 .post {
   box-shadow: rem(0 0 15px 0 rgba(227, 227, 227, 0.5));
   border-radius: rem(5px);
+  z-index: 1;
   height: rem(340px);
   -webkit-background-size: cover;
   background-size: cover !important;

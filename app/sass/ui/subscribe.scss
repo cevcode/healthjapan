@@ -8,6 +8,7 @@
     width: rem(310px);
     color: $black;
     @include placeholder-color($grey);
+    margin: 0;
     padding: rem(0 20px);
     @include main-font(300);
     border-top-left-radius: rem(2px);

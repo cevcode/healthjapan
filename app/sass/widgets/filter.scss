@@ -75,6 +75,9 @@ $bgItemChoose: #d8d8d8;
     box-shadow: 0 0 15px 0 rgba(227, 227, 227, 0.5);
     text-decoration: underline;
     z-index: 3;
+    &:hover {
+      color: $white;
+    }
     &:before {
       content: '';
       position: absolute;
