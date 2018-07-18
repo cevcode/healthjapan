@@ -59,6 +59,11 @@
   }
   &__comments {
     @include before('../../img/icon/reviews-icon.svg', 12px, 9px, 4px, auto, auto, -15px);
+    text-decoration: none;
+    color: #aaa;
+    @include main-font(300);
+    position: relative;
+    font-size: rem(12px);
   }
   h5 {
     padding: rem(20px 25px 15px 25px);
