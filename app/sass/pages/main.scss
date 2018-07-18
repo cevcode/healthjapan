@@ -565,7 +565,7 @@
 }
 
 .sales {
-  .sales__slider, .new-offers__slider, .recent-products__slider, .additional-products__slider {
+  .sales__slider, .new-offers__slider, .recent-products__slider, .additional-products__slider, .brands__slider {
     .slick-next {
       right: rem(-65px) !important;
     }
@@ -610,6 +610,35 @@
   @include screen-lt(tablet) {
     max-width: rem(300px);
     max-height: rem(300px);
+  }
+}
+
+.brands {
+  margin-bottom: rem(40px);
+  &__item {
+    background-color: $white;
+    width: rem(260px);
+    display: flex !important;
+    margin: rem(20px 0);
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px 0 rgba(227, 227, 227, 0.5);
+    height: rem(80px);
+  }
+  &__img {
+    min-width: rem(140px) !important;
+    min-height: rem(34px) !important;
+    max-width: rem(140px) !important;
+    max-height: rem(34px) !important;
+  }
+  .sales__counter {
+    right: rem(-60px);
+  }
+  .slick-next {
+    right: rem(-80px);
+  }
+  .slick-prev {
+    left: rem(-80px);
   }
 }
 
