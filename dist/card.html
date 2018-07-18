@@ -30,256 +30,276 @@
 
 <body>
     <header class="header">
-        <div class="container">
-            <div class="row row__jc-sb row__ai-center">
-                <div class="header__column">
-                    <div class="catalog tc-show-320">
-                        <button class="catalog__button--mobile"></button>
-                    </div>
-                    <div class="header__logo">
-                        <a href="#"><img src="img/logo.png" alt="" class="header__img"></a>
-                    </div>
-                    <div class="header__search">
-                        <div class="search">
-                            <div class="search__field">
-                                <input type="search" class="search__input" id="search" placeholder="Поиск по магазину..."/>
-                                <button class="search__button-categories">Все разделы</button>
-                                <div class="search__result">
-                                    <div class="dropdown__item">
-                                        <div class="dropdown__img-container">
-                                            <img src="img/photos/img.png" alt="" class="dropdown__img">
-                                        </div>
-                                        <div>
-                                            <p class="dropdown__title">Лактис / Lactis</p>
-                                            <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown__item">
-                                        <div class="dropdown__img-container">
-                                            <img src="img/photos/img.png" alt="" class="dropdown__img">
-                                        </div>
-                                        <div>
-                                            <p class="dropdown__title">Лактис / Lactis</p>
-                                            <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
-                                        </div>
-                                    </div>
-                                    <a href="#" class="search__result-button">Посмотреть все</a>
-                                </div>
-                            </div>
-                            <button type="submit" class="button button__color--outline search__button-submit">Найти</button>
+    <div class="container">
+        <div class="row row__jc-sb row__ai-center">
+            <div class="header__column">
+                <div class="catalog tc-show-320">
+                    <button class="catalog__button--mobile">
+                        <div id="nav-icon3">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
                         </div>
+                    </button>
+                </div>
+                <div class="header__logo">
+                    <a href="#"><img src="img/logo.png" alt="" class="header__img"></a>
+                </div>
+                <div class="header__search">
+                    <div class="search">
+                        <div class="search__field">
+                            <input type="search" class="search__input" id="search" placeholder="Поиск по магазину..."/>
+                            <button class="search__button-categories">Все разделы</button>
+                            <div class="search__result">
+                                <div class="dropdown__item">
+                                    <div class="dropdown__img-container">
+                                        <img src="img/photos/img.png" alt="" class="dropdown__img">
+                                    </div>
+                                    <div>
+                                        <p class="dropdown__title">Лактис / Lactis</p>
+                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                    </div>
+                                </div>
+                                <div class="dropdown__item">
+                                    <div class="dropdown__img-container">
+                                        <img src="img/photos/img.png" alt="" class="dropdown__img">
+                                    </div>
+                                    <div>
+                                        <p class="dropdown__title">Лактис / Lactis</p>
+                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                    </div>
+                                </div>
+                                <a href="#" class="search__result-button">Посмотреть все</a>
+                            </div>
+                        </div>
+                        <button type="submit" class="button button__color--outline search__button-submit">Найти</button>
                     </div>
                 </div>
-                <div class="header__column">
-                    <ui class="header__controls">
-                        <li class="header__controls-item">
-                            <a href="#" class="header__controls-link">
-                                <i class="icon icon-write header__controls-img"></i>
-                                <p class="header__controls-description">Написать нам</p>
-                            </a>
-                        </li>
-                        <li class="header__controls-item">
-                            <a href="#" class="header__controls-link" id="compare-btn">
-                                <i class="icon icon-choose header__controls-img"></i>
-                                <p class="header__controls-description">Сравнение</p>
-                                <div class="dropdown" id="compare-result">
-                                    <div class="dropdown__item">
-                                        <div class="dropdown__img-container">
-                                            <img src="img/photos/img.png" alt="" class="dropdown__img">
-                                        </div>
-                                        <div>
-                                            <p class="dropdown__title">Лактис / Lactis</p>
-                                            <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown__item">
-                                        <div class="dropdown__img-container">
-                                            <img src="img/photos/img.png" alt="" class="dropdown__img">
-                                        </div>
-                                        <div>
-                                            <p class="dropdown__title">Лактис / Lactis</p>
-                                            <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown__item">
-                                        <div class="dropdown__img-container">
-                                            <img src="img/photos/img.png" alt="" class="dropdown__img">
-                                        </div>
-                                        <div>
-                                            <p class="dropdown__title">Лактис / Lactis</p>
-                                            <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
-                                        </div>
-                                    </div>
-
-                                    <a href="#" class="dropdown__button">Открыть корзину</a>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="header__controls-item">
-                            <a href="#" class="header__controls-link" id="favorite-btn">
-                                <i class="icon icon-favorite header__controls-img"></i>
-                                <p class="header__controls-description">Избранное</p>
-                            </a>
-                            <p class="header__controls-indicate">+1</p>
-                            <div class="dropdown" id="favorite-result">
-                                <div class="dropdown__item">
-                                    <div class="dropdown__img-container">
-                                        <img src="img/photos/img.png" alt="" class="dropdown__img">
-                                    </div>
-                                    <div>
-                                        <p class="dropdown__title">Лактис / Lactis</p>
-                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
-                                    </div>
-                                    <button class="dropdown__close"></button>
-                                </div>
-                                <div class="dropdown__item">
-                                    <div class="dropdown__img-container">
-                                        <img src="img/photos/img.png" alt="" class="dropdown__img">
-                                    </div>
-                                    <div>
-                                        <p class="dropdown__title">Лактис / Lactis</p>
-                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
-                                    </div>
-                                    <button class="dropdown__close"></button>
-
-                                </div>
-                                <div class="dropdown__item">
-                                    <div class="dropdown__img-container">
-                                        <img src="img/photos/img.png" alt="" class="dropdown__img">
-                                    </div>
-                                    <div>
-                                        <p class="dropdown__title">Лактис / Lactis</p>
-                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
-                                    </div>
-                                    <button class="dropdown__close"></button>
-                                </div>
-
-                                <a href="#" class="dropdown__button">Открыть корзину</a>
-                            </div>
-
-                        </li>
-                        <li class="header__controls-item">
-                            <a href="#" class="header__controls-link" id="cart-btn">
-                                <i class="icon icon-cart header__controls-img"></i>
-                                <p class="header__controls-description">Корзина</p>
-                            </a>
-                            <p class="header__controls-indicate">+1</p>
-                            <div class="dropdown" id="cart-result">
-                                <div class="dropdown__item">
-                                    <div class="dropdown__img-container">
-                                        <img src="img/photos/img.png" alt="" class="dropdown__img">
-                                    </div>
-                                    <div>
-                                        <p class="dropdown__title">Лактис / Lactis</p>
-                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
-                                    </div>
-                                </div>
-                                <div class="dropdown__item">
-                                    <div class="dropdown__img-container">
-                                        <img src="img/photos/img.png" alt="" class="dropdown__img">
-                                    </div>
-                                    <div>
-                                        <p class="dropdown__title">Лактис / Lactis</p>
-                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
-                                    </div>
-                                </div>
-                                <div class="dropdown__item">
-                                    <div class="dropdown__img-container">
-                                        <img src="img/photos/img.png" alt="" class="dropdown__img">
-                                    </div>
-                                    <div>
-                                        <p class="dropdown__title">Лактис / Lactis</p>
-                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
-                                    </div>
-                                </div>
-
-                                <a href="#" class="dropdown__button">Открыть корзину</a>
-                            </div>
-                        </li>
-                    </ui>
-                </div>
             </div>
-        </div>
-    </header>
-    <div class="menu tc-show-768">
-        <div class="menu__column">
-            <div class="catalog">
-                <button class="catalog__button tc-show-1200">Каталог товаров</button>
-                <button class="catalog__button--mobile tc-show-992">Все разделы</button>
-                <ul class="sf-menu catalog__menu">
-                    <li class="catalog__item">
-                        <a href="#" class="catalog__link">БАДы</a>
-                        <ul class="catalog__inner-list">
-                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Для глаз</a></li>
-                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Красота, омоложение, целлюлит</a></li>
-                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Здоровая кожа</a></li>
-                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Укрепление иммунитета</a></li>
-                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Стресс, неврозыx§</a></li>
-                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Похудение. Снижение веса. Диета</a></li>
-                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Желудочно-кишечный тракт</a></li>
-                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Пищеварение</a></li>
-                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Для детей</a></li>
-                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Для пожилых, долголетие</a></li>
-                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Суставы, опорно-двигательная система</a></li>
-                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Умственное развитие, улучшение памяти, ноотропы</a></li>
-                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Мужское здоровье</a></li>
-                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Женское здоровье, для будущих мам</a></li>
-                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Печень, гепатит</a></li>
-                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Антиоксиданты</a></li>
-                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Cердечно-сосудистая система, сосуды, холестерин</a></li>
-                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Диабет, повышенный сахар</a></li>
-                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Снотворное, хороший сон</a></li>
-                            <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Онкология, рак</a></li>
-
-                        </ul>
+            <div class="header__column">
+                <ui class="header__controls">
+                    <li class="header__controls-item">
+                        <a href="#" class="header__controls-link">
+                            <i class="icon icon-write header__controls-img"></i>
+                            <p class="header__controls-description">Написать нам</p>
+                        </a>
                     </li>
-                    <li class="catalog__item"><a href="#" class="catalog__link">Витамины</a></li>
-                    <li class="catalog__item"><a href="#" class="catalog__link">Лекарственные средства</a></li>
-                    <li class="catalog__item"><a href="#" class="catalog__link">Косметика</a></li>
-                    <li class="catalog__item"><a href="#" class="catalog__link">Зубные пасты</a></li>
-                    <li class="catalog__item"><a href="#" class="catalog__link">Плацентарная косметика</a></li>
-                    <li class="catalog__item"><a href="#" class="catalog__link">Эксклюзивные японские препараты.</a></li>
-                    <li class="catalog__item"><a href="#" class="catalog__link">Косметологические аппараты</a></li>
-                    <li class="catalog__item"><a href="#" class="catalog__link">Спортивное питание</a></li>
-                    <li class="catalog__item"><a href="#" class="catalog__link">Японский чай</a></li>
-                    <li class="catalog__item"><a href="#" class="catalog__link">Магнитные изделия</a></li>
-                </ul>
-            </div>
-            <ui class="menu__list tc-show-1200">
-                <li class="menu__item">
-                    <a href="#" class="menu__link">О нас</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#" class="menu__link">Гарантии</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#" class="menu__link">Оплата</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#" class="menu__link">Доставка</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#" class="menu__link">Контакты</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#" class="menu__link">Новости</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#" class="menu__link">Акции и скидки</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#" class="menu__link">Почему мы и японские товары?</a>
-                </li>
-            </ui>
-        </div>
-        <div class="menu__column">
-            <div class="currency">
-                <a href="#" class="currency__item currency__item--checked">USD</a>
-                <span class="currency__item currency__item--separator">|</span>
-                <a href="#" class="currency__item">РУБ</a>
+                    <li class="header__controls-item">
+                        <a href="#" class="header__controls-link" id="compare-btn">
+                            <i class="icon icon-choose header__controls-img"></i>
+                            <p class="header__controls-description">Сравнение</p>
+                            <div class="dropdown" id="compare-result">
+                                <div class="dropdown__item">
+                                    <div class="dropdown__img-container">
+                                        <img src="img/photos/img.png" alt="" class="dropdown__img">
+                                    </div>
+                                    <div>
+                                        <p class="dropdown__title">Лактис / Lactis</p>
+                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                    </div>
+                                </div>
+                                <div class="dropdown__item">
+                                    <div class="dropdown__img-container">
+                                        <img src="img/photos/img.png" alt="" class="dropdown__img">
+                                    </div>
+                                    <div>
+                                        <p class="dropdown__title">Лактис / Lactis</p>
+                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                    </div>
+                                </div>
+                                <div class="dropdown__item">
+                                    <div class="dropdown__img-container">
+                                        <img src="img/photos/img.png" alt="" class="dropdown__img">
+                                    </div>
+                                    <div>
+                                        <p class="dropdown__title">Лактис / Lactis</p>
+                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                    </div>
+                                </div>
+
+                                <a href="#" class="dropdown__button">Открыть корзину</a>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="header__controls-item">
+                        <a href="#" class="header__controls-link" id="favorite-btn">
+                            <i class="icon icon-favorite header__controls-img"></i>
+                            <p class="header__controls-description">Избранное</p>
+                        </a>
+                        <p class="header__controls-indicate">+1</p>
+                        <div class="dropdown" id="favorite-result">
+                            <div class="dropdown__item">
+                                <div class="dropdown__img-container">
+                                    <img src="img/photos/img.png" alt="" class="dropdown__img">
+                                </div>
+                                <div>
+                                    <p class="dropdown__title">Лактис / Lactis</p>
+                                    <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                </div>
+                                <button class="dropdown__close"></button>
+                            </div>
+                            <div class="dropdown__item">
+                                <div class="dropdown__img-container">
+                                    <img src="img/photos/img.png" alt="" class="dropdown__img">
+                                </div>
+                                <div>
+                                    <p class="dropdown__title">Лактис / Lactis</p>
+                                    <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                </div>
+                                <button class="dropdown__close"></button>
+
+                            </div>
+                            <div class="dropdown__item">
+                                <div class="dropdown__img-container">
+                                    <img src="img/photos/img.png" alt="" class="dropdown__img">
+                                </div>
+                                <div>
+                                    <p class="dropdown__title">Лактис / Lactis</p>
+                                    <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                </div>
+                                <button class="dropdown__close"></button>
+                            </div>
+
+                            <a href="#" class="dropdown__button">Открыть корзину</a>
+                        </div>
+
+                    </li>
+                    <li class="header__controls-item">
+                        <a href="#" class="header__controls-link" id="cart-btn">
+                            <i class="icon icon-cart header__controls-img"></i>
+                            <p class="header__controls-description">Корзина</p>
+                        </a>
+                        <p class="header__controls-indicate">+1</p>
+                        <div class="dropdown" id="cart-result">
+                            <div class="dropdown__item">
+                                <div class="dropdown__img-container">
+                                    <img src="img/photos/img.png" alt="" class="dropdown__img">
+                                </div>
+                                <div>
+                                    <p class="dropdown__title">Лактис / Lactis</p>
+                                    <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                </div>
+                            </div>
+                            <div class="dropdown__item">
+                                <div class="dropdown__img-container">
+                                    <img src="img/photos/img.png" alt="" class="dropdown__img">
+                                </div>
+                                <div>
+                                    <p class="dropdown__title">Лактис / Lactis</p>
+                                    <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                </div>
+                            </div>
+                            <div class="dropdown__item">
+                                <div class="dropdown__img-container">
+                                    <img src="img/photos/img.png" alt="" class="dropdown__img">
+                                </div>
+                                <div>
+                                    <p class="dropdown__title">Лактис / Lactis</p>
+                                    <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                </div>
+                            </div>
+
+                            <a href="#" class="dropdown__button">Открыть корзину</a>
+                        </div>
+                    </li>
+                </ui>
             </div>
         </div>
     </div>
+</header>
+    <div class="menu tc-show-768">
+    <div class="menu__column">
+        <div class="catalog">
+            <button class="catalog__button tc-show-1200">
+                <div id="nav-icon3">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <span>Каталог товаров</span></button>
+            <button class="catalog__button--mobile tc-show-992">
+                <div id="nav-icon3">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div><span>Все разделы</span></button>
+            <ul class="sf-menu catalog__menu">
+                <li class="catalog__item">
+                    <a href="#" class="catalog__link">БАДы</a>
+                    <ul class="catalog__inner-list">
+                        <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Для глаз</a></li>
+                        <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Красота, омоложение, целлюлит</a></li>
+                        <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Здоровая кожа</a></li>
+                        <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Укрепление иммунитета</a></li>
+                        <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Стресс, неврозыx§</a></li>
+                        <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Похудение. Снижение веса. Диета</a></li>
+                        <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Желудочно-кишечный тракт</a></li>
+                        <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Пищеварение</a></li>
+                        <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Для детей</a></li>
+                        <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Для пожилых, долголетие</a></li>
+                        <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Суставы, опорно-двигательная система</a></li>
+                        <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Умственное развитие, улучшение памяти, ноотропы</a></li>
+                        <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Мужское здоровье</a></li>
+                        <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Женское здоровье, для будущих мам</a></li>
+                        <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Печень, гепатит</a></li>
+                        <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Антиоксиданты</a></li>
+                        <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Cердечно-сосудистая система, сосуды, холестерин</a></li>
+                        <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Диабет, повышенный сахар</a></li>
+                        <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Снотворное, хороший сон</a></li>
+                        <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Онкология, рак</a></li>
+
+                    </ul>
+                </li>
+                <li class="catalog__item"><a href="#" class="catalog__link">Витамины</a></li>
+                <li class="catalog__item"><a href="#" class="catalog__link">Лекарственные средства</a></li>
+                <li class="catalog__item"><a href="#" class="catalog__link">Косметика</a></li>
+                <li class="catalog__item"><a href="#" class="catalog__link">Зубные пасты</a></li>
+                <li class="catalog__item"><a href="#" class="catalog__link">Плацентарная косметика</a></li>
+                <li class="catalog__item"><a href="#" class="catalog__link">Эксклюзивные японские препараты.</a></li>
+                <li class="catalog__item"><a href="#" class="catalog__link">Косметологические аппараты</a></li>
+                <li class="catalog__item"><a href="#" class="catalog__link">Спортивное питание</a></li>
+                <li class="catalog__item"><a href="#" class="catalog__link">Японский чай</a></li>
+                <li class="catalog__item"><a href="#" class="catalog__link">Магнитные изделия</a></li>
+            </ul>
+        </div>
+        <ui class="menu__list tc-show-1200">
+            <li class="menu__item">
+                <a href="#" class="menu__link">О нас</a>
+            </li>
+            <li class="menu__item">
+                <a href="#" class="menu__link">Гарантии</a>
+            </li>
+            <li class="menu__item">
+                <a href="#" class="menu__link">Оплата</a>
+            </li>
+            <li class="menu__item">
+                <a href="#" class="menu__link">Доставка</a>
+            </li>
+            <li class="menu__item">
+                <a href="#" class="menu__link">Контакты</a>
+            </li>
+            <li class="menu__item">
+                <a href="#" class="menu__link">Новости</a>
+            </li>
+            <li class="menu__item">
+                <a href="#" class="menu__link">Акции и скидки</a>
+            </li>
+            <li class="menu__item">
+                <a href="#" class="menu__link">Почему мы и японские товары?</a>
+            </li>
+        </ui>
+    </div>
+    <div class="menu__column">
+        <div class="currency">
+            <a href="#" class="currency__item currency__item--checked">USD</a>
+            <span class="currency__item currency__item--separator">|</span>
+            <a href="#" class="currency__item">РУБ</a>
+        </div>
+    </div>
+</div>
     <div class="content-area">
         <div class="container container--content">
             <ul class="breadcrumbs breadcrumbs--card">
@@ -342,9 +362,10 @@
                             <p class="product__price-item">9000 руб.</p>
                         </div>
                         <div class="counter">
+                            <button class="counter__button counter__button--mobile" id="counter_add">+</button>
                             <input type="number" class="counter__input" value="1" placeholder="0" id="counter">
                             <div class="counter__controls">
-                                <button class="counter__button" id="counter_add">+</button>
+                                <button class="counter__button counter__button--desktop" id="counter_add">+</button>
                                 <button class="counter__button" id="counter_dec">-</button>
                             </div>
                             <p class="counter__description">Количество</p>
@@ -359,7 +380,7 @@
                                 <p class="header__controls-description">Избранное</p>
                             </a>
                             <a href="#" class="header__controls-link">
-                                <i class="icon icon-choose header__controls-img"></i>
+                                <i class="icon icon-share header__controls-img"></i>
                                 <p class="header__controls-description">Поделиться</p>
                             </a>
                         </div>
@@ -471,10 +492,9 @@
             </ul>
         </div>
         <div class="tabs-mobile">
-            <div class="expandable">
-                <a href="#expandable-show-tabs-1" class="expandable__button expandable__button--show" id="expandable-show-tabs-1">Описание товара</a>
-                <a href="#expandable-hide-tabs-1" class="expandable__button expandable__button--hide" id="expandable-hide-tabs-1">Описание товара</a>
-                <div class="expandable__content">
+            <div class="accordion accordion--void">
+                <button class="accordion__title--void">Описание товара</button>
+                <div class="accordion__content">
                     <div class="card card__content">
                         <div class="row">
                             <p class="description description__color--brown"><b>Lorem ipsum</b> - dolor sit amet, consectetur adipiscing elit. Cras eget
@@ -531,47 +551,134 @@
                         </div>
                     </div>
                 </div>
-                <div class="expandable__fade"></div>
             </div>
-            <div class="expandable">
-                <a href="#expandable-show-tabs-2" class="expandable__button expandable__button--show" id="expandable-show-tabs-2">Состав</a>
-                <a href="#expandable-hide-tabs-2" class="expandable__button expandable__button--hide" id="expandable-hide-tabs-2">Состав</a>
-                <div class="expandable__content">
-                    Добавьте контент
+            <div class="accordion accordion--void">
+                <button class="accordion__title--void">Состав</button>
+                <div class="accordion__content">
+                    <div class="card card__content">
+                        <p>Добавьте контент</p>
+                    </div>
                 </div>
-                <div class="expandable__fade"></div>
             </div>
-            <div class="expandable">
-                <a href="#expandable-show-tabs-3" class="expandable__button expandable__button--show" id="expandable-show-tabs-3">Способ применения и дозировка</a>
-                <a href="#expandable-hide-tabs-3" class="expandable__button expandable__button--hide" id="expandable-hide-tabs-3">Способ применения и дозировка</a>
-                <div class="expandable__content">
-                    Добавьте контент
+            <div class="accordion accordion--void">
+                <button class="accordion__title--void">Способ применения и дозировка</button>
+                <div class="accordion__content">
+                    <div class="card card__content">
+                        <p>Добавьте контент</p>
+                    </div>
                 </div>
-                <div class="expandable__fade"></div>
             </div>
-            <div class="expandable">
-                <a href="#expandable-show-tabs-4" class="expandable__button expandable__button--show" id="expandable-show-tabs-4">Противопоказания</a>
-                <a href="#expandable-hide-tabs-4" class="expandable__button expandable__button--hide" id="expandable-hide-tabs-4">Противопоказания</a>
-                <div class="expandable__content">
-                    Добавьте контент
+            <div class="accordion accordion--void">
+                <button class="accordion__title--void">Противопоказания</button>
+                <div class="accordion__content">
+                    <div class="card card__content">
+                        <p>Добавьте контент</p>
+                    </div>
                 </div>
-                <div class="expandable__fade"></div>
             </div>
-            <div class="expandable">
-                <a href="#expandable-show-tabs-5" class="expandable__button expandable__button--show" id="expandable-show-tabs-5">Форма выпуска и упаковка</a>
-                <a href="#expandable-hide-tabs-5" class="expandable__button expandable__button--hide" id="expandable-hide-tabs-5">Форма выпуска и упаковка</a>
-                <div class="expandable__content">
-                    Добавьте контент
+            <div class="accordion accordion--void">
+                <button class="accordion__title--void">Форма выпуска и упаковка</button>
+                <div class="accordion__content">
+                    <div class="card card__content">
+                        <p>Добавьте контент</p>
+                    </div>
                 </div>
-                <div class="expandable__fade"></div>
             </div>
-            <div class="expandable">
-                <a href="#expandable-show-tabs-6" class="expandable__button expandable__button--show" id="expandable-show-tabs-6">Отзывы</a>
-                <a href="#expandable-hide-tabs-6" class="expandable__button expandable__button--hide" id="expandable-hide-tabs-6">Отзывы</a>
-                <div class="expandable__content">
-                    Добавьте контент
+            <div class="accordion accordion--void">
+                <button class="accordion__title--void">Отзывы</button>
+                <div class="accordion__content">
+                    <div class="card card__content review">
+                        <div class="review__header">
+                            <h6>Отзывы о Gammalon Гаммалон – ноотропное средство</h6>
+                            <button class="button button__size--large button__color--outline review-modal" data-remodal-target="modal">Оставить отзыв</button>
+                        </div>
+                        <div class="review__container">
+                            <div class="review__item">
+                                <div class="review__author">
+                                    <p>Маргарита</p>
+                                </div>
+                                <div class="review__content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Vestibulum iaculis odio sed luctus ultrices. Nam id turpis quam. Nulla dui urna,
+                                        posuere eget purus et, luctus lacinia nisl. Suspendisse sollicitudin ullamcorper
+                                        mauris ut tincidunt. Vestibulum condimentum, lacus eu tincidunt lacinia, sem nisl
+                                        molestie tellus, id auctor arcu odio non dui.
+                                    </p>
+                                    <button class="review__button">Ответить</button>
+                                </div>
+                            </div>
+                            <div class="review__item review__item--answer">
+                                <div class="review__author">
+                                    <p>Маргарита</p>
+                                </div>
+                                <div class="review__content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Vestibulum iaculis odio sed luctus ultrices. Nam id turpis quam. Nulla dui urna,
+                                        posuere eget purus et, luctus lacinia nisl. Suspendisse sollicitudin ullamcorper
+                                        mauris ut tincidunt. Vestibulum condimentum, lacus eu tincidunt lacinia, sem nisl
+                                        molestie tellus, id auctor arcu odio non dui.
+                                        molestie tellus, id auctor arcu odio non dui.
+                                        molestie tellus, id auctor arcu odio non dui.
+                                        molestie tellus, id auctor arcu odio non dui.
+                                    </p>
+                                    <button class="review__button">Ответить</button>
+                                </div>
+                            </div>
+                            <div class="review__item">
+                                <div class="review__author">
+                                    <p>Маргарита</p>
+                                </div>
+                                <div class="review__content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Vestibulum iaculis odio sed luctus ultrices. Nam id turpis quam. Nulla dui urna,
+                                        posuere eget purus et, luctus lacinia nisl. Suspendisse sollicitudin ullamcorper
+                                        mauris ut tincidunt. Vestibulum condimentum, lacus eu tincidunt lacinia, sem nisl
+                                        molestie tellus, id auctor arcu odio non dui.
+                                    </p>
+                                    <button class="review__button">Ответить</button>
+                                </div>
+                            </div>
+                            <div class="review__item">
+                                <div class="review__author">
+                                    <p>Маргарита</p>
+                                </div>
+                                <div class="review__content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Vestibulum iaculis odio sed luctus ultrices. Nam id turpis quam. Nulla dui urna,
+                                        posuere eget purus et, luctus lacinia nisl. Suspendisse sollicitudin ullamcorper
+                                        mauris ut tincidunt. Vestibulum condimentum, lacus eu tincidunt lacinia, sem nisl
+                                        molestie tellus, id auctor arcu odio non dui.
+                                    </p>
+                                    <button class="review__button">Ответить</button>
+                                </div>
+                            </div>
+                            <div class="review__item">
+                                <div class="review__author">
+                                    <p>Маргарита</p>
+                                </div>
+                                <div class="review__content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Vestibulum iaculis odio sed luctus ultrices. Nam id turpis quam. Nulla dui urna,
+                                        posuere eget purus et, luctus lacinia nisl. Suspendisse sollicitudin ullamcorper
+                                        mauris ut tincidunt. Vestibulum condimentum, lacus eu tincidunt lacinia, sem nisl
+                                        molestie tellus, id auctor arcu odio non dui.
+                                    </p>
+                                    <button class="review__button">Ответить</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="listing__footer">
+                            <button class="button button__size--large button__color--brilliant">посмотреть еще</button>
+                            <ul class="pagination">
+                                <li class="pagination__item"><a class="pagination__link pagination__link--active" href="#">1</a></li>
+                                <li class="pagination__item"><a class="pagination__link" href="#">2</a></li>
+                                <li class="pagination__item"><a class="pagination__link" href="#">3</a></li>
+                                <li class="pagination__item"><a class="pagination__link" href="#">...</a></li>
+                                <li class="pagination__item"><a class="pagination__link" href="#">21</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="expandable__fade"></div>
             </div>
         </div>
         <div class="container container--content tc-hide-992">

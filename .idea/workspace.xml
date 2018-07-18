@@ -1,151 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d32ebb9-35af-4e1e-ab47-fa026085a173" name="Default" comment="fix configs fix styles, bad compile gulp">
+    <list default="true" id="6d32ebb9-35af-4e1e-ab47-fa026085a173" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/404.html" afterPath="$PROJECT_DIR$/app/404.html" />
-      <change beforePath="$PROJECT_DIR$/app/brand.html" afterPath="$PROJECT_DIR$/app/brand.html" />
-      <change beforePath="$PROJECT_DIR$/app/card.html" afterPath="$PROJECT_DIR$/app/card.html" />
-      <change beforePath="$PROJECT_DIR$/app/compare.html" afterPath="$PROJECT_DIR$/app/compare.html" />
-      <change beforePath="$PROJECT_DIR$/app/contacts.html" afterPath="$PROJECT_DIR$/app/contacts.html" />
-      <change beforePath="$PROJECT_DIR$/app/delivery.html" afterPath="$PROJECT_DIR$/app/delivery.html" />
-      <change beforePath="$PROJECT_DIR$/app/filter.html" afterPath="$PROJECT_DIR$/app/filter.html" />
-      <change beforePath="$PROJECT_DIR$/app/guarantee.html" afterPath="$PROJECT_DIR$/app/guarantee.html" />
-      <change beforePath="$PROJECT_DIR$/app/img/icon/payment-sber.svg" afterPath="$PROJECT_DIR$/app/img/icon/payment-sber.svg" />
-      <change beforePath="$PROJECT_DIR$/app/img/icon/payment-swift.svg" afterPath="$PROJECT_DIR$/app/img/icon/payment-swift.svg" />
-      <change beforePath="$PROJECT_DIR$/app/img/icon/payment-visa.svg" afterPath="$PROJECT_DIR$/app/img/icon/payment-visa.svg" />
-      <change beforePath="$PROJECT_DIR$/app/img/sprite/svg/sprite.svg" afterPath="$PROJECT_DIR$/app/img/sprite/svg/sprite.svg" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.js" afterPath="$PROJECT_DIR$/app/js/common.js" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.min.js" afterPath="$PROJECT_DIR$/app/js/common.min.js" />
-      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" />
-      <change beforePath="$PROJECT_DIR$/app/news.html" afterPath="$PROJECT_DIR$/app/news.html" />
-      <change beforePath="$PROJECT_DIR$/app/one-sale-page.html" afterPath="$PROJECT_DIR$/app/one-sale-page.html" />
-      <change beforePath="$PROJECT_DIR$/app/payment.html" afterPath="$PROJECT_DIR$/app/payment.html" />
-      <change beforePath="$PROJECT_DIR$/app/review.html" afterPath="$PROJECT_DIR$/app/review.html" />
-      <change beforePath="$PROJECT_DIR$/app/sales.html" afterPath="$PROJECT_DIR$/app/sales.html" />
-      <change beforePath="$PROJECT_DIR$/app/sass/main.scss" afterPath="$PROJECT_DIR$/app/sass/main.scss" />
-      <change beforePath="$PROJECT_DIR$/app/search.html" afterPath="$PROJECT_DIR$/app/search.html" />
-      <change beforePath="$PROJECT_DIR$/app/thanks.html" afterPath="$PROJECT_DIR$/app/thanks.html" />
-      <change beforePath="$PROJECT_DIR$/dist/404.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/all.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/brand.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/card.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/compare.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/contacts.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/delivery.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/filter.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-Bold.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-Bold.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-Bold.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-Bold.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-BoldItalic.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-BoldItalic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-BoldItalic.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-BoldItalic.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-ExtraBold.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-ExtraBold.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-ExtraBold.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-ExtraBold.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-ExtraBoldItalic.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-ExtraBoldItalic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-ExtraBoldItalic.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-ExtraBoldItalic.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-Italic.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-Italic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-Italic.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-Italic.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-Light.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-Light.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-Light.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-Light.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-LightItalic.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-LightItalic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-LightItalic.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-LightItalic.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-Regular.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-Regular.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-Regular.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-SemiBold.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-SemiBold.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-SemiBold.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-SemiBold.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-SemiBoldItalic.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-SemiBoldItalic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-SemiBoldItalic.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/OpenSans/OpenSans-SemiBoldItalic.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Slick/slick.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Slick/slick.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Slick/slick.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/Slick/slick.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/guarantee.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/guide.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/ajax-loader.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/assets/404.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/assets/contact.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/assets/img.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/assets/post-bg-1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/assets/post-bg-2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/assets/preview.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/favicon/apple-touch-icon-114x114.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/favicon/apple-touch-icon-72x72.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/favicon/apple-touch-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/favicon/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/badge-choice.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/badge-leader.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/badge-mom.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/badge-new.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/boy.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/card-lock.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/cart.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/choose.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/close-black.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/close-cyan.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/close-red.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/close-white.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/close.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/comment.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/credit-cards.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/delivery.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/favorite.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/menu-black.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/menu.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/money.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/more-black.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/more-brilliant.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/more-cyan.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/more-grey.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/more-white.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/more.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/order.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/payment-mc.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/payment-pp.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/payment-sber.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/payment-swift.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/payment-visa.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/play.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/reviews-icon.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/reviews.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/share.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icon/write.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/photos/img.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/photos/img.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/sprite.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/sprite/css/sprite.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/sprite/sprite.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/img/sprite/svg/sprite.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/js/scripts.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/news.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/one-sale-page.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/payment.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/review.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/sales.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/search.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/thanks.html" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -247,8 +104,8 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="583" column="9" lean-forward="true" selection-start-line="583" selection-start-column="9" selection-end-line="583" selection-end-column="9" />
+            <state relative-caret-position="315">
+              <caret line="597" column="25" lean-forward="true" selection-start-line="597" selection-start-column="25" selection-end-line="597" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -507,14 +364,7 @@
       <workItem from="1531252188742" duration="19494000" />
       <workItem from="1531500171799" duration="48349000" />
       <workItem from="1531832805329" duration="3324000" />
-      <workItem from="1531908230794" duration="19086000" />
-    </task>
-    <task id="LOCAL-00037" summary="updated dist">
-      <created>1531081767066</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1531081767066</updated>
+      <workItem from="1531908230794" duration="19167000" />
     </task>
     <task id="LOCAL-00038" summary="added delivery page">
       <created>1531084073643</created>
@@ -852,22 +702,28 @@
       <option name="project" value="LOCAL" />
       <updated>1531927506732</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="all bugs fixed">
+      <created>1531940892008</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1531940892010</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217197000" />
+    <option name="totallyTimeSpent" value="217278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="814" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32684284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32684284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -913,7 +769,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added full responsive brand page, up to 320px" />
     <MESSAGE value="rebuild" />
     <MESSAGE value="removed duplicate styles" />
     <MESSAGE value="add responsive brand page" />
@@ -938,7 +793,8 @@
     <MESSAGE value="fixed cross bugs" />
     <MESSAGE value="added brands slider" />
     <MESSAGE value="fix configs fix styles, bad compile gulp" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix configs fix styles, bad compile gulp" />
+    <MESSAGE value="all bugs fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="all bugs fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1450,8 +1306,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="583" column="9" lean-forward="true" selection-start-line="583" selection-start-column="9" selection-end-line="583" selection-end-column="9" />
+        <state relative-caret-position="315">
+          <caret line="597" column="25" lean-forward="true" selection-start-line="597" selection-start-column="25" selection-end-line="597" selection-end-column="25" />
           <folding />
         </state>
       </provider>
