@@ -4338,7 +4338,7 @@ $bgItemChoose: #d8d8d8;
 		align-items: center;
 		position: relative;
 		width: rem(500px);
-		@include before('../img/icon/search.svg', 18px, 18px, 17px, auto, auto, 20px);
+		@include before('../img/icon/new-search.svg', 18px, 18px, 15px, auto, auto, 12px);
 		@include screen-lt(mobile-custom) {
 			border-right: 1px solid $brilliant;
 			width: 100%;
@@ -5883,3 +5883,15 @@ $height: rem(80px);
 		left: 50%;
 	}
 }
+
+
+.footer__pay-sber {
+	width: rem(120px);
+}
+.footer__pay-visa {
+	width: rem(100px);
+}
+.footer__pay-swift {
+	width: rem(60px);
+}
+
