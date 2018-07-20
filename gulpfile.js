@@ -14,7 +14,7 @@ var gulp           = require('gulp'),
 		notify         = require("gulp-notify"),
 		rsync          = require('gulp-rsync');
 		purge 		   = require('gulp-css-purge');
-	    svgSprite 		   = require('gulp-svg-sprites');
+	    // svgSprite 		   = require('gulp-svg-sprites');
 
 	gulp.task('browser-sync', function() {
 		browserSync({
@@ -37,13 +37,13 @@ gulp.task('common-js', function() {
 	.pipe(gulp.dest('app/js'));
 });
 
-gulp.task('sprites', function () {
-    return gulp.src('app/img/**/*.svg')
-        .pipe(svgSprite({
-            selector: "icon-%f"
-        }))
-        .pipe(gulp.dest("app/img/sprite"));
-});
+// gulp.task('sprites', function () {
+//     return gulp.src('app/img/**/*.svg')
+//         .pipe(svgSprite({
+//             selector: "icon-%f"
+//         }))
+//         .pipe(gulp.dest("app/img/sprite"));
+// });
 
 gulp.task('js', ['common-js'], function() {
 	return gulp.src([
@@ -72,7 +72,7 @@ gulp.task('sass', function() {
 	.pipe(browserSync.stream())
 });
 
-gulp.task('watch', ['sass', 'js', 'browser-sync', 'sprites'], function() {
+gulp.task('watch', ['sass', 'js', 'browser-sync'], function() {
 	gulp.watch('app/sass/**/*.scss', ['sass']);
 	gulp.watch(['libs/**/*.js', 'app/js/common.js'], ['js']);
 	gulp.watch('app/*.html', browserSync.reload);
@@ -84,7 +84,7 @@ gulp.task('imagemin', function() {
 	.pipe(gulp.dest('dist/img'));
 });
 
-gulp.task('build', ['removedist', 'imagemin', 'sass', 'js', 'sprites'], function() {
+gulp.task('build', ['removedist', 'imagemin', 'sass', 'js'], function() {
 
 	var buildFiles = gulp.src([
 		'app/*.html',
