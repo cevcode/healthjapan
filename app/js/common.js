@@ -28,6 +28,7 @@ function createSlider(selector, slidesToShow, slidesToScroll, slidesToShowDeskto
     $(selector).slick({
         infinite: true,
         slidesToShow: slidesToShow,
+        draggable: false,
         slidesToScroll: slidesToScroll,
         dots: true,
         responsive: [
@@ -340,6 +341,14 @@ $('.review-modal').click(function() {
     $('html').toggleClass('overflow__hide');
 });
 
+$('.search__button-categories').click(function () {
+    $(this).toggleClass('show');
+   $('.search__categories') .toggleClass('show');
+});
+
+$('.product__controls-item').click(function () {
+    $(this).toggleClass('show');
+});
 
 
 

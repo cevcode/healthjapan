@@ -3833,6 +3833,22 @@ input::-webkit-inner-spin-button {
 		max-width: rem(260px);
 		@include main-font(400);
 	}
+    &--empty {
+      width: rem(440px);
+      > div {
+        padding: rem(20px 20px 20px 60px);
+        h5 {
+          color: $brown;
+          @include main-font(400);
+          position: relative;
+        }
+      }
+      i {
+        position: absolute;
+        left: rem(15px);
+        top: rem(25px);
+      }
+    }
 	&__button {
 		font-size: rem(12px);
 		@include main-font(400);
@@ -4221,6 +4237,7 @@ $bgItemChoose: #d8d8d8;
 		&-item {
 			display: flex;
 			margin: rem(0 7.5px);
+
 		}
 	}
 	&__img {
@@ -4354,6 +4371,10 @@ $bgItemChoose: #d8d8d8;
 		@include main-font(400);
 		border-right: 1px solid $light;
 		width: rem(370px);
+        @include screen-lt(tablet) {
+          width: 100%;
+          border: none;
+        }
 		@include screen-lt(desktop-small) {
 			width: rem(300px);
 		}
@@ -4372,9 +4393,15 @@ $bgItemChoose: #d8d8d8;
 			font-size: rem(14px);
 			position: relative;
 			@include after('../../img/icon/more-grey.svg', 9px, 6px, 7px, 12px, auto, auto);
-			@include screen-lt(mobile-custom) {
+			@include screen-lt(tablet) {
 				display: none !important;
 			}
+            &.show {
+              &:after {
+                transform: rotate(-180deg);
+                transition: $transitionHover;
+              }
+            }
 		}
 		&-submit {
 			width: rem(100px);
@@ -4396,8 +4423,8 @@ $bgItemChoose: #d8d8d8;
 	&__result {
 		position: absolute;
 		display: none;
-		top: rem(50px);
-		left: rem(-1px);
+		top: rem(48px);
+		left: -1px;
 		z-index: 2;
 		background-color: $white;
 		border: 1px solid $brilliant;
@@ -4416,6 +4443,19 @@ $bgItemChoose: #d8d8d8;
 			padding: rem(25px 0);
 		}
 	}
+    &__categories {
+      position: absolute;
+      display: none;
+      top: rem(48px);
+      z-index: 2;
+      right: rem(-410px);
+      transition: $transitionHover;
+      &.show {
+        display: flex;
+        top: rem(58px);
+        transition: $transitionHover;
+      }
+    }
 }
 
 
@@ -5893,5 +5933,9 @@ $height: rem(80px);
 }
 .footer__pay-swift {
 	width: rem(60px);
+}
+
+.tc-hide {
+  display: none;
 }
 
