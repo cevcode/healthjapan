@@ -49,7 +49,7 @@
                 <div class="header__search">
                     <div class="search">
                         <div class="search__field">
-                            <input type="search" class="search__input" id="search" placeholder="Поиск по магазину..."/>
+                            <input type="search" autocomplete="off" class="search__input" id="search" placeholder="Поиск по магазину..."/>
                             <button class="search__button-categories">Все разделы</button>
                             <div class="search__result">
                                 <div class="dropdown__item">
@@ -72,6 +72,23 @@
                                 </div>
                                 <a href="#" class="search__result-button">Посмотреть все</a>
                             </div>
+                            <div class="search__categories">
+                                <ul>
+                                    <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">БАДы</a></li>
+                                    <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Витамины</a></li>
+                                    <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Лекарственные средства</a></li>
+                                    <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Косметика</a></li>
+                                    <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Зубные пасты</a></li>
+                                    <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Плацентарная косметика</a></li>
+                                </ul>
+                                <ul>
+                                    <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Эксклюзивные японские препараты.</a></li>
+                                    <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Косметологические аппараты</a></li>
+                                    <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Спортивное питание</a></li>
+                                    <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Японский чай</a></li>
+                                    <li class="catalog__inner-item"><a href="#" class="catalog__link catalog__link--inner">Магнитные изделия</a></li>
+                                </ul>
+                            </div>
                         </div>
                         <button type="submit" class="button button__color--outline search__button-submit">Найти</button>
                     </div>
@@ -80,88 +97,111 @@
             <div class="header__column">
                 <ui class="header__controls">
                     <li class="header__controls-item">
-                        <a href="#" class="header__controls-link">
+                        <a href="mailto:example@site.ru" class="header__controls-link">
                             <i class="icon icon-write header__controls-img"></i>
                             <p class="header__controls-description">Написать нам</p>
                         </a>
                     </li>
                     <li class="header__controls-item">
-                        <a href="#" class="header__controls-link" id="compare-btn">
+                        <div class="header__controls-link" id="compare-btn">
                             <i class="icon icon-choose header__controls-img"></i>
                             <p class="header__controls-description">Сравнение</p>
-                            <div class="dropdown" id="compare-result">
-                                <div class="dropdown__item">
-                                    <div class="dropdown__img-container">
-                                        <img src="img/photos/img.png" alt="" class="dropdown__img">
-                                    </div>
-                                    <div>
-                                        <p class="dropdown__title">Лактис / Lactis</p>
-                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
-                                    </div>
+                            <!--Remove dropdown&#45;&#45;empty class for display items-->
+                            <div class="dropdown dropdown--empty" id="compare-result">
+                                <div>
+                                    <i class="icon icon-choose header__controls-img"></i>
+                                    <h5>Нет товаров в сравнении</h5>
+                                    <p class="description">
+                                        Добавляйте товары к сравнению характеристик и выбирайте
+                                        самый подходящий вам товар
+                                    </p>
                                 </div>
-                                <div class="dropdown__item">
-                                    <div class="dropdown__img-container">
-                                        <img src="img/photos/img.png" alt="" class="dropdown__img">
+                                <!--Remove tc-hide class for display items-->
+                                <div class="tc-hide">
+                                    <div class="dropdown__item">
+                                        <div class="dropdown__img-container">
+                                            <img src="img/photos/img.png" alt="" class="dropdown__img">
+                                        </div>
+                                        <div>
+                                            <p class="dropdown__title">Лактис / Lactis</p>
+                                            <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <p class="dropdown__title">Лактис / Lactis</p>
-                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                    <div class="dropdown__item">
+                                        <div class="dropdown__img-container">
+                                            <img src="img/photos/img.png" alt="" class="dropdown__img">
+                                        </div>
+                                        <div>
+                                            <p class="dropdown__title">Лактис / Lactis</p>
+                                            <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                        </div>
                                     </div>
+                                    <div class="dropdown__item">
+                                        <div class="dropdown__img-container">
+                                            <img src="img/photos/img.png" alt="" class="dropdown__img">
+                                        </div>
+                                        <div>
+                                            <p class="dropdown__title">Лактис / Lactis</p>
+                                            <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="dropdown__button">Открыть корзину</a>
                                 </div>
-                                <div class="dropdown__item">
-                                    <div class="dropdown__img-container">
-                                        <img src="img/photos/img.png" alt="" class="dropdown__img">
-                                    </div>
-                                    <div>
-                                        <p class="dropdown__title">Лактис / Lactis</p>
-                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
-                                    </div>
-                                </div>
-
-                                <a href="#" class="dropdown__button">Открыть корзину</a>
                             </div>
-                        </a>
+                        </div>
                     </li>
                     <li class="header__controls-item">
-                        <a href="#" class="header__controls-link" id="favorite-btn">
+                        <div class="header__controls-link" id="favorite-btn">
                             <i class="icon icon-favorite header__controls-img"></i>
                             <p class="header__controls-description">Избранное</p>
-                        </a>
+                        </div>
                         <p class="header__controls-indicate">+1</p>
-                        <div class="dropdown" id="favorite-result">
-                            <div class="dropdown__item">
-                                <div class="dropdown__img-container">
-                                    <img src="img/photos/img.png" alt="" class="dropdown__img">
-                                </div>
-                                <div>
-                                    <p class="dropdown__title">Лактис / Lactis</p>
-                                    <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
-                                </div>
-                                <button class="dropdown__close"></button>
-                            </div>
-                            <div class="dropdown__item">
-                                <div class="dropdown__img-container">
-                                    <img src="img/photos/img.png" alt="" class="dropdown__img">
-                                </div>
-                                <div>
-                                    <p class="dropdown__title">Лактис / Lactis</p>
-                                    <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
-                                </div>
-                                <button class="dropdown__close"></button>
-
-                            </div>
-                            <div class="dropdown__item">
-                                <div class="dropdown__img-container">
-                                    <img src="img/photos/img.png" alt="" class="dropdown__img">
-                                </div>
-                                <div>
-                                    <p class="dropdown__title">Лактис / Lactis</p>
-                                    <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
-                                </div>
-                                <button class="dropdown__close"></button>
+                        <!--Remove dropdown&#45;&#45;empty class for display items-->
+                        <div class="dropdown dropdown--empty" id="favorite-result">
+                            <div>
+                                <i class="icon icon-favorite header__controls-img"></i>
+                                <h5>Список желаний пуст</h5>
+                                <p class="description">
+                                    Добавляйте товары в список желаний, делитесь списками с друзьями
+                                    и обсуждайте товары вместе
+                                </p>
                             </div>
 
-                            <a href="#" class="dropdown__button">Открыть корзину</a>
+                            <!--Remove tc-hide class for display items-->
+                            <div class="tc-hide">
+                                <div class="dropdown__item">
+                                    <div class="dropdown__img-container">
+                                        <img src="img/photos/img.png" alt="" class="dropdown__img">
+                                    </div>
+                                    <div>
+                                        <p class="dropdown__title">Лактис / Lactis</p>
+                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                    </div>
+                                    <button class="dropdown__close"></button>
+                                </div>
+                                <div class="dropdown__item">
+                                    <div class="dropdown__img-container">
+                                        <img src="img/photos/img.png" alt="" class="dropdown__img">
+                                    </div>
+                                    <div>
+                                        <p class="dropdown__title">Лактис / Lactis</p>
+                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                    </div>
+                                    <button class="dropdown__close"></button>
+
+                                </div>
+                                <div class="dropdown__item">
+                                    <div class="dropdown__img-container">
+                                        <img src="img/photos/img.png" alt="" class="dropdown__img">
+                                    </div>
+                                    <div>
+                                        <p class="dropdown__title">Лактис / Lactis</p>
+                                        <p class="dropdown__description">Восстановление микрофлоры кишечника. 10 мл. Новая упаковка!</p>
+                                    </div>
+                                    <button class="dropdown__close"></button>
+                                </div>
+                                <a href="#" class="dropdown__button">Открыть корзину</a>
+                            </div>
                         </div>
 
                     </li>
@@ -872,8 +912,8 @@
                     <div class="product__header">
                         <div class="badge badge--blue">Новинка</div>
                         <div class="product__controls">
-                            <button class="product__controls-item"><i class="icon icon-choose"></i></button>
-                            <button class="product__controls-item"><i class="icon icon-favorite"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-choose"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-favorite"></i></button>
                         </div>
                     </div>
                     <div class="product__img-container">
@@ -896,8 +936,8 @@
                     <div class="product__header">
                         <div class="badge badge--blue">Новинка</div>
                         <div class="product__controls">
-                            <button class="product__controls-item"><i class="icon icon-choose"></i></button>
-                            <button class="product__controls-item"><i class="icon icon-favorite"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-choose"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-favorite"></i></button>
                         </div>
                     </div>
                     <div class="product__img-container">
@@ -920,8 +960,8 @@
                     <div class="product__header">
                         <div class="badge badge--blue">Новинка</div>
                         <div class="product__controls">
-                            <button class="product__controls-item"><i class="icon icon-choose"></i></button>
-                            <button class="product__controls-item"><i class="icon icon-favorite"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-choose"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-favorite"></i></button>
                         </div>
                     </div>
                     <div class="product__img-container">
@@ -944,8 +984,8 @@
                     <div class="product__header">
                         <div class="badge badge--blue">Новинка</div>
                         <div class="product__controls">
-                            <button class="product__controls-item"><i class="icon icon-choose"></i></button>
-                            <button class="product__controls-item"><i class="icon icon-favorite"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-choose"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-favorite"></i></button>
                         </div>
                     </div>
                     <div class="product__img-container">
@@ -968,8 +1008,8 @@
                     <div class="product__header">
                         <div class="badge badge--blue">Новинка</div>
                         <div class="product__controls">
-                            <button class="product__controls-item"><i class="icon icon-choose"></i></button>
-                            <button class="product__controls-item"><i class="icon icon-favorite"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-choose"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-favorite"></i></button>
                         </div>
                     </div>
                     <div class="product__img-container">
@@ -992,8 +1032,8 @@
                     <div class="product__header">
                         <div class="badge badge--blue">Новинка</div>
                         <div class="product__controls">
-                            <button class="product__controls-item"><i class="icon icon-choose"></i></button>
-                            <button class="product__controls-item"><i class="icon icon-favorite"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-choose"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-favorite"></i></button>
                         </div>
                     </div>
                     <div class="product__img-container">
@@ -1016,8 +1056,8 @@
                     <div class="product__header">
                         <div class="badge badge--blue">Новинка</div>
                         <div class="product__controls">
-                            <button class="product__controls-item"><i class="icon icon-choose"></i></button>
-                            <button class="product__controls-item"><i class="icon icon-favorite"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-choose"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-favorite"></i></button>
                         </div>
                     </div>
                     <div class="product__img-container">
@@ -1040,8 +1080,8 @@
                     <div class="product__header">
                         <div class="badge badge--blue">Новинка</div>
                         <div class="product__controls">
-                            <button class="product__controls-item"><i class="icon icon-choose"></i></button>
-                            <button class="product__controls-item"><i class="icon icon-favorite"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-choose"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-favorite"></i></button>
                         </div>
                     </div>
                     <div class="product__img-container">
@@ -1064,8 +1104,8 @@
                     <div class="product__header">
                         <div class="badge badge--blue">Новинка</div>
                         <div class="product__controls">
-                            <button class="product__controls-item"><i class="icon icon-choose"></i></button>
-                            <button class="product__controls-item"><i class="icon icon-favorite"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-choose"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-favorite"></i></button>
                         </div>
                     </div>
                     <div class="product__img-container">
@@ -1088,8 +1128,8 @@
                     <div class="product__header">
                         <div class="badge badge--blue">Новинка</div>
                         <div class="product__controls">
-                            <button class="product__controls-item"><i class="icon icon-choose"></i></button>
-                            <button class="product__controls-item"><i class="icon icon-favorite"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-choose"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-favorite"></i></button>
                         </div>
                     </div>
                     <div class="product__img-container">
@@ -1119,8 +1159,8 @@
                     <div class="product__header">
                         <div class="badge badge--blue">Новинка</div>
                         <div class="product__controls">
-                            <button class="product__controls-item"><i class="icon icon-choose"></i></button>
-                            <button class="product__controls-item"><i class="icon icon-favorite"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-choose"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-favorite"></i></button>
                         </div>
                     </div>
                     <div class="product__img-container">
@@ -1143,8 +1183,8 @@
                     <div class="product__header">
                         <div class="badge badge--blue">Новинка</div>
                         <div class="product__controls">
-                            <button class="product__controls-item"><i class="icon icon-choose"></i></button>
-                            <button class="product__controls-item"><i class="icon icon-favorite"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-choose"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-favorite"></i></button>
                         </div>
                     </div>
                     <div class="product__img-container">
@@ -1167,8 +1207,8 @@
                     <div class="product__header">
                         <div class="badge badge--blue">Новинка</div>
                         <div class="product__controls">
-                            <button class="product__controls-item"><i class="icon icon-choose"></i></button>
-                            <button class="product__controls-item"><i class="icon icon-favorite"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-choose"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-favorite"></i></button>
                         </div>
                     </div>
                     <div class="product__img-container">
@@ -1191,8 +1231,8 @@
                     <div class="product__header">
                         <div class="badge badge--blue">Новинка</div>
                         <div class="product__controls">
-                            <button class="product__controls-item"><i class="icon icon-choose"></i></button>
-                            <button class="product__controls-item"><i class="icon icon-favorite"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-choose"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-favorite"></i></button>
                         </div>
                     </div>
                     <div class="product__img-container">
@@ -1215,8 +1255,8 @@
                     <div class="product__header">
                         <div class="badge badge--blue">Новинка</div>
                         <div class="product__controls">
-                            <button class="product__controls-item"><i class="icon icon-choose"></i></button>
-                            <button class="product__controls-item"><i class="icon icon-favorite"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-choose"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-favorite"></i></button>
                         </div>
                     </div>
                     <div class="product__img-container">
@@ -1239,8 +1279,8 @@
                     <div class="product__header">
                         <div class="badge badge--blue">Новинка</div>
                         <div class="product__controls">
-                            <button class="product__controls-item"><i class="icon icon-choose"></i></button>
-                            <button class="product__controls-item"><i class="icon icon-favorite"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-choose"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-favorite"></i></button>
                         </div>
                     </div>
                     <div class="product__img-container">
@@ -1263,8 +1303,8 @@
                     <div class="product__header">
                         <div class="badge badge--blue">Новинка</div>
                         <div class="product__controls">
-                            <button class="product__controls-item"><i class="icon icon-choose"></i></button>
-                            <button class="product__controls-item"><i class="icon icon-favorite"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-choose"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-favorite"></i></button>
                         </div>
                     </div>
                     <div class="product__img-container">
@@ -1287,8 +1327,8 @@
                     <div class="product__header">
                         <div class="badge badge--blue">Новинка</div>
                         <div class="product__controls">
-                            <button class="product__controls-item"><i class="icon icon-choose"></i></button>
-                            <button class="product__controls-item"><i class="icon icon-favorite"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-choose"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-favorite"></i></button>
                         </div>
                     </div>
                     <div class="product__img-container">
@@ -1311,8 +1351,8 @@
                     <div class="product__header">
                         <div class="badge badge--blue">Новинка</div>
                         <div class="product__controls">
-                            <button class="product__controls-item"><i class="icon icon-choose"></i></button>
-                            <button class="product__controls-item"><i class="icon icon-favorite"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-choose"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-favorite"></i></button>
                         </div>
                     </div>
                     <div class="product__img-container">
@@ -1335,8 +1375,8 @@
                     <div class="product__header">
                         <div class="badge badge--blue">Новинка</div>
                         <div class="product__controls">
-                            <button class="product__controls-item"><i class="icon icon-choose"></i></button>
-                            <button class="product__controls-item"><i class="icon icon-favorite"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-choose"></i></button>
+                            <button class="product__controls-item" onclick="addActive(this)"><i class="icon icon-favorite"></i></button>
                         </div>
                     </div>
                     <div class="product__img-container">
@@ -1603,6 +1643,13 @@
 
 
     <script src="js/scripts.min.js"></script>
+    <script>
+        function addActive(elem) {
+            if(elem.classList.contains('active')) {
+                elem.classList.remove('active');
+            } else  elem.classList.add('active');
+        }
+    </script>
 
 </body>
 </html>

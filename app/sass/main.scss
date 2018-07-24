@@ -1846,6 +1846,7 @@ a {
 			align-items: center;
 			margin: rem(0 25px);
 			position: relative;
+			cursor: pointer;
 			&:nth-child(3) {
 				.header__controls-img {
 					max-width: rem(30px);
@@ -3901,7 +3902,7 @@ $bg-color: rgb(255,255,255);
 		line-height: 2;
 		color: $black;
 		overflow: hidden;
-		transition: max-height .9s ease;
+		transition: max-height .7s ease;
 		@include screen-lt(desktop-large) {
 			width: 100%;
 		}
@@ -3939,7 +3940,13 @@ $bg-color: rgb(255,255,255);
 		&--show:target {display: none;}
 		&--show:target ~ .expandable__button--hide {display: block;}
 		&--show:target ~ .expandable__content {
-			max-height: rem(2000px);
+			max-height: rem(480px);
+			@include screen-lt(mobile) {
+				max-height: rem(1100px);
+			}
+			@include screen-lt(mobile-custom) {
+				max-height: rem(2000px);
+			}
 		}
 		&--show:target ~ .expandable__fade {
 			margin-top: 0;
@@ -4237,6 +4244,24 @@ $bgItemChoose: #d8d8d8;
 		&-item {
 			display: flex;
 			margin: rem(0 7.5px);
+			background-color: transparent;
+			border: none;
+			&.active {
+				.icon {
+					&-choose {
+						&:before {
+							background: url('../img/icon/choose-active.svg') no-repeat;
+							background-position: center;
+						}
+					}
+					&-favorite {
+						&:before {
+							background: url('../img/icon/favorite-active.svg') no-repeat;
+							background-position: center;
+						}
+					}
+				}
+			}
 
 		}
 	}
@@ -5937,5 +5962,19 @@ $height: rem(80px);
 
 .tc-hide {
   display: none;
+}
+
+.subscribe__form {
+	h4 {
+		letter-spacing: 0;
+		color: $brown;
+		@include main-font(600);
+		margin-bottom: rem(20px);
+	}
+	p {
+		color: $brown;
+		padding: rem(7px 0);
+		font-size: rem(16px);
+	}
 }
 

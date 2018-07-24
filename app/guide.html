@@ -186,6 +186,13 @@
 		</div>
 	</div>
 	<script src="js/scripts.min.js"></script>
+	<script>
+        function addActive(elem) {
+            if(elem.classList.contains('active')) {
+                elem.classList.remove('active');
+            } else  elem.classList.add('active');
+        }
+	</script>
 
 </body>
 </html>

@@ -29,6 +29,8 @@ function createSlider(selector, slidesToShow, slidesToScroll, slidesToShowDeskto
         infinite: true,
         slidesToShow: slidesToShow,
         draggable: false,
+        accessibility: false,
+        // focusOnSelect: true,
         slidesToScroll: slidesToScroll,
         dots: true,
         responsive: [
@@ -341,13 +343,14 @@ $('.review-modal').click(function() {
     $('html').toggleClass('overflow__hide');
 });
 
+
+$('.product__controls-item').click(function () {
+   alert('test');
+});
+
 $('.search__button-categories').click(function () {
     $(this).toggleClass('show');
    $('.search__categories') .toggleClass('show');
-});
-
-$('.product__controls-item').click(function () {
-    $(this).toggleClass('show');
 });
 
 
