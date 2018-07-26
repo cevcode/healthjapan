@@ -341,6 +341,10 @@ ul,ol {
 	font-size: 0;
 }
 
+li {
+	list-style-type: none;
+}
+
 ::selection {
 	background-color: $black;
 	color: $white;
@@ -557,7 +561,7 @@ a {
 				flex-direction: column;
 				align-items: center;
 			}
-			h5 {
+			h1 {
 				letter-spacing: 0;
 				text-align: center;
 				@include main-font(600);
@@ -900,6 +904,9 @@ a {
 			cursor: pointer;
 			@include screen-lt(tablet) {
 				height: rem(260px);
+			}
+			iframe {
+				height: 100%;
 			}
 		}
 		&-img {
@@ -1411,7 +1418,12 @@ a {
 			&--active {
 				color: $brilliant;
 				@include main-font(700);
+				text-decoration: none;
 			}
+		}
+		&-link {
+			text-decoration: none;
+
 		}
 		&-clear {
 			font-size: rem(14px);
@@ -1668,7 +1680,34 @@ a {
 	@include screen-lt(mobile-custom) {
 		width: 100%;
 	}
+	&__title {
+		font-size: rem(24px);
+		@include main-font(600);
+		padding-left: rem(10px);
+		@include screen-lt(desktop-small) {
+			width: 100%;
+			padding-left: 0;
+		}
+	}
 	&__topbar {
+		justify-content: space-between;
+		display: flex;
+		align-items: center;
+		@include screen-lt(desktop-small) {
+			flex-direction: column;
+		}
+		&-row {
+			@include screen-lt(desktop-small) {
+				display: flex;
+				width: 100%;
+				align-items: center;
+				padding: rem(0 30px);
+			}
+			@include screen-lt(mobile-custom) {
+				flex-direction: column;
+				padding: 0;
+			}
+		}
 		.select2-container {
 			width: rem(150px) !important;
 		}
@@ -1718,6 +1757,13 @@ a {
 
 .filters__mobile {
 	@include main-font(600);
+	@include screen-lt(desktop-small) {
+		margin-right: rem(30px);
+	}
+	@include screen-lt(mobile-custom) {
+		margin-right: 0;
+		margin-top: rem(25px);
+	}
 }
 
 
@@ -2358,9 +2404,15 @@ a {
 	.sales__slider, .new-offers__slider, .recent-products__slider, .additional-products__slider, .brands__slider {
 		.slick-next {
 			right: rem(-25px) !important;
+			@include screen-lt(mobile) {
+				right: 0 !important;
+			}
 		}
 		.slick-prev {
 			left: rem(-25px) !important;
+			@include screen-lt(mobile) {
+				left: 0 !important;
+			}
 		}
 		@include screen-lt(desktop-large) {
 			.slick-list {
@@ -3336,7 +3388,8 @@ textarea {
 
 
 h1 {
-	font-size: rem(72px);
+	font-size: rem(20px);
+	@include main-font(600);
 }
 h2 {
 	font-size: rem(48px);
@@ -3504,7 +3557,7 @@ h6 {
 		color: $cyan;
 		text-decoration: none;
 		font-size: rem(14px);
-		@include main-font(400);
+		@include main-font(600);
 		@include screen-lt(mobile-small) {
 			font-size: rem(12px);
 		}
@@ -3585,6 +3638,9 @@ h6 {
 		display: none;
 		&.show {
 			display: block;
+		}
+		li {
+			list-style-type: none;
 		}
 	}
 	&__link {
@@ -3888,6 +3944,9 @@ $bg-color: rgb(255,255,255);
 	margin-bottom: rem(40px);
 	@include screen-lt(desktop-large) {
 		padding: rem(0 60px);
+	}
+	&--listing {
+		margin-bottom: rem(120px);
 	}
 	@include screen-lt(tablet) {
 		padding: rem(0 15px);
@@ -4246,6 +4305,20 @@ $bgItemChoose: #d8d8d8;
 			margin: rem(0 7.5px);
 			background-color: transparent;
 			border: none;
+			&:hover {
+				.icon {
+					&-choose {
+						&:before {
+							background: url('../img/icon/choose-hover.svg') no-repeat;
+						}
+					}
+					&-favorite {
+						&:before {
+							background: url('../img/icon/favorite-hover.svg') no-repeat;
+						}
+					}
+				}
+			}
 			&.active {
 				.icon {
 					&-choose {
@@ -4472,7 +4545,7 @@ $bgItemChoose: #d8d8d8;
       position: absolute;
       display: none;
       top: rem(48px);
-      z-index: 2;
+      z-index: 100;
       right: rem(-410px);
       transition: $transitionHover;
       &.show {
@@ -4559,7 +4632,7 @@ $bgItemChoose: #d8d8d8;
 	}
 	.slick-dots li button:before {
 		color: $white;
-		font-size: rem(40px);
+		font-size: rem(20px) !important;
 	}
 	.slick-dots li.slick-active button:before {
 		color: $white;
@@ -4571,8 +4644,11 @@ $bgItemChoose: #d8d8d8;
 
 .base-slider {
 	display: flex;
-	width: rem(1470px);
-	margin: auto;
+	width: 100%;
+	.slick-list {
+		width: rem(1470px);
+		margin: auto;
+	}
 	@include screen-lt(desktop-large) {
 		width: 100%;
 	}
@@ -4591,7 +4667,7 @@ $bgItemChoose: #d8d8d8;
 	}
 	.slick-dots li button:before {
 		color: $orange;
-		font-size: rem(40px);
+		font-size: rem(20px) !important;
 	}
 	.slick-dots li.slick-active button:before {
 		color: $orange;
@@ -5977,4 +6053,32 @@ $height: rem(80px);
 		font-size: rem(16px);
 	}
 }
+.header__controls-item:hover {
+	.icon-write {
+		&:before {
+			background: url('../img/icon/write-hover.svg') no-repeat;
+		}
+	}
+	.icon-choose {
+		&:before {
+			background: url('../img/icon/choose-hover.svg') no-repeat;
+		}
+	}
+	.icon-favorite {
+		&:before {
+			background: url('../img/icon/favorite-hover.svg') no-repeat;
+		}
+	}
+	.icon-cart {
+		&:before {
+			background: url('../img/icon/cart-hover.svg') no-repeat;
+		}
+	}
+	.header__controls-description {
+		color: $brilliant;
+	}
+}
 
+.select2-search--dropdown {
+	display: none;
+}
