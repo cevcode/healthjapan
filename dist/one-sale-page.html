@@ -350,8 +350,8 @@
                     <a href="#" class="breadcrumbs__link">Новости</a>
                 </li>
                 <li class="breadcrumbs__item">
-                    <a href="#" class="breadcrumbs__link tc-hide-992">Умственное развитие, улучшение памяти, ноотропы</a>
-                    <a href="#" class="breadcrumbs__link breadcrumbs__link--mobile">Умственное развитие</a>
+                    <span class="breadcrumbs__link tc-hide-992">Умственное развитие, улучшение памяти, ноотропы</span>
+                    <span class="breadcrumbs__link breadcrumbs__link--mobile">Умственное развитие</span>
                 </li>
             </ul>
         </div>
@@ -462,7 +462,7 @@
                 <p class="footer__description">Подпишитесь и получайте новости об акциях и специальных<br> предложениях</p>
                 <div class="subscribe">
                     <input type="email" placeholder="Ваш E-mail" class="subscribe__input">
-                    <button class="button button__size--small button__color--brilliant" type="submit">Подписка</button>
+                    <button class="button button__size--small button__color--brilliant" type="submit" data-remodal-target="subscribe">Подписка</button>
                 </div>
                 <h6>Способы оплаты:</h6>
                 <ul class="footer__pay">
@@ -519,7 +519,7 @@
     <div class="menu__mobile">
         <div class="search">
             <div class="search__field">
-                <input type="search" class="search__input" id="search" placeholder="Поиск по магазину..."/>
+                <input type="search" autocomplete="off" class="search__input" id="search" placeholder="Поиск по магазину..."/>
                 <button class="search__button-categories">Все разделы</button>
                 <div class="search__result">
                     <div class="dropdown__item">
@@ -610,6 +610,13 @@
                 <a href="#" class="menu__link">Почему мы и японские товары?</a>
             </li>
         </ui>
+    </div>
+    <!--Subscribe Popup-->
+    <div class="remodal subscribe__form" data-remodal-id="subscribe">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <h4>Спасибо за подписку!</h4>
+        <p class="description">На ваш e-mail отправлено письмо со ссылкой.</p>
+        <p class="description">Обязательно перейдите по нему для подтверждения подписки.</p>
     </div>
 
     <script src="js/scripts.min.js"></script>
