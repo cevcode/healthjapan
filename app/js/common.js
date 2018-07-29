@@ -81,12 +81,12 @@ $(document).ready(function() {
     toggleDropDown('#compare-btn', '#compare-result', '.dropdown');
     toggleDropDown('.search__button-categories', '.search__categories', '.search__categories');
     createSlider('.slider', 1, 1, 1, 1, 1, 1);
-    createSlider('.sales__slider', 5, 5, 4, 4, 2, 1);
-    createSlider('.brands__slider', 5, 5, 4, 4, 2, 1);
-    createSlider('.new-offers__slider', 5, 5, 4, 4, 2, 1);
-    createSlider('.additional-products__slider', 5, 5, 4, 4, 2, 1);
-    createSlider('.new-offers__slider', 5, 5, 4, 4, 2, 1);
-    createSlider('.recent-products__slider', 5, 5, 4, 4, 2, 1);
+    createSlider('.sales__slider', 5, 4, 4, 4, 2, 1);
+    createSlider('.brands__slider', 5, 4, 4, 4, 2, 1);
+    createSlider('.new-offers__slider', 5, 4, 4, 4, 2, 1);
+    createSlider('.additional-products__slider', 5, 4, 4, 4, 2, 1);
+    createSlider('.new-offers__slider', 5, 4, 4, 4, 2, 1);
+    createSlider('.recent-products__slider', 5, 4, 4, 4, 2, 1);
 });
 
 // $('.search__button-categories').click(function () {
@@ -346,10 +346,6 @@ $('.review-modal').click(function() {
     $('html').toggleClass('overflow__hide');
 });
 
-
-$('.product__controls-item').click(function () {
-   alert('test');
-});
 
 
 
