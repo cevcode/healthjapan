@@ -6152,3 +6152,15 @@ $height: rem(80px);
 	margin: rem(20px 15px 40px 15px);
 	color: $brown;
 }
+
+.title__about {
+	margin-top: rem(40px);
+}
+
+.description--italic {
+	font-style: italic;
+	margin-top: rem(40px);
+}
+.about__img {
+	width: 100%;
+}
