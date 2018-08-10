@@ -2071,16 +2071,27 @@ a {
 		height: 100%;
 		align-items: center;
 		justify-content: center;
+		position: relative;
 		display: flex;
 		color: $cyan;
 		text-decoration: none;
+		&:last-child {
+			margin-left: 10px;
+			&:before {
+				content: '';
+				position: absolute;
+				top: 44%;
+				left: -5px;
+				width: 1px;
+				height: rem(10px);
+				background-color: $cyan;
+				@include screen-lt(desktop-small) {
+					top: 43%;
+				}
+			}
+		}
 		&--checked {
 			opacity: .5;
-		}
-		&--separator {
-			position: relative;
-			top: rem(-1px);
-			padding: rem(0 2px);
 		}
 	}
 }
@@ -4401,6 +4412,12 @@ $bgItemChoose: #d8d8d8;
 				border-radius: 100%;
 			}
 		}
+      &--red {
+        &:before {
+          background-color: $lightRed;
+          border-radius: 100%;
+        }
+      }
 	}
 	&__comments {
 		@include before('../img/icon/reviews-icon.svg', 14px, 9px, 5px, auto, auto, -18px);
