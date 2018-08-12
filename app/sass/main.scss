@@ -4581,6 +4581,9 @@ $bgItemChoose: #d8d8d8;
 		@include screen-lt(mobile-custom) {
 			display: none !important;
 		}
+		&.show {
+			display: block;
+		}
 		&-button {
 			font-size: rem(12px);
 			@include main-font(400);
