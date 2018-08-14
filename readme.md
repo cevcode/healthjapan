@@ -1,4 +1,4 @@
-<h1>HealthJapan - marketplate markup</h1>
+<h1>HealthJapan - marketplace markup</h1>
 
 <p>Author: Cevcode</p>
 
