@@ -1645,7 +1645,59 @@ a {
 	}
 }
 
-
+.pay {
+	margin-bottom: rem(105px);
+	.description {
+		color: $brown;
+	}
+	&__header {
+		position: relative;
+		padding: rem(25px 0 25px 75px);
+		&:before {
+			content: '';
+			position: absolute;
+			top: rem(30px);
+			left: 0;
+			width: rem(56px);
+			height: rem(55px);
+			background-image: url('../img/icon/pay-icon.svg');
+			background-repeat: no-repeat;
+			-webkit-background-size: contain;
+			background-size: contain;
+		}
+		.title__h6 {
+			margin-top: rem(30px);
+		}
+	}
+	&__content {
+		.title__h6 {
+			margin-top: rem(30px);
+			margin-bottom:  rem(30px);
+		}
+		ol {
+			font-size: rem(14px);
+			margin: 10px 0 10px 10px;
+			li {
+				list-style-type: decimal;
+				font-size: rem(14px);
+				color: $brown;
+				line-height: 1.8;
+			}
+		}
+		.title_red {
+			color: $lightRed;
+		}
+	}
+	&__footer {
+		.title__h6 {
+			color: $lightRed;
+			margin: rem(25px 0 15px 0);
+		}
+	}
+	.footer__pay-item {
+		margin-left: 40px;
+	}
+}
 
 .error {
 	margin-bottom: rem(105px);
@@ -1795,7 +1847,7 @@ a {
 			top: rem(30px);
 			left: 0;
 			width: rem(65px);
-			height: rem(52px);
+			height: rem(53px);
 			background-image: url('../img/icon/card-lock.svg');
 			background-repeat: no-repeat;
 			-webkit-background-size: contain;
@@ -1806,9 +1858,9 @@ a {
 			position: absolute;
 			top: rem(15px);
 			right: rem(50px);
-			width: rem(175px);
-			height: rem(242px);
-			background-image: url('../img/icon/delivery.svg');
+			width: rem(250px);
+			height: rem(262px);
+			background-image: url('../img/assets/task.svg');
 			background-repeat: no-repeat;
 			-webkit-background-size: cover;
 			background-size: cover;
@@ -6184,3 +6236,33 @@ $height: rem(80px);
 .about__img {
 	width: 100%;
 }
+
+.description--red {
+	color: $lightRed
+}
+
+.list {
+	font-size: rem(14px);
+	margin: 10px 0 10px 10px;
+
+	&__number {
+		li {
+			line-height: 1.8;
+			font-size: rem(14px);
+			color: $brown;
+			list-style-type: decimal;
+			margin-bottom: 15px;
+		}
+	}
+
+	&__mark {
+		li {
+			line-height: 1.8;
+			font-size: rem(14px);
+			color: $brown;
+			list-style-type: initial;
+			margin-bottom: 15px;
+		}
+	}
+}
+
